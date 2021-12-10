@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9BF616B8276376D400D26E7B /* Prototype_HouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616B7276376D400D26E7B /* Prototype_HouseApp.swift */; };
+		9BF616B8276376D400D26E7B /* PrototypeHouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616B7276376D400D26E7B /* PrototypeHouseApp.swift */; };
 		9BF616BA276376D400D26E7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616B9276376D400D26E7B /* ContentView.swift */; };
 		9BF616BC276376D500D26E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF616BB276376D500D26E7B /* Assets.xcassets */; };
 		9BF616BF276376D500D26E7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF616BE276376D500D26E7B /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		9BF616B4276376D400D26E7B /* Prototype House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BF616B7276376D400D26E7B /* Prototype_HouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype_HouseApp.swift; sourceTree = "<group>"; };
+		9BF616B7276376D400D26E7B /* PrototypeHouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeHouseApp.swift; sourceTree = "<group>"; };
 		9BF616B9276376D400D26E7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9BF616BB276376D500D26E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BF616BE276376D500D26E7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		9BF616B6276376D400D26E7B /* Prototype House */ = {
 			isa = PBXGroup;
 			children = (
-				9BF616B7276376D400D26E7B /* Prototype_HouseApp.swift */,
+				9BF616B7276376D400D26E7B /* PrototypeHouseApp.swift */,
 				9BF616B9276376D400D26E7B /* ContentView.swift */,
 				9BF616BB276376D500D26E7B /* Assets.xcassets */,
 				9BF616BD276376D500D26E7B /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BF616BA276376D400D26E7B /* ContentView.swift in Sources */,
-				9BF616B8276376D400D26E7B /* Prototype_HouseApp.swift in Sources */,
+				9BF616B8276376D400D26E7B /* PrototypeHouseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
