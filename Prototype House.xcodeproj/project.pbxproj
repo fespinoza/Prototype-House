@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B3F99A627637C1F00CC738C /* LinearEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F99A527637C1F00CC738C /* LinearEquation.swift */; };
 		9BF616B8276376D400D26E7B /* PrototypeHouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616B7276376D400D26E7B /* PrototypeHouseApp.swift */; };
 		9BF616BA276376D400D26E7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616B9276376D400D26E7B /* ContentView.swift */; };
 		9BF616BC276376D500D26E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF616BB276376D500D26E7B /* Assets.xcassets */; };
@@ -15,9 +16,12 @@
 		9BF616CB276377CD00D26E7B /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616CA276377CD00D26E7B /* UIEdgeInsets.swift */; };
 		9BF616CD276377F600D26E7B /* NSDirectionalEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616CC276377F600D26E7B /* NSDirectionalEdgeInsets.swift */; };
 		9BF616CF2763784700D26E7B /* DemoWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616CE2763784700D26E7B /* DemoWrapperView.swift */; };
+		9BF616DA276379F300D26E7B /* AppStoreViewController-Subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616D7276379F300D26E7B /* AppStoreViewController-Subviews.swift */; };
+		9BF616DC276379F300D26E7B /* AppStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616D9276379F300D26E7B /* AppStoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B3F99A527637C1F00CC738C /* LinearEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearEquation.swift; sourceTree = "<group>"; };
 		9BF616B4276376D400D26E7B /* Prototype House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF616B7276376D400D26E7B /* PrototypeHouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeHouseApp.swift; sourceTree = "<group>"; };
 		9BF616B9276376D400D26E7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,6 +32,8 @@
 		9BF616CC276377F600D26E7B /* NSDirectionalEdgeInsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDirectionalEdgeInsets.swift; sourceTree = "<group>"; };
 		9BF616CE2763784700D26E7B /* DemoWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoWrapperView.swift; sourceTree = "<group>"; };
 		9BF616D42763795200D26E7B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		9BF616D7276379F300D26E7B /* AppStoreViewController-Subviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppStoreViewController-Subviews.swift"; sourceTree = "<group>"; };
+		9BF616D9276379F300D26E7B /* AppStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B3F99A427637BFD00CC738C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9B3F99A527637C1F00CC738C /* LinearEquation.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		9BF616AB276376D400D26E7B = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +79,7 @@
 				9BF616C52763772700D26E7B /* Extensions */,
 				9BF616D32763792E00D26E7B /* Prototypes */,
 				9BF616D2276378EB00D26E7B /* Resources */,
+				9B3F99A427637BFD00CC738C /* Utils */,
 				9BF616D0276378D500D26E7B /* Views */,
 			);
 			path = "Prototype House";
@@ -133,8 +148,26 @@
 		9BF616D32763792E00D26E7B /* Prototypes */ = {
 			isa = PBXGroup;
 			children = (
+				9BF616D52763799500D26E7B /* Appstore Like Navigation */,
 			);
 			path = Prototypes;
+			sourceTree = "<group>";
+		};
+		9BF616D52763799500D26E7B /* Appstore Like Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				9BF616D9276379F300D26E7B /* AppStoreViewController.swift */,
+				9BF616D6276379F300D26E7B /* Subviews */,
+			);
+			path = "Appstore Like Navigation";
+			sourceTree = "<group>";
+		};
+		9BF616D6276379F300D26E7B /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				9BF616D7276379F300D26E7B /* AppStoreViewController-Subviews.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,9 +243,12 @@
 				9BF616BA276376D400D26E7B /* ContentView.swift in Sources */,
 				9BF616CF2763784700D26E7B /* DemoWrapperView.swift in Sources */,
 				9BF616C92763774200D26E7B /* UIView-Layout.swift in Sources */,
+				9BF616DC276379F300D26E7B /* AppStoreViewController.swift in Sources */,
 				9BF616CD276377F600D26E7B /* NSDirectionalEdgeInsets.swift in Sources */,
+				9BF616DA276379F300D26E7B /* AppStoreViewController-Subviews.swift in Sources */,
 				9BF616CB276377CD00D26E7B /* UIEdgeInsets.swift in Sources */,
 				9BF616B8276376D400D26E7B /* PrototypeHouseApp.swift in Sources */,
+				9B3F99A627637C1F00CC738C /* LinearEquation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
