@@ -11,7 +11,7 @@ import SwiftUI
 struct PrototypeHouseMacApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SFSymbolsReplica()
         }
         .commands {
             SidebarCommands()
