@@ -17,6 +17,8 @@
 		9BC17D5A27833C68000FC491 /* SFSymbolsReplica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D5927833C68000FC491 /* SFSymbolsReplica.swift */; };
 		9BC17D5D278341DF000FC491 /* SFGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D5C278341DF000FC491 /* SFGroupView.swift */; };
 		9BC17D5F278341FC000FC491 /* ContentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D5E278341FC000FC491 /* ContentData.swift */; };
+		9BC17D612783735A000FC491 /* SplitViewExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D602783735A000FC491 /* SplitViewExperiment.swift */; };
+		9BC17D642783752C000FC491 /* NSView-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D632783752C000FC491 /* NSView-Extensions.swift */; };
 		9BF616B8276376D400D26E7B /* PrototypeHouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616B7276376D400D26E7B /* PrototypeHouseApp.swift */; };
 		9BF616BA276376D400D26E7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616B9276376D400D26E7B /* ContentView.swift */; };
 		9BF616BC276376D500D26E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF616BB276376D500D26E7B /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 		9BC17D5927833C68000FC491 /* SFSymbolsReplica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsReplica.swift; sourceTree = "<group>"; };
 		9BC17D5C278341DF000FC491 /* SFGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFGroupView.swift; sourceTree = "<group>"; };
 		9BC17D5E278341FC000FC491 /* ContentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentData.swift; sourceTree = "<group>"; };
+		9BC17D602783735A000FC491 /* SplitViewExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewExperiment.swift; sourceTree = "<group>"; };
+		9BC17D632783752C000FC491 /* NSView-Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSView-Extensions.swift"; sourceTree = "<group>"; };
 		9BF616B4276376D400D26E7B /* Prototype House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF616B7276376D400D26E7B /* PrototypeHouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeHouseApp.swift; sourceTree = "<group>"; };
 		9BF616B9276376D400D26E7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				9BC17D532783366B000FC491 /* App */,
+				9BC17D622783751E000FC491 /* Extensions */,
 				9BC17D512783365C000FC491 /* Resources */,
 				9BC17D5227833663000FC491 /* Views */,
 			);
@@ -142,8 +147,17 @@
 				9BC17D5927833C68000FC491 /* SFSymbolsReplica.swift */,
 				9BC17D5C278341DF000FC491 /* SFGroupView.swift */,
 				9BC17D5E278341FC000FC491 /* ContentData.swift */,
+				9BC17D602783735A000FC491 /* SplitViewExperiment.swift */,
 			);
 			path = "SFSymbols Replica";
+			sourceTree = "<group>";
+		};
+		9BC17D622783751E000FC491 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9BC17D632783752C000FC491 /* NSView-Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		9BF616AB276376D400D26E7B = {
@@ -368,8 +382,10 @@
 				9BC17D47278335F8000FC491 /* ContentView.swift in Sources */,
 				9BC17D45278335F8000FC491 /* PrototypeHouseMacApp.swift in Sources */,
 				9BC17D5D278341DF000FC491 /* SFGroupView.swift in Sources */,
+				9BC17D642783752C000FC491 /* NSView-Extensions.swift in Sources */,
 				9BC17D5727833AC1000FC491 /* DetailContentView.swift in Sources */,
 				9BC17D5A27833C68000FC491 /* SFSymbolsReplica.swift in Sources */,
+				9BC17D612783735A000FC491 /* SplitViewExperiment.swift in Sources */,
 				9BC17D5F278341FC000FC491 /* ContentData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
