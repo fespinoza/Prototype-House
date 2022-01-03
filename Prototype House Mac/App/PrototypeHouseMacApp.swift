@@ -13,5 +13,8 @@ struct PrototypeHouseMacApp: App {
         WindowGroup {
             ContentView()
         }
+        .commands {
+            SidebarCommands()
+        }
     }
 }
