@@ -19,6 +19,7 @@
 		9BC17D5F278341FC000FC491 /* ContentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D5E278341FC000FC491 /* ContentData.swift */; };
 		9BC17D612783735A000FC491 /* SplitViewExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D602783735A000FC491 /* SplitViewExperiment.swift */; };
 		9BC17D642783752C000FC491 /* NSView-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D632783752C000FC491 /* NSView-Extensions.swift */; };
+		9BDE6670278598190092CF32 /* UnderstandingFocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE666F278598190092CF32 /* UnderstandingFocusView.swift */; };
 		9BF616B8276376D400D26E7B /* PrototypeHouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616B7276376D400D26E7B /* PrototypeHouseApp.swift */; };
 		9BF616BA276376D400D26E7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616B9276376D400D26E7B /* ContentView.swift */; };
 		9BF616BC276376D500D26E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF616BB276376D500D26E7B /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		9BC17D5E278341FC000FC491 /* ContentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentData.swift; sourceTree = "<group>"; };
 		9BC17D602783735A000FC491 /* SplitViewExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewExperiment.swift; sourceTree = "<group>"; };
 		9BC17D632783752C000FC491 /* NSView-Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSView-Extensions.swift"; sourceTree = "<group>"; };
+		9BDE666F278598190092CF32 /* UnderstandingFocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderstandingFocusView.swift; sourceTree = "<group>"; };
 		9BF616B4276376D400D26E7B /* Prototype House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF616B7276376D400D26E7B /* PrototypeHouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeHouseApp.swift; sourceTree = "<group>"; };
 		9BF616B9276376D400D26E7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -160,6 +162,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		9BDE666E278598080092CF32 /* Understanding Focus */ = {
+			isa = PBXGroup;
+			children = (
+				9BDE666F278598190092CF32 /* UnderstandingFocusView.swift */,
+			);
+			path = "Understanding Focus";
+			sourceTree = "<group>";
+		};
 		9BF616AB276376D400D26E7B = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +266,7 @@
 		9BF616D32763792E00D26E7B /* Prototypes */ = {
 			isa = PBXGroup;
 			children = (
+				9BDE666E278598080092CF32 /* Understanding Focus */,
 				9BF616D52763799500D26E7B /* Appstore Like Navigation */,
 			);
 			path = Prototypes;
@@ -398,6 +409,7 @@
 				9BF616CF2763784700D26E7B /* DemoWrapperView.swift in Sources */,
 				9BF616C92763774200D26E7B /* UIView-Layout.swift in Sources */,
 				9BF616DC276379F300D26E7B /* AppStoreViewController.swift in Sources */,
+				9BDE6670278598190092CF32 /* UnderstandingFocusView.swift in Sources */,
 				9BF616CD276377F600D26E7B /* NSDirectionalEdgeInsets.swift in Sources */,
 				9BF616DA276379F300D26E7B /* AppStoreViewController-Subviews.swift in Sources */,
 				9BF616CB276377CD00D26E7B /* UIEdgeInsets.swift in Sources */,
