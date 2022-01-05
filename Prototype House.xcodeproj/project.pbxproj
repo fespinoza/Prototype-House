@@ -14,6 +14,9 @@
 		9BC17D49278335FA000FC491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC17D48278335FA000FC491 /* Assets.xcassets */; };
 		9BC17D4C278335FA000FC491 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC17D4B278335FA000FC491 /* Preview Assets.xcassets */; };
 		9BC17D5727833AC1000FC491 /* DetailContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D5527833A96000FC491 /* DetailContentView.swift */; };
+		9BC17D5A27833C68000FC491 /* SFSymbolsReplica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D5927833C68000FC491 /* SFSymbolsReplica.swift */; };
+		9BC17D5D278341DF000FC491 /* SFGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D5C278341DF000FC491 /* SFGroupView.swift */; };
+		9BC17D5F278341FC000FC491 /* ContentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D5E278341FC000FC491 /* ContentData.swift */; };
 		9BF616B8276376D400D26E7B /* PrototypeHouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616B7276376D400D26E7B /* PrototypeHouseApp.swift */; };
 		9BF616BA276376D400D26E7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616B9276376D400D26E7B /* ContentView.swift */; };
 		9BF616BC276376D500D26E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF616BB276376D500D26E7B /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 		9BC17D4B278335FA000FC491 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BC17D4D278335FA000FC491 /* Prototype_House_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Prototype_House_Mac.entitlements; sourceTree = "<group>"; };
 		9BC17D5527833A96000FC491 /* DetailContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContentView.swift; sourceTree = "<group>"; };
+		9BC17D5927833C68000FC491 /* SFSymbolsReplica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolsReplica.swift; sourceTree = "<group>"; };
+		9BC17D5C278341DF000FC491 /* SFGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFGroupView.swift; sourceTree = "<group>"; };
+		9BC17D5E278341FC000FC491 /* ContentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentData.swift; sourceTree = "<group>"; };
 		9BF616B4276376D400D26E7B /* Prototype House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF616B7276376D400D26E7B /* PrototypeHouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeHouseApp.swift; sourceTree = "<group>"; };
 		9BF616B9276376D400D26E7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -133,6 +139,9 @@
 		9BC17D5827833C44000FC491 /* SFSymbols Replica */ = {
 			isa = PBXGroup;
 			children = (
+				9BC17D5927833C68000FC491 /* SFSymbolsReplica.swift */,
+				9BC17D5C278341DF000FC491 /* SFGroupView.swift */,
+				9BC17D5E278341FC000FC491 /* ContentData.swift */,
 			);
 			path = "SFSymbols Replica";
 			sourceTree = "<group>";
@@ -358,7 +367,10 @@
 			files = (
 				9BC17D47278335F8000FC491 /* ContentView.swift in Sources */,
 				9BC17D45278335F8000FC491 /* PrototypeHouseMacApp.swift in Sources */,
+				9BC17D5D278341DF000FC491 /* SFGroupView.swift in Sources */,
 				9BC17D5727833AC1000FC491 /* DetailContentView.swift in Sources */,
+				9BC17D5A27833C68000FC491 /* SFSymbolsReplica.swift in Sources */,
+				9BC17D5F278341FC000FC491 /* ContentData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
