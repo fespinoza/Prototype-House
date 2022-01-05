@@ -24,6 +24,7 @@ struct SFSymbolsReplica: View {
                             NavigationLink(
                                 destination: {
                                     SFGroupView(group: group)
+//                                    SplitViewDemo(group: group)
                                 },
                                 label: {
                                     Label(group.title, systemImage: group.iconName)
