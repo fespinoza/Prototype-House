@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Prototype House
+
+  Created by Felipe Espinoza on 30/05/2022.
+  
+*/
+
+"myCustomMessage" = "Hello World!";
+
+"mySecretMessage" = "This is a sample of a longer description";

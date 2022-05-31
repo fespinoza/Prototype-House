@@ -13,6 +13,8 @@ struct PrototypeHouseMacApp: App {
         WindowGroup {
             SFSymbolsReplica()
         }
+        .windowToolbarStyle(.unified)
+//        .windowStyle(.titleBar)
         .commands {
             SidebarCommands()
         }

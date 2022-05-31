@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "towerbridge-640x360.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

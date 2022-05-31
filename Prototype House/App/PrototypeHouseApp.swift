@@ -11,7 +11,23 @@ import SwiftUI
 struct PrototypeHouseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NameEditorDemoView()
+
+//            ViewControllerRepresentable {
+//                UINavigationController(rootViewController: AppStoreViewController())
+//            }
+//            .ignoresSafeArea()
         }
     }
+}
+
+struct ViewControllerRepresentable<Controller: UIViewController>: UIViewControllerRepresentable {
+    let controller: Controller
+
+    init(_ factory: () -> Controller) {
+        self.controller = factory()
+    }
+
+    func makeUIViewController(context: Context) -> Controller { controller }
+    func updateUIViewController(_ uiViewController: Controller, context: Context) {}
 }
