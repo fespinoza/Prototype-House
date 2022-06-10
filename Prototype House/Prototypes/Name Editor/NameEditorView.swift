@@ -41,6 +41,7 @@ struct NameEditorDemoView: View {
                     self.name = newName
                 }
             )
+            .transition(.opacity.animation(.easeInOut(duration: 0.33)))
         } else {
             EmptyView()
         }
@@ -162,10 +163,10 @@ struct NameEditorView: View {
 struct NameEditorView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-//            NameEditorDemoView()
-//                .preferredColorScheme(.dark)
+            NameEditorDemoView()
+                .preferredColorScheme(.dark)
 
-            NameEditorView(isPresented: .constant(true))
+//            NameEditorView(isPresented: .constant(true))
         }
     }
 }
