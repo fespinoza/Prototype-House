@@ -65,12 +65,6 @@ class TvAppContentViewController: UIViewController {
         debugMessage(text: "isTranslucent = \(translucentMessage)")
     }
 
-//    override func loadView() {
-//        let tvContent = TvAppContentView()
-//        tvContent.configure(with: viewData)
-//        view = tvContent
-//    }
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -79,10 +73,25 @@ class TvAppContentViewController: UIViewController {
         title = "Ted Lasso"
 //        additionalSafeAreaInsets = .init(top: -200, horizontal: 0, bottom: 0)
 
+        setupContentWithNestedScrollView()
+
+        addDebugLabel(to: view)
+    }
+
+    func setupContentWithNestedScrollView() {
+        let contentView = TvAppScrollableContentView(withAutoLayout: true)
+        contentView.configure(with: viewData)
+
+        view.addSubview(contentView)
+        contentView.pin(to: view)
+
+        // ⚠️ this made the right scroll view connection!
+        setContentScrollView(contentView.scrollView)
+    }
+
+    func setupScrollViewWithContent() {
         let contentView = TvAppContentView(withAutoLayout: true)
         contentView.configure(with: viewData)
-//        view.addSubview(contentView)
-//        contentView.pin(to: view)
 
         // the scroll view seems to be needed on top of the content
         view.addSubview(scrollView)
@@ -92,13 +101,6 @@ class TvAppContentViewController: UIViewController {
         NSLayoutConstraint.activate([
             contentView.widthAnchor.constraint(equalTo: view.widthAnchor),
         ])
-
-        scrollView.setContentOffset(.init(x: 0, y: -300), animated: false)
-
-//        let offset = scrollView.contentOffset
-//        let contentOffsetMessage = String.localizedStringWithFormat("%.2f:%.2f", offset.x, offset.y)
-//        debugMessage(text: "Content Offset: \(contentOffsetMessage)")
-        addDebugLabel(to: view)
     }
 }
 
