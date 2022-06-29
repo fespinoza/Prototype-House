@@ -34,8 +34,7 @@ class TvAppContentViewController: UIViewController {
         ]
 
         let newStandardAppearance = UINavigationBarAppearance()
-        newStandardAppearance.configureWithDefaultBackground()
-//        newStandardAppearance.backgroundColor = .red
+        newStandardAppearance.configureWithOpaqueBackground()
         newStandardAppearance.titleTextAttributes = [
             .foregroundColor: UIColor.systemYellow
         ]
@@ -68,14 +67,11 @@ class TvAppContentViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        view.backgroundColor = .systemPink
-
         title = "Ted Lasso"
-//        additionalSafeAreaInsets = .init(top: -200, horizontal: 0, bottom: 0)
 
         setupContentWithNestedScrollView()
-
         addDebugLabel(to: view)
+        setDebugLabel(scrollLabel)
     }
 
     func setupContentWithNestedScrollView() {
@@ -87,6 +83,7 @@ class TvAppContentViewController: UIViewController {
 
         // ⚠️ this made the right scroll view connection!
         setContentScrollView(contentView.scrollView)
+        contentView.scrollView.delegate = self
     }
 
     func setupScrollViewWithContent() {
@@ -101,6 +98,71 @@ class TvAppContentViewController: UIViewController {
         NSLayoutConstraint.activate([
             contentView.widthAnchor.constraint(equalTo: view.widthAnchor),
         ])
+    }
+
+    private lazy var scrollLabel: UILabel = {
+        let label = UILabel(withAutoLayout: true)
+        label.text = "--"
+        label.textColor = .black
+        label.font = .systemFont(ofSize: 12, weight: .bold)
+        label.backgroundColor = .orange
+        label.textAlignment = .center
+        label.layer.cornerRadius = 24
+        return label
+    }()
+
+    func updateScrollOffset(to newPoint: CGPoint) {
+        let contentOffsetMessage = String.localizedStringWithFormat(
+            "%.2f", newPoint.y
+        )
+        scrollLabel.text = "offY = \(contentOffsetMessage)"
+    }
+
+    lazy var titleAlpha: (CGFloat) -> CGFloat = {
+        LinearEquation.segmentedLinearEquation(
+            fromPoint: .init(x: 237, y: 0),
+            toPoint: .init(x: 282, y: 1)
+        )
+    }()
+
+    lazy var titlePosition: (CGFloat) -> CGFloat = {
+        LinearEquation.segmentedLinearEquation(
+            fromPoint: .init(x: 237, y: 40),
+            toPoint: .init(x: 282, y: 0)
+        )
+    }()
+
+    lazy var backgroundAlpha: (CGFloat) -> CGFloat = {
+        LinearEquation.segmentedLinearEquation(
+            fromPoint: .init(x: 150, y: 0),
+            toPoint: .init(x: 282, y: 1)
+        )
+    }()
+
+    func updateTitleAlpha(scrollY: CGFloat) {
+        navigationItem.standardAppearance?.titleTextAttributes = [
+            .foregroundColor: UIColor.systemPink.withAlphaComponent(titleAlpha(scrollY))
+        ]
+        navigationItem.standardAppearance?.titlePositionAdjustment = .init(
+            horizontal: 0,
+            vertical: titlePosition(scrollY)
+        )
+    }
+
+    func updateBackgroundOpacity(scrollY: CGFloat) {
+//        let image = navigationItem.standardAppearance?.backIndicatorImage
+//        let effect = navigationItem.standardAppearance?.backgroundEffect
+        navigationItem.standardAppearance?.backgroundColor = UIColor.blue.withAlphaComponent(
+            backgroundAlpha(scrollY)
+        )
+    }
+}
+
+extension TvAppContentViewController: UIScrollViewDelegate {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        updateScrollOffset(to: scrollView.contentOffset)
+        updateTitleAlpha(scrollY: scrollView.contentOffset.y)
+        updateBackgroundOpacity(scrollY: scrollView.contentOffset.y)
     }
 }
 
@@ -188,6 +250,10 @@ extension UIViewController {
         label.textAlignment = .center
         label.layer.cornerRadius = 24
 
+        setDebugLabel(label)
+    }
+
+    func setDebugLabel(_ label: UILabel) {
         let debugStack: UIStackView
         if let stack = view.subviews.first(where: { $0.restorationIdentifier == "DEBUG_STACK" }) as? UIStackView {
             debugStack = stack
