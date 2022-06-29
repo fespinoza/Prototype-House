@@ -22,6 +22,7 @@
 		9B80A57A28489F1B00FC2F6D /* AlertTextStackOverflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B80A57928489F1B00FC2F6D /* AlertTextStackOverflow.swift */; };
 		9B81116D280B77B900CAC97E /* CustomPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81116C280B77B900CAC97E /* CustomPresentationView.swift */; };
 		9B811170280B7CF300CAC97E /* DoubleTapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81116F280B7CF300CAC97E /* DoubleTapGestureView.swift */; };
+		9B82C94E2865BFEF00C7E6C2 /* SafariContainerSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82C94D2865BFEF00C7E6C2 /* SafariContainerSampleView.swift */; };
 		9B9C7FF7281C8E4F006AD0B7 /* ImageWithTitleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C7FF6281C8E4F006AD0B7 /* ImageWithTitleContentView.swift */; };
 		9B9C7FFA281C92D2006AD0B7 /* ScrollReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C7FF9281C92D2006AD0B7 /* ScrollReaderView.swift */; };
 		9B9C7FFC281C94F0006AD0B7 /* SizeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C7FFB281C94F0006AD0B7 /* SizeReader.swift */; };
@@ -68,6 +69,7 @@
 		9B80A57928489F1B00FC2F6D /* AlertTextStackOverflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTextStackOverflow.swift; sourceTree = "<group>"; };
 		9B81116C280B77B900CAC97E /* CustomPresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentationView.swift; sourceTree = "<group>"; };
 		9B81116F280B7CF300CAC97E /* DoubleTapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTapGestureView.swift; sourceTree = "<group>"; };
+		9B82C94D2865BFEF00C7E6C2 /* SafariContainerSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariContainerSampleView.swift; sourceTree = "<group>"; };
 		9B9C7FF6281C8E4F006AD0B7 /* ImageWithTitleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithTitleContentView.swift; sourceTree = "<group>"; };
 		9B9C7FF9281C92D2006AD0B7 /* ScrollReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollReaderView.swift; sourceTree = "<group>"; };
 		9B9C7FFB281C94F0006AD0B7 /* SizeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeReader.swift; sourceTree = "<group>"; };
@@ -193,6 +195,14 @@
 				9B81116F280B7CF300CAC97E /* DoubleTapGestureView.swift */,
 			);
 			path = "Douple Tap Gesture";
+			sourceTree = "<group>";
+		};
+		9B82C94C2865BFDC00C7E6C2 /* Safari VIew Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B82C94D2865BFEF00C7E6C2 /* SafariContainerSampleView.swift */,
+			);
+			path = "Safari VIew Controller";
 			sourceTree = "<group>";
 		};
 		9B9C7FF5281C8E27006AD0B7 /* SwiftUI Navigation Bar Animation */ = {
@@ -427,6 +437,7 @@
 				9BC939AB281EB8F7003B5B9B /* Name Editor */,
 				9BC488C1284560A700E36E12 /* OutlineGroup Experiments */,
 				9B46F1F8278B337B00D9180F /* Redacted Animation */,
+				9B82C94C2865BFDC00C7E6C2 /* Safari VIew Controller */,
 				9BF5868A283CBABA0042BE53 /* Scroll Visible Content */,
 				9B54F0942843FDA4002414C5 /* Searchable Modifier */,
 				9B9C7FF5281C8E27006AD0B7 /* SwiftUI Navigation Bar Animation */,
@@ -595,6 +606,7 @@
 				9B54F0962843FDD9002414C5 /* SearchableModifierSampleView.swift in Sources */,
 				9B80A57828489AAD00FC2F6D /* AlertTextOnUIkit.swift in Sources */,
 				9B54F09B28441061002414C5 /* SeachableViewModesSampleView.swift in Sources */,
+				9B82C94E2865BFEF00C7E6C2 /* SafariContainerSampleView.swift in Sources */,
 				9B9C7FFA281C92D2006AD0B7 /* ScrollReaderView.swift in Sources */,
 				9B3F99A627637C1F00CC738C /* LinearEquation.swift in Sources */,
 				9B9C7FFC281C94F0006AD0B7 /* SizeReader.swift in Sources */,
