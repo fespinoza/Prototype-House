@@ -42,6 +42,10 @@ class TvAppContentViewController: UIViewController {
         navigationItem.scrollEdgeAppearance = newScrollAppearance
         navigationItem.standardAppearance = newStandardAppearance
 
+//        navigationItem.scrollEdgeAppearance?.backgroundColor = .red
+//        navigationItem.scrollEdgeAppearance?.backgroundEffect = nil
+//        navigationItem.scrollEdgeAppearance?.backgroundImage = nil
+
 //        let navigationBar = navigationController?.navigationBar
 
 //        navigationBar?.scrollEdgeAppearance?.backgroundColor = .red
@@ -62,13 +66,33 @@ class TvAppContentViewController: UIViewController {
         }
 
         debugMessage(text: "isTranslucent = \(translucentMessage)")
+
+        let customButton = UIBarButtonItem(customView: customBackButton)
+        navigationItem.leftBarButtonItem = customButton
     }
+
+    private lazy var customBackButton: UIButton = {
+        let button = UIButton(configuration: .plain())
+        let chevron = UIImage(systemName: "chevron.left.circle.fill")
+//        button.backgroundColor = .white
+        button.layer.cornerRadius = 12
+        button.tintColor = .white
+        button.setImage(chevron, for: .normal)
+        button.imageView?.contentMode = .scaleAspectFit
+        button.addAction(.init(handler: { action in
+            self.navigationController?.popViewController(animated: true)
+        }), for: .touchUpInside)
+        button.fixed(size: 24)
+
+        return button
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "Ted Lasso"
+        title = viewData.title
 
+//        setupScrollViewWithContent()
         setupContentWithNestedScrollView()
         addDebugLabel(to: view)
         setDebugLabel(scrollLabel)
@@ -139,6 +163,13 @@ class TvAppContentViewController: UIViewController {
         )
     }()
 
+    lazy var backButtonBackgroundAlpha: (CGFloat) -> CGFloat = {
+        LinearEquation.segmentedLinearEquation(
+            fromPoint: .init(x: 150, y: 1),
+            toPoint: .init(x: 282, y: 0)
+        )
+    }()
+
     func updateTitleAlpha(scrollY: CGFloat) {
         navigationItem.standardAppearance?.titleTextAttributes = [
             .foregroundColor: UIColor.systemPink.withAlphaComponent(titleAlpha(scrollY))
@@ -155,6 +186,16 @@ class TvAppContentViewController: UIViewController {
         navigationItem.standardAppearance?.backgroundColor = UIColor.blue.withAlphaComponent(
             backgroundAlpha(scrollY)
         )
+
+        if scrollY >= 282 {
+            if navigationItem.leftBarButtonItem != nil {
+                navigationItem.setLeftBarButton(nil, animated: true)
+            }
+        } else {
+            if navigationItem.leftBarButtonItem == nil {
+                navigationItem.setLeftBarButton(UIBarButtonItem(customView: customBackButton), animated: true)
+            }
+        }
     }
 }
 
@@ -209,7 +250,7 @@ class TvAppIndexViewController: UIViewController {
         let prefers = navigationController?.navigationBar.prefersLargeTitles ?? false
         debugMessage(text: "prefersLargeTitle: \(prefers ? "TRUE" : "FALSE")")
 
-        navigationItem.backButtonTitle = "Back"
+//        navigationItem.backButtonTitle = "Back"
 //        navigationItem.backButtonDisplayMode = .minimal
         navigationItem.largeTitleDisplayMode = .always
     }
