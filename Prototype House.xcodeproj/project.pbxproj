@@ -31,6 +31,7 @@
 		9B9C7FFC281C94F0006AD0B7 /* SizeReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C7FFB281C94F0006AD0B7 /* SizeReader.swift */; };
 		9B9FAA43286CE931000DD62F /* TvAppScrollableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9FAA42286CE931000DD62F /* TvAppScrollableContentView.swift */; };
 		9B9FAA45286CE94A000DD62F /* TvAppContentViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9FAA44286CE94A000DD62F /* TvAppContentViewData.swift */; };
+		9BBED65B286D90C600896A43 /* TvAppBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBED65A286D90C600896A43 /* TvAppBackButton.swift */; };
 		9BC17D45278335F8000FC491 /* PrototypeHouseMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D44278335F8000FC491 /* PrototypeHouseMacApp.swift */; };
 		9BC17D47278335F8000FC491 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D46278335F8000FC491 /* ContentView.swift */; };
 		9BC17D49278335FA000FC491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC17D48278335FA000FC491 /* Assets.xcassets */; };
@@ -83,6 +84,7 @@
 		9B9C7FFB281C94F0006AD0B7 /* SizeReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeReader.swift; sourceTree = "<group>"; };
 		9B9FAA42286CE931000DD62F /* TvAppScrollableContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvAppScrollableContentView.swift; sourceTree = "<group>"; };
 		9B9FAA44286CE94A000DD62F /* TvAppContentViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvAppContentViewData.swift; sourceTree = "<group>"; };
+		9BBED65A286D90C600896A43 /* TvAppBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvAppBackButton.swift; sourceTree = "<group>"; };
 		9BC17D42278335F8000FC491 /* Prototype House Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype House Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BC17D44278335F8000FC491 /* PrototypeHouseMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeHouseMacApp.swift; sourceTree = "<group>"; };
 		9BC17D46278335F8000FC491 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 				9B6D4BBE286C301500D97ACF /* TvAppContentView.swift */,
 				9B9FAA44286CE94A000DD62F /* TvAppContentViewData.swift */,
 				9B9FAA42286CE931000DD62F /* TvAppScrollableContentView.swift */,
+				9BBED65A286D90C600896A43 /* TvAppBackButton.swift */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -619,6 +622,7 @@
 				9B54F09E284412D3002414C5 /* MockData.swift in Sources */,
 				9BC488C3284560BE00E36E12 /* OutlineGroupExperimentsView.swift in Sources */,
 				9BF616CF2763784700D26E7B /* DemoWrapperView.swift in Sources */,
+				9BBED65B286D90C600896A43 /* TvAppBackButton.swift in Sources */,
 				9B9FAA45286CE94A000DD62F /* TvAppContentViewData.swift in Sources */,
 				9BC939AD281EB909003B5B9B /* NameEditorView.swift in Sources */,
 				9BF616C92763774200D26E7B /* UIView-Layout.swift in Sources */,
