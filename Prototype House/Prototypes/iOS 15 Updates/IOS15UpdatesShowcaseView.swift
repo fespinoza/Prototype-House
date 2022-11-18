@@ -17,9 +17,9 @@ extension IOS15UpdatesShowcaseView {
             let horizontalPadding: CGFloat = 24
             let verticalPadding: CGFloat = 12
 
-            // 'contentEdgeInsets' was deprecated in iOS 15.0: This property is ignored when using UIButtonConfiguration
+            // ⚠️ 'contentEdgeInsets' was deprecated in iOS 15.0: This property is ignored when using UIButtonConfiguration
             let firstButton = createButton(title: "Button #1")
-            firstButton.contentEdgeInsets = UIEdgeInsets(vertical: verticalPadding, horizontal: horizontalPadding)
+//            firstButton.contentEdgeInsets = UIEdgeInsets(vertical: verticalPadding, horizontal: horizontalPadding)
 
             let secondButton = createButton(title: "Button #2")
 
@@ -27,19 +27,45 @@ extension IOS15UpdatesShowcaseView {
             thirdButton.configuration = .plain() // this is necesary!
             thirdButton.configuration?.contentInsets = .init(vertical: verticalPadding, horizontal: horizontalPadding)
 
-            let label = UILabel()
-            label.translatesAutoresizingMaskIntoConstraints = false
-            label.text = "Config: \(thirdButton.configuration == nil ? "NIL" : "Found")"
-            label.textColor = .purple
-            view.addSubview(label)
-            NSLayoutConstraint.activate([
-                label.centerYAnchor.constraint(equalTo: view.centerYAnchor),
-                label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            ])
+            let fourthButton = createButton()
+            fourthButton.setImage(UIImage(systemName: "swift"), for: .normal)
+            fourthButton.tintColor = .orange
+
+            // ⚠️ 'imageEdgeInsets' was deprecated in iOS 15.0: This property is ignored when using UIButtonConfiguration
+//             fourthButton.imageEdgeInsets = UIEdgeInsets(all: horizontalPadding)
+
+
+            fourthButton.configuration = .plain() // this is necesary!
+            fourthButton.configuration?.contentInsets = .init(all: horizontalPadding)
+//            fourthButton.configuration?.imagePadding = horizontalPadding
+
+            let fifthButton = UIButton(withAutoLayout: true)
+            fifthButton.setImage(UIImage(systemName: "xmark"), for: .normal)
+            fifthButton.tintColor = .orange
+//            fifthButton.imageEdgeInsets = UIEdgeInsets(all: 12) // this looks broken
+            fifthButton.fixed(size: 48)
+            fifthButton.backgroundColor = .purple
+
+            // ⚠️ 'titleEdgeInsets' was deprecated in iOS 15.0: This property is ignored when using UIButtonConfiguration
+            let sixthButton = UIButton(withAutoLayout: true)
+            sixthButton.setImage(UIImage(systemName: "plus"), for: .normal)
+            sixthButton.titleLabel?.lineBreakMode = .byWordWrapping
+            sixthButton.setTitleColor(.purple, for: .normal)
+            sixthButton.contentHorizontalAlignment = .leading
+    //        button.configuration = .plain()
+            sixthButton.setTitle("Add To Calendar", for: .normal)
+            sixthButton.backgroundColor = .orange.withAlphaComponent(0.4)
+
+            sixthButton.configuration = .plain()
+            sixthButton.configuration?.imagePadding = 12
+//            sixthButton.titleEdgeInsets = .init(horizontal: 12)
 
             view.addSubview(firstButton)
             view.addSubview(secondButton)
             view.addSubview(thirdButton)
+            view.addSubview(fourthButton)
+            view.addSubview(fifthButton)
+            view.addSubview(sixthButton)
 
             NSLayoutConstraint.activate([
                 firstButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
@@ -50,18 +76,31 @@ extension IOS15UpdatesShowcaseView {
 
                 thirdButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                 thirdButton.topAnchor.constraint(equalTo: secondButton.bottomAnchor, constant: 20),
+
+                fourthButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+                fourthButton.topAnchor.constraint(equalTo: thirdButton.bottomAnchor, constant: 20),
+
+                fifthButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+                fifthButton.topAnchor.constraint(equalTo: fourthButton.bottomAnchor, constant: 20),
+
+                sixthButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+                sixthButton.topAnchor.constraint(equalTo: fifthButton.bottomAnchor, constant: 20),
             ])
 
             view.backgroundColor = .lightGray
         }
 
-        func createButton(title: String) -> UIButton {
+        func createButton(title: String? = nil) -> UIButton {
             let button = UIButton()
             button.translatesAutoresizingMaskIntoConstraints = false
             button.clipsToBounds = true
-            button.setTitle(title, for: .normal)
             button.setTitleColor(.white, for: .normal)
             button.backgroundColor = .purple
+
+            if let title {
+                button.setTitle(title, for: .normal)
+            }
+
             return button
         }
     }

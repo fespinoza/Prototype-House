@@ -76,9 +76,7 @@ struct TextContainer: UIViewRepresentable {
 //            context: nil
 //        )
 
-        let rect = textView.systemLayoutSizeFitting(UIView.layoutFittingCompressedSize)
-
-
+//        let rect = textView.systemLayoutSizeFitting(UIView.layoutFittingCompressedSize)
         debugText = textView.intrinsicContentSize.debugDescription
     }
 }
