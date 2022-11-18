@@ -24,7 +24,7 @@ extension IOS15UpdatesShowcaseView {
             let secondButton = createButton(title: "Button #2")
 
             let thirdButton = createButton(title: "Button #3")
-            thirdButton.configuration = .plain()
+            thirdButton.configuration = .plain() // this is necesary!
             thirdButton.configuration?.contentInsets = .init(vertical: verticalPadding, horizontal: horizontalPadding)
 
             let label = UILabel()
@@ -66,8 +66,6 @@ extension IOS15UpdatesShowcaseView {
         }
     }
 }
-
-
 
 struct IOS15UpdatesShowcaseView: View {
     var body: some View {
