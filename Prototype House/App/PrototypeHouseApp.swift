@@ -11,7 +11,10 @@ import SwiftUI
 struct PrototypeHouseApp: App {
     var body: some Scene {
         WindowGroup {
-            NameEditorDemoView()
+            NavigationView {
+                CustomSearchView()
+                    .navigationTitle("Avengers")
+            }
 
 //            ViewControllerRepresentable {
 //                UINavigationController(rootViewController: AppStoreViewController())

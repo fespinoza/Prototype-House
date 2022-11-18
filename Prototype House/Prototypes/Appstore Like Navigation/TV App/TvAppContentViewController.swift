@@ -67,8 +67,8 @@ class TvAppContentViewController: UIViewController {
 
         debugMessage(text: "isTranslucent = \(translucentMessage)")
 
-        let customButton = UIBarButtonItem(customView: customBackButton)
-        navigationItem.leftBarButtonItem = customButton
+//        let customButton = UIBarButtonItem(customView: customBackButton)
+//        navigationItem.leftBarButtonItem = customButton
     }
 
     private lazy var customBackButton: UIButton = {
@@ -187,15 +187,15 @@ class TvAppContentViewController: UIViewController {
             backgroundAlpha(scrollY)
         )
 
-        if scrollY >= 282 {
-            if navigationItem.leftBarButtonItem != nil {
-                navigationItem.setLeftBarButton(nil, animated: true)
-            }
-        } else {
-            if navigationItem.leftBarButtonItem == nil {
-                navigationItem.setLeftBarButton(UIBarButtonItem(customView: customBackButton), animated: true)
-            }
-        }
+//        if scrollY >= 282 {
+//            if navigationItem.leftBarButtonItem != nil {
+//                navigationItem.setLeftBarButton(nil, animated: true)
+//            }
+//        } else {
+//            if navigationItem.leftBarButtonItem == nil {
+//                navigationItem.setLeftBarButton(UIBarButtonItem(customView: customBackButton), animated: true)
+//            }
+//        }
     }
 }
 
@@ -204,6 +204,55 @@ extension TvAppContentViewController: UIScrollViewDelegate {
         updateScrollOffset(to: scrollView.contentOffset)
         updateTitleAlpha(scrollY: scrollView.contentOffset.y)
         updateBackgroundOpacity(scrollY: scrollView.contentOffset.y)
+    }
+}
+
+class TvAppContentSwiftUIViewController: UIViewController {
+    let viewData: TvAppContentViewData
+
+    init(viewData: TvAppContentViewData = .tedLasso) {
+        self.viewData = viewData
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
+    override func viewDidLoad() {
+        let hostingController = UIHostingController(
+            rootView: ScrollView {
+                TvAppContentSwiftUIView(viewData: self.viewData)
+                    .navigationTitle("Teddy")
+            }
+//            .background(Color.blue)
+            .ignoresSafeArea()
+        )
+        hostingController.view.translatesAutoresizingMaskIntoConstraints = false
+        let hostingView = hostingController.view!
+
+        addChild(hostingController)
+        view.addSubview(hostingView)
+        hostingController.didMove(toParent: self)
+        hostingView.pinToSuperview()
+
+        navigationItem.largeTitleDisplayMode = .never
+
+        title = "SwiftUI Ted"
+
+        let scrollEdge = UINavigationBarAppearance()
+//        scrollEdge.backgroundColor = .red
+        scrollEdge.configureWithTransparentBackground()
+        scrollEdge.titleTextAttributes = [.foregroundColor: UIColor.clear]
+
+        let standard = UINavigationBarAppearance()
+        standard.configureWithDefaultBackground()
+        standard.titleTextAttributes = [.foregroundColor: UIColor.red]
+
+        navigationItem.scrollEdgeAppearance = scrollEdge
+        navigationItem.standardAppearance = standard
+
+        addDebugLabel(to: hostingView)
     }
 }
 
@@ -222,7 +271,16 @@ class TvAppIndexViewController: UIViewController {
             self.navigateToShow()
         }))
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Ted Lasso", for: .normal)
+        button.setTitle("Ted Lasso (UIKit)", for: .normal)
+        return button
+    }()
+
+    private lazy var swiftUIDemo: UIButton = {
+        let button = UIButton(configuration: .borderedTinted(), primaryAction: UIAction(handler: { action in
+            self.navigateToSwiftUIDemo()
+        }))
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setTitle("Ted Lasso (SwiftUI)", for: .normal)
         return button
     }()
 
@@ -237,12 +295,28 @@ class TvAppIndexViewController: UIViewController {
 
     override func viewDidLoad() {
         title = "TV Show App"
-        view.addSubview(actionButton)
-        actionButton.center(in: view)
+
+        let stackView = UIStackView(withAutoLayout: true)
+        stackView.axis = .vertical
+        stackView.spacing = 30
+        stackView.layoutMargins = UIEdgeInsets(horizontal: 16)
+        stackView.isLayoutMarginsRelativeArrangement = true
+
+        stackView.addArrangedSubview(actionButton)
+        stackView.addArrangedSubview(swiftUIDemo)
+
+        view.addSubview(stackView)
+
+        NSLayoutConstraint.activate([
+            stackView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            stackView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            stackView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+        ])
+
         addDebugLabel(to: view)
 
         if navigateImmediatelly {
-            navigateToShow()
+            navigateToSwiftUIDemo()
         }
 
         navigationController?.navigationBar.prefersLargeTitles = true
@@ -257,6 +331,10 @@ class TvAppIndexViewController: UIViewController {
 
     func navigateToShow() {
         navigationController?.pushViewController(TvAppContentViewController(), animated: true)
+    }
+
+    func navigateToSwiftUIDemo() {
+        navigationController?.pushViewController(TvAppContentSwiftUIViewController(), animated: true)
     }
 }
 
@@ -310,12 +388,25 @@ import SwiftUI
 
 struct TvAppIndexViewController_Previews: PreviewProvider {
     static var previews: some View {
-        DemoWrapperViewController(
-            viewController: UINavigationController(
-                rootViewController: TvAppIndexViewController(navigateImmediatelly: true)
+        TabView {
+            DemoWrapperViewController(
+                viewController: UINavigationController(
+                    rootViewController: TvAppIndexViewController(navigateImmediatelly: true)
+                )
             )
-        )
-        .ignoresSafeArea()
+            .ignoresSafeArea()
+            .tabItem {
+                Image(systemName: "square.fill")
+                Text("Shows")
+            }
+
+            Color.pink
+                .tabItem {
+                    Image(systemName: "circle.fill")
+                    Text("Other")
+                }
+
+        }
         .preferredColorScheme(.dark)
     }
 }
