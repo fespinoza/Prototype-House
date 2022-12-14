@@ -12,8 +12,7 @@ struct PrototypeHouseApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                CustomSearchView()
-                    .navigationTitle("Avengers")
+                BasicTransitionExampleView()
             }
 
 //            ViewControllerRepresentable {
