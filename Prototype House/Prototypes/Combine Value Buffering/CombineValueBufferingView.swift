@@ -21,8 +21,8 @@ extension CombineValueBufferingView {
 
             self
                 .$value
-//                .debounce(for: .milliseconds(200), scheduler: DispatchQueue.main)
-                .delay(for: .milliseconds(300), scheduler: DispatchQueue.main)
+                .debounce(for: .milliseconds(30), scheduler: DispatchQueue.main)
+//                .delay(for: .milliseconds(300), scheduler: DispatchQueue.main)
                 .sink(receiveValue: { newValue in
                     self.bufferedValue = newValue
                 })
