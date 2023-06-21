@@ -40,11 +40,11 @@
 		9B80A57A28489F1B00FC2F6D /* AlertTextStackOverflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B80A57928489F1B00FC2F6D /* AlertTextStackOverflow.swift */; };
 		9B81116D280B77B900CAC97E /* CustomPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81116C280B77B900CAC97E /* CustomPresentationView.swift */; };
 		9B811170280B7CF300CAC97E /* DoubleTapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81116F280B7CF300CAC97E /* DoubleTapGestureView.swift */; };
-		9B81E7A32A42F7BF003324FE /* Prototype_House_WatchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81E7A22A42F7BF003324FE /* Prototype_House_WatchOSApp.swift */; };
-		9B81E7A52A42F7BF003324FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81E7A42A42F7BF003324FE /* ContentView.swift */; };
-		9B81E7A72A42F7C0003324FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B81E7A62A42F7C0003324FE /* Assets.xcassets */; };
-		9B81E7AA2A42F7C0003324FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B81E7A92A42F7C0003324FE /* Preview Assets.xcassets */; };
-		9B81E7AD2A42F7C0003324FE /* Prototype House Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9B81E7A02A42F7BF003324FE /* Prototype House Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9B81E7EE2A42F960003324FE /* PrototypeHouseWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81E7ED2A42F960003324FE /* PrototypeHouseWatchApp.swift */; };
+		9B81E7F02A42F960003324FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81E7EF2A42F960003324FE /* ContentView.swift */; };
+		9B81E7F22A42F960003324FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B81E7F12A42F960003324FE /* Assets.xcassets */; };
+		9B81E7F52A42F960003324FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B81E7F42A42F960003324FE /* Preview Assets.xcassets */; };
+		9B81E7F82A42F960003324FE /* Prototype House Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9B81E7EB2A42F960003324FE /* Prototype House Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9B82C94E2865BFEF00C7E6C2 /* SafariContainerSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82C94D2865BFEF00C7E6C2 /* SafariContainerSampleView.swift */; };
 		9B9C7FF7281C8E4F006AD0B7 /* ImageWithTitleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C7FF6281C8E4F006AD0B7 /* ImageWithTitleContentView.swift */; };
 		9B9C7FFA281C92D2006AD0B7 /* ScrollReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C7FF9281C92D2006AD0B7 /* ScrollReaderView.swift */; };
@@ -98,6 +98,30 @@
 		9BF70E9629B9DC640027AB9E /* ScrollableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF70E9529B9DC640027AB9E /* ScrollableContentView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9B81E7F62A42F960003324FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF616AC276376D400D26E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B81E7EA2A42F960003324FE;
+			remoteInfo = "Prototype House Watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B81E7F92A42F960003324FE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9B81E7F82A42F960003324FE /* Prototype House Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		9B05BDA72845537600855F2A /* LocalizationSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationSampleView.swift; sourceTree = "<group>"; };
 		9B05BDAA284553A800855F2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -133,11 +157,11 @@
 		9B80A57928489F1B00FC2F6D /* AlertTextStackOverflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTextStackOverflow.swift; sourceTree = "<group>"; };
 		9B81116C280B77B900CAC97E /* CustomPresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentationView.swift; sourceTree = "<group>"; };
 		9B81116F280B7CF300CAC97E /* DoubleTapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTapGestureView.swift; sourceTree = "<group>"; };
-		9B81E7A02A42F7BF003324FE /* Prototype House Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype House Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B81E7A22A42F7BF003324FE /* Prototype_House_WatchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype_House_WatchOSApp.swift; sourceTree = "<group>"; };
-		9B81E7A42A42F7BF003324FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9B81E7A62A42F7C0003324FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9B81E7A92A42F7C0003324FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B81E7EB2A42F960003324FE /* Prototype House Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype House Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B81E7ED2A42F960003324FE /* PrototypeHouseWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeHouseWatchApp.swift; sourceTree = "<group>"; };
+		9B81E7EF2A42F960003324FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B81E7F12A42F960003324FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B81E7F42A42F960003324FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B82C94D2865BFEF00C7E6C2 /* SafariContainerSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariContainerSampleView.swift; sourceTree = "<group>"; };
 		9B9C7FF6281C8E4F006AD0B7 /* ImageWithTitleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithTitleContentView.swift; sourceTree = "<group>"; };
 		9B9C7FF9281C92D2006AD0B7 /* ScrollReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollReaderView.swift; sourceTree = "<group>"; };
@@ -199,7 +223,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9B81E79D2A42F7BF003324FE /* Frameworks */ = {
+		9B81E7E82A42F960003324FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -392,6 +416,25 @@
 				9B81116F280B7CF300CAC97E /* DoubleTapGestureView.swift */,
 			);
 			path = "Douple Tap Gesture";
+			sourceTree = "<group>";
+		};
+		9B81E7EC2A42F960003324FE /* Prototype House Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				9B81E7ED2A42F960003324FE /* PrototypeHouseWatchApp.swift */,
+				9B81E7EF2A42F960003324FE /* ContentView.swift */,
+				9B81E7F12A42F960003324FE /* Assets.xcassets */,
+				9B81E7F32A42F960003324FE /* Preview Content */,
+			);
+			path = "Prototype House Watch App";
+			sourceTree = "<group>";
+		};
+		9B81E7F32A42F960003324FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B81E7F42A42F960003324FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		9B82C94C2865BFDC00C7E6C2 /* Safari VIew Controller */ = {
@@ -627,6 +670,7 @@
 				9BF616B6276376D400D26E7B /* Prototype House */,
 				9BC17D43278335F8000FC491 /* Prototype House Mac */,
 				9BD866B129AD20CE0080DED7 /* Prototype House UIKit */,
+				9B81E7EC2A42F960003324FE /* Prototype House Watch App */,
 				9BF616B5276376D400D26E7B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -637,6 +681,7 @@
 				9BF616B4276376D400D26E7B /* Prototype House iOS.app */,
 				9BC17D42278335F8000FC491 /* Prototype House Mac.app */,
 				9BD866B029AD20CE0080DED7 /* Prototype House UIKit.app */,
+				9B81E7EB2A42F960003324FE /* Prototype House Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -801,6 +846,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9B81E7EA2A42F960003324FE /* Prototype House Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B81E7FC2A42F960003324FE /* Build configuration list for PBXNativeTarget "Prototype House Watch App" */;
+			buildPhases = (
+				9B81E7E72A42F960003324FE /* Sources */,
+				9B81E7E82A42F960003324FE /* Frameworks */,
+				9B81E7E92A42F960003324FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prototype House Watch App";
+			productName = "Prototype House Watch Watch App";
+			productReference = 9B81E7EB2A42F960003324FE /* Prototype House Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 		9BC17D41278335F8000FC491 /* Prototype House Mac */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BC17D50278335FA000FC491 /* Build configuration list for PBXNativeTarget "Prototype House Mac" */;
@@ -842,10 +904,12 @@
 				9BF616B0276376D400D26E7B /* Sources */,
 				9BF616B1276376D400D26E7B /* Frameworks */,
 				9BF616B2276376D400D26E7B /* Resources */,
+				9B81E7F92A42F960003324FE /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9B81E7F72A42F960003324FE /* PBXTargetDependency */,
 			);
 			name = "Prototype House";
 			productName = "Prototype House";
@@ -862,7 +926,7 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					9B81E79F2A42F7BF003324FE = {
+					9B81E7EA2A42F960003324FE = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
 					9BC17D41278335F8000FC491 = {
@@ -894,12 +958,21 @@
 				9BF616B3276376D400D26E7B /* Prototype House */,
 				9BC17D41278335F8000FC491 /* Prototype House Mac */,
 				9BD866AF29AD20CE0080DED7 /* Prototype House UIKit */,
-				9B81E79F2A42F7BF003324FE /* Prototype House Watch App */,
+				9B81E7EA2A42F960003324FE /* Prototype House Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9B81E7E92A42F960003324FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B81E7F52A42F960003324FE /* Preview Assets.xcassets in Resources */,
+				9B81E7F22A42F960003324FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9BC17D40278335F8000FC491 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -935,6 +1008,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9B81E7E72A42F960003324FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B81E7F02A42F960003324FE /* ContentView.swift in Sources */,
+				9B81E7EE2A42F960003324FE /* PrototypeHouseWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9BC17D3E278335F8000FC491 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1031,6 +1113,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9B81E7F72A42F960003324FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B81E7EA2A42F960003324FE /* Prototype House Watch App */;
+			targetProxy = 9B81E7F62A42F960003324FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		9B05BDAB284553A800855F2A /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
@@ -1061,6 +1151,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9B81E7FA2A42F960003324FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prototype House Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4E6CZX3H5W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Prototype House Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.fespinozacast.code.prototypes.Prototype-House";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fespinozacast.code.prototypes.Prototype-House.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		9B81E7FB2A42F960003324FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prototype House Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4E6CZX3H5W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Prototype House Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.fespinozacast.code.prototypes.Prototype-House";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fespinozacast.code.prototypes.Prototype-House.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
 		9BC17D4E278335FA000FC491 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1298,6 +1450,7 @@
 		9BF616C3276376D500D26E7B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
@@ -1329,6 +1482,7 @@
 		9BF616C4276376D500D26E7B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
@@ -1360,6 +1514,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9B81E7FC2A42F960003324FE /* Build configuration list for PBXNativeTarget "Prototype House Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B81E7FA2A42F960003324FE /* Debug */,
+				9B81E7FB2A42F960003324FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9BC17D50278335FA000FC491 /* Build configuration list for PBXNativeTarget "Prototype House Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
