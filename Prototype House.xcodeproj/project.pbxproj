@@ -11,6 +11,11 @@
 		9B05BDA9284553A800855F2A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B05BDAB284553A800855F2A /* Localizable.strings */; };
 		9B173FC9287453B6000114A1 /* SampleNavigationBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B173FC8287453B6000114A1 /* SampleNavigationBarContentView.swift */; };
 		9B18A06A2949058B002B47F4 /* BasicTransitionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B18A0692949058B002B47F4 /* BasicTransitionExampleView.swift */; };
+		9B1BCB722A2637F80088B4BC /* VStackAnimationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1BCB712A2637F80088B4BC /* VStackAnimationTest.swift */; };
+		9B261D812A1CAC730027F24E /* CommentComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B261D802A1CAC730027F24E /* CommentComposerView.swift */; };
+		9B261D832A1CBE330027F24E /* CommentDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B261D822A1CBE330027F24E /* CommentDemoView.swift */; };
+		9B261D862A1CDA0C0027F24E /* NavigationBarTitleScrollEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B261D852A1CDA0C0027F24E /* NavigationBarTitleScrollEffectView.swift */; };
+		9B261D892A1CE0C40027F24E /* ScrollAndTouchGestures_DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B261D882A1CE0C40027F24E /* ScrollAndTouchGestures_DemoView.swift */; };
 		9B2A373327959B5B0054400F /* BottomSheetExperimentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2A373227959B5B0054400F /* BottomSheetExperimentView.swift */; };
 		9B3F99A627637C1F00CC738C /* LinearEquation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3F99A527637C1F00CC738C /* LinearEquation.swift */; };
 		9B3F99A827637D9600CC738C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3F99A727637D9600CC738C /* LaunchScreen.storyboard */; };
@@ -19,6 +24,11 @@
 		9B54F0962843FDD9002414C5 /* SearchableModifierSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54F0952843FDD9002414C5 /* SearchableModifierSampleView.swift */; };
 		9B54F09B28441061002414C5 /* SeachableViewModesSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54F09A28441061002414C5 /* SeachableViewModesSampleView.swift */; };
 		9B54F09E284412D3002414C5 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B54F09D284412D3002414C5 /* MockData.swift */; };
+		9B5C0FA429AE491C008627C6 /* ContentOnboardingSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C0FA329AE491C008627C6 /* ContentOnboardingSampleView.swift */; };
+		9B5C0FA629AE5586008627C6 /* TriangleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C0FA529AE5586008627C6 /* TriangleShape.swift */; };
+		9B5C0FA829AE56DB008627C6 /* ShapeDifferenceExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C0FA729AE56DB008627C6 /* ShapeDifferenceExample.swift */; };
+		9B5C0FAA29AEA72E008627C6 /* View-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C0FA929AEA72E008627C6 /* View-Extensions.swift */; };
+		9B5C0FAC29AEAA76008627C6 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C0FAB29AEAA76008627C6 /* BubbleView.swift */; };
 		9B694246294BCEFE00EF8E77 /* SampleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B694245294BCEFE00EF8E77 /* SampleLayout.swift */; };
 		9B6D4BBF286C301500D97ACF /* TvAppContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D4BBE286C301500D97ACF /* TvAppContentView.swift */; };
 		9B6D4BC1286C39C600D97ACF /* TvAppContentSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6D4BC0286C39C600D97ACF /* TvAppContentSwiftUIView.swift */; };
@@ -30,6 +40,11 @@
 		9B80A57A28489F1B00FC2F6D /* AlertTextStackOverflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B80A57928489F1B00FC2F6D /* AlertTextStackOverflow.swift */; };
 		9B81116D280B77B900CAC97E /* CustomPresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81116C280B77B900CAC97E /* CustomPresentationView.swift */; };
 		9B811170280B7CF300CAC97E /* DoubleTapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81116F280B7CF300CAC97E /* DoubleTapGestureView.swift */; };
+		9B81E7A32A42F7BF003324FE /* Prototype_House_WatchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81E7A22A42F7BF003324FE /* Prototype_House_WatchOSApp.swift */; };
+		9B81E7A52A42F7BF003324FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B81E7A42A42F7BF003324FE /* ContentView.swift */; };
+		9B81E7A72A42F7C0003324FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B81E7A62A42F7C0003324FE /* Assets.xcassets */; };
+		9B81E7AA2A42F7C0003324FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B81E7A92A42F7C0003324FE /* Preview Assets.xcassets */; };
+		9B81E7AD2A42F7C0003324FE /* Prototype House Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9B81E7A02A42F7BF003324FE /* Prototype House Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9B82C94E2865BFEF00C7E6C2 /* SafariContainerSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82C94D2865BFEF00C7E6C2 /* SafariContainerSampleView.swift */; };
 		9B9C7FF7281C8E4F006AD0B7 /* ImageWithTitleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C7FF6281C8E4F006AD0B7 /* ImageWithTitleContentView.swift */; };
 		9B9C7FFA281C92D2006AD0B7 /* ScrollReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C7FF9281C92D2006AD0B7 /* ScrollReaderView.swift */; };
@@ -67,6 +82,7 @@
 		9BDAD416290291E400A557BD /* SampleTransitionPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDAD415290291E400A557BD /* SampleTransitionPageView.swift */; };
 		9BDE6670278598190092CF32 /* UnderstandingFocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE666F278598190092CF32 /* UnderstandingFocusView.swift */; };
 		9BE2E8AC293621DD00DAEA41 /* MatchedGeometrySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE2E8AB293621DD00DAEA41 /* MatchedGeometrySample.swift */; };
+		9BE975B629AF3ACB008F58A9 /* OnboardingOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE975B529AF3ACB008F58A9 /* OnboardingOverlayView.swift */; };
 		9BF5868C283CBADF0042BE53 /* CheckScrollVisibleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5868B283CBADF0042BE53 /* CheckScrollVisibleContentView.swift */; };
 		9BF616B8276376D400D26E7B /* PrototypeHouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616B7276376D400D26E7B /* PrototypeHouseApp.swift */; };
 		9BF616BA276376D400D26E7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616B9276376D400D26E7B /* ContentView.swift */; };
@@ -78,6 +94,8 @@
 		9BF616CF2763784700D26E7B /* DemoWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616CE2763784700D26E7B /* DemoWrapperView.swift */; };
 		9BF616DA276379F300D26E7B /* AppStoreViewController-Subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616D7276379F300D26E7B /* AppStoreViewController-Subviews.swift */; };
 		9BF616DC276379F300D26E7B /* AppStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616D9276379F300D26E7B /* AppStoreViewController.swift */; };
+		9BF70E9129B9DB8E0027AB9E /* CustomNavTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF70E9029B9DB8E0027AB9E /* CustomNavTitleViewController.swift */; };
+		9BF70E9629B9DC640027AB9E /* ScrollableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF70E9529B9DC640027AB9E /* ScrollableContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +104,11 @@
 		9B05BDAC284553AC00855F2A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9B173FC8287453B6000114A1 /* SampleNavigationBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleNavigationBarContentView.swift; sourceTree = "<group>"; };
 		9B18A0692949058B002B47F4 /* BasicTransitionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTransitionExampleView.swift; sourceTree = "<group>"; };
+		9B1BCB712A2637F80088B4BC /* VStackAnimationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackAnimationTest.swift; sourceTree = "<group>"; };
+		9B261D802A1CAC730027F24E /* CommentComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentComposerView.swift; sourceTree = "<group>"; };
+		9B261D822A1CBE330027F24E /* CommentDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentDemoView.swift; sourceTree = "<group>"; };
+		9B261D852A1CDA0C0027F24E /* NavigationBarTitleScrollEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarTitleScrollEffectView.swift; sourceTree = "<group>"; };
+		9B261D882A1CE0C40027F24E /* ScrollAndTouchGestures_DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollAndTouchGestures_DemoView.swift; sourceTree = "<group>"; };
 		9B2A373227959B5B0054400F /* BottomSheetExperimentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetExperimentView.swift; sourceTree = "<group>"; };
 		9B3F99A527637C1F00CC738C /* LinearEquation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearEquation.swift; sourceTree = "<group>"; };
 		9B3F99A727637D9600CC738C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,6 +118,11 @@
 		9B54F0952843FDD9002414C5 /* SearchableModifierSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableModifierSampleView.swift; sourceTree = "<group>"; };
 		9B54F09A28441061002414C5 /* SeachableViewModesSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeachableViewModesSampleView.swift; sourceTree = "<group>"; };
 		9B54F09D284412D3002414C5 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		9B5C0FA329AE491C008627C6 /* ContentOnboardingSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentOnboardingSampleView.swift; sourceTree = "<group>"; };
+		9B5C0FA529AE5586008627C6 /* TriangleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleShape.swift; sourceTree = "<group>"; };
+		9B5C0FA729AE56DB008627C6 /* ShapeDifferenceExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeDifferenceExample.swift; sourceTree = "<group>"; };
+		9B5C0FA929AEA72E008627C6 /* View-Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View-Extensions.swift"; sourceTree = "<group>"; };
+		9B5C0FAB29AEAA76008627C6 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
 		9B694245294BCEFE00EF8E77 /* SampleLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLayout.swift; sourceTree = "<group>"; };
 		9B6D4BBE286C301500D97ACF /* TvAppContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvAppContentView.swift; sourceTree = "<group>"; };
 		9B6D4BC0286C39C600D97ACF /* TvAppContentSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvAppContentSwiftUIView.swift; sourceTree = "<group>"; };
@@ -105,6 +133,11 @@
 		9B80A57928489F1B00FC2F6D /* AlertTextStackOverflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTextStackOverflow.swift; sourceTree = "<group>"; };
 		9B81116C280B77B900CAC97E /* CustomPresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentationView.swift; sourceTree = "<group>"; };
 		9B81116F280B7CF300CAC97E /* DoubleTapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleTapGestureView.swift; sourceTree = "<group>"; };
+		9B81E7A02A42F7BF003324FE /* Prototype House Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype House Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B81E7A22A42F7BF003324FE /* Prototype_House_WatchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype_House_WatchOSApp.swift; sourceTree = "<group>"; };
+		9B81E7A42A42F7BF003324FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B81E7A62A42F7C0003324FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B81E7A92A42F7C0003324FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9B82C94D2865BFEF00C7E6C2 /* SafariContainerSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariContainerSampleView.swift; sourceTree = "<group>"; };
 		9B9C7FF6281C8E4F006AD0B7 /* ImageWithTitleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWithTitleContentView.swift; sourceTree = "<group>"; };
 		9B9C7FF9281C92D2006AD0B7 /* ScrollReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollReaderView.swift; sourceTree = "<group>"; };
@@ -147,6 +180,7 @@
 		9BDAD415290291E400A557BD /* SampleTransitionPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTransitionPageView.swift; sourceTree = "<group>"; };
 		9BDE666F278598190092CF32 /* UnderstandingFocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderstandingFocusView.swift; sourceTree = "<group>"; };
 		9BE2E8AB293621DD00DAEA41 /* MatchedGeometrySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometrySample.swift; sourceTree = "<group>"; };
+		9BE975B529AF3ACB008F58A9 /* OnboardingOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingOverlayView.swift; sourceTree = "<group>"; };
 		9BF5868B283CBADF0042BE53 /* CheckScrollVisibleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckScrollVisibleContentView.swift; sourceTree = "<group>"; };
 		9BF616B4276376D400D26E7B /* Prototype House iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype House iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF616B7276376D400D26E7B /* PrototypeHouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeHouseApp.swift; sourceTree = "<group>"; };
@@ -160,9 +194,18 @@
 		9BF616D42763795200D26E7B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		9BF616D7276379F300D26E7B /* AppStoreViewController-Subviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppStoreViewController-Subviews.swift"; sourceTree = "<group>"; };
 		9BF616D9276379F300D26E7B /* AppStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoreViewController.swift; sourceTree = "<group>"; };
+		9BF70E9029B9DB8E0027AB9E /* CustomNavTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavTitleViewController.swift; sourceTree = "<group>"; };
+		9BF70E9529B9DC640027AB9E /* ScrollableContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9B81E79D2A42F7BF003324FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9BC17D3F278335F8000FC491 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,6 +253,32 @@
 				9B18A0692949058B002B47F4 /* BasicTransitionExampleView.swift */,
 			);
 			path = "Basic Transition";
+			sourceTree = "<group>";
+		};
+		9B261D7F2A1CAC630027F24E /* CommentComposer */ = {
+			isa = PBXGroup;
+			children = (
+				9B261D802A1CAC730027F24E /* CommentComposerView.swift */,
+				9B261D822A1CBE330027F24E /* CommentDemoView.swift */,
+				9B1BCB712A2637F80088B4BC /* VStackAnimationTest.swift */,
+			);
+			path = CommentComposer;
+			sourceTree = "<group>";
+		};
+		9B261D842A1CD9D50027F24E /* NavigationBar titleEffect */ = {
+			isa = PBXGroup;
+			children = (
+				9B261D852A1CDA0C0027F24E /* NavigationBarTitleScrollEffectView.swift */,
+			);
+			path = "NavigationBar titleEffect";
+			sourceTree = "<group>";
+		};
+		9B261D872A1CE0A80027F24E /* Scroll And Touch Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				9B261D882A1CE0C40027F24E /* ScrollAndTouchGestures_DemoView.swift */,
+			);
+			path = "Scroll And Touch Gestures";
 			sourceTree = "<group>";
 		};
 		9B2A373127959B420054400F /* BottomSheetAlternatives */ = {
@@ -275,6 +344,18 @@
 				9B54F09D284412D3002414C5 /* MockData.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		9B5C0FA229AE4908008627C6 /* Content Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				9B5C0FA329AE491C008627C6 /* ContentOnboardingSampleView.swift */,
+				9B5C0FA529AE5586008627C6 /* TriangleShape.swift */,
+				9B5C0FA729AE56DB008627C6 /* ShapeDifferenceExample.swift */,
+				9B5C0FAB29AEAA76008627C6 /* BubbleView.swift */,
+				9BE975B529AF3ACB008F58A9 /* OnboardingOverlayView.swift */,
+			);
+			path = "Content Onboarding";
 			sourceTree = "<group>";
 		};
 		9B6D4BBD286C2FFC00D97ACF /* TV App */ = {
@@ -486,6 +567,8 @@
 		9BD866B129AD20CE0080DED7 /* Prototype House UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				9BF70E9229B9DC380027AB9E /* Utils */,
+				9BF70E8E29B9DB5C0027AB9E /* Prototypes */,
 				9BD866C429AD25610080DED7 /* Extensions */,
 				9BD866B229AD20CF0080DED7 /* AppDelegate.swift */,
 				9BD866B429AD20CF0080DED7 /* SceneDelegate.swift */,
@@ -604,6 +687,7 @@
 			isa = PBXGroup;
 			children = (
 				9BF616CE2763784700D26E7B /* DemoWrapperView.swift */,
+				9B5C0FA929AEA72E008627C6 /* View-Extensions.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -645,6 +729,8 @@
 				9B18A0682949057F002B47F4 /* Basic Transition */,
 				9B2A373127959B420054400F /* BottomSheetAlternatives */,
 				9B9DF3DF2991009E00FA949C /* Combine Value Buffering */,
+				9B261D7F2A1CAC630027F24E /* CommentComposer */,
+				9B5C0FA229AE4908008627C6 /* Content Onboarding */,
 				9BBC905B28A5138F00130303 /* Custom Search */,
 				9B81116B280B779D00CAC97E /* Custom SwiftUI Presentation */,
 				9B81116E280B7CE300CAC97E /* Douple Tap Gesture */,
@@ -654,10 +740,12 @@
 				9BE2E8AA293621C400DAEA41 /* Matched Geometry */,
 				9BC939AB281EB8F7003B5B9B /* Name Editor */,
 				9B173FC72874539F000114A1 /* NavigationBar and SwiftUI */,
+				9B261D842A1CD9D50027F24E /* NavigationBar titleEffect */,
 				9BC488C1284560A700E36E12 /* OutlineGroup Experiments */,
 				9BDAD414290291C500A557BD /* Page Transition State */,
 				9B46F1F8278B337B00D9180F /* Redacted Animation */,
 				9B82C94C2865BFDC00C7E6C2 /* Safari VIew Controller */,
+				9B261D872A1CE0A80027F24E /* Scroll And Touch Gestures */,
 				9BF5868A283CBABA0042BE53 /* Scroll Visible Content */,
 				9B54F0942843FDA4002414C5 /* Searchable Modifier */,
 				9B9C7FF5281C8E27006AD0B7 /* SwiftUI Navigation Bar Animation */,
@@ -684,6 +772,30 @@
 				9BF616D7276379F300D26E7B /* AppStoreViewController-Subviews.swift */,
 			);
 			path = Subviews;
+			sourceTree = "<group>";
+		};
+		9BF70E8E29B9DB5C0027AB9E /* Prototypes */ = {
+			isa = PBXGroup;
+			children = (
+				9BF70E8F29B9DB660027AB9E /* CustomNavigationTitle */,
+			);
+			path = Prototypes;
+			sourceTree = "<group>";
+		};
+		9BF70E8F29B9DB660027AB9E /* CustomNavigationTitle */ = {
+			isa = PBXGroup;
+			children = (
+				9BF70E9029B9DB8E0027AB9E /* CustomNavTitleViewController.swift */,
+			);
+			path = CustomNavigationTitle;
+			sourceTree = "<group>";
+		};
+		9BF70E9229B9DC380027AB9E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9BF70E9529B9DC640027AB9E /* ScrollableContentView.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -747,9 +859,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					9B81E79F2A42F7BF003324FE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 					9BC17D41278335F8000FC491 = {
 						CreatedOnToolsVersion = 13.2;
 					};
@@ -779,6 +894,7 @@
 				9BF616B3276376D400D26E7B /* Prototype House */,
 				9BC17D41278335F8000FC491 /* Prototype House Mac */,
 				9BD866AF29AD20CE0080DED7 /* Prototype House UIKit */,
+				9B81E79F2A42F7BF003324FE /* Prototype House Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -838,6 +954,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF70E9129B9DB8E0027AB9E /* CustomNavTitleViewController.swift in Sources */,
+				9BF70E9629B9DC640027AB9E /* ScrollableContentView.swift in Sources */,
 				9BD866B729AD20CF0080DED7 /* ViewController.swift in Sources */,
 				9BD866C629AD256C0080DED7 /* UIImage-Extensions.swift in Sources */,
 				9BD866B329AD20CF0080DED7 /* AppDelegate.swift in Sources */,
@@ -853,9 +971,11 @@
 				9BF616BA276376D400D26E7B /* ContentView.swift in Sources */,
 				9B9C7FF7281C8E4F006AD0B7 /* ImageWithTitleContentView.swift in Sources */,
 				9B54F09E284412D3002414C5 /* MockData.swift in Sources */,
+				9B5C0FAC29AEAA76008627C6 /* BubbleView.swift in Sources */,
 				9BC488C3284560BE00E36E12 /* OutlineGroupExperimentsView.swift in Sources */,
 				9BF616CF2763784700D26E7B /* DemoWrapperView.swift in Sources */,
 				9BBED65B286D90C600896A43 /* TvAppBackButton.swift in Sources */,
+				9B261D862A1CDA0C0027F24E /* NavigationBarTitleScrollEffectView.swift in Sources */,
 				9B9DF3E2299100B600FA949C /* CombineValueBufferingView.swift in Sources */,
 				9B9FAA45286CE94A000DD62F /* TvAppContentViewData.swift in Sources */,
 				9BC939AD281EB909003B5B9B /* NameEditorView.swift in Sources */,
@@ -867,20 +987,28 @@
 				9B80A57A28489F1B00FC2F6D /* AlertTextStackOverflow.swift in Sources */,
 				9BDE6670278598190092CF32 /* UnderstandingFocusView.swift in Sources */,
 				9BF616CD276377F600D26E7B /* NSDirectionalEdgeInsets.swift in Sources */,
+				9B261D832A1CBE330027F24E /* CommentDemoView.swift in Sources */,
+				9B1BCB722A2637F80088B4BC /* VStackAnimationTest.swift in Sources */,
 				9B74010B278B70E0005454D5 /* RedactedAnimationExperimentView.swift in Sources */,
 				9BC881A72876C9450069B48E /* ScrollableContentStatesSample.swift in Sources */,
 				9BF616DA276379F300D26E7B /* AppStoreViewController-Subviews.swift in Sources */,
 				9B05BDA82845537600855F2A /* LocalizationSampleView.swift in Sources */,
 				9B2A373327959B5B0054400F /* BottomSheetExperimentView.swift in Sources */,
 				9B53FEAC2989454E0073ACCA /* ScrollViewOffsetReader.swift in Sources */,
+				9B5C0FAA29AEA72E008627C6 /* View-Extensions.swift in Sources */,
+				9B261D812A1CAC730027F24E /* CommentComposerView.swift in Sources */,
+				9BE975B629AF3ACB008F58A9 /* OnboardingOverlayView.swift in Sources */,
 				9BBC905D28A513A100130303 /* CustomSearchView.swift in Sources */,
 				9BE2E8AC293621DD00DAEA41 /* MatchedGeometrySample.swift in Sources */,
 				9BF616CB276377CD00D26E7B /* UIEdgeInsets.swift in Sources */,
 				9B80A5762846517000FC2F6D /* AlertWithTextFieldSampleView.swift in Sources */,
 				9B7152E227DA3C3700559E47 /* SampleView.swift in Sources */,
+				9B5C0FA629AE5586008627C6 /* TriangleShape.swift in Sources */,
 				9BF616B8276376D400D26E7B /* PrototypeHouseApp.swift in Sources */,
 				9B9FAA43286CE931000DD62F /* TvAppScrollableContentView.swift in Sources */,
+				9B5C0FA829AE56DB008627C6 /* ShapeDifferenceExample.swift in Sources */,
 				9B54F0962843FDD9002414C5 /* SearchableModifierSampleView.swift in Sources */,
+				9B261D892A1CE0C40027F24E /* ScrollAndTouchGestures_DemoView.swift in Sources */,
 				9B80A57828489AAD00FC2F6D /* AlertTextOnUIkit.swift in Sources */,
 				9BD770B828ED7D35002470D8 /* UITextViewInScrollView.swift in Sources */,
 				9B54F09B28441061002414C5 /* SeachableViewModesSampleView.swift in Sources */,
@@ -890,6 +1018,7 @@
 				9B9C7FFA281C92D2006AD0B7 /* ScrollReaderView.swift in Sources */,
 				9BDAD416290291E400A557BD /* SampleTransitionPageView.swift in Sources */,
 				9B4CB3DC29278C190030FAC9 /* IOS15UpdatesShowcaseView.swift in Sources */,
+				9B5C0FA429AE491C008627C6 /* ContentOnboardingSampleView.swift in Sources */,
 				9B694246294BCEFE00EF8E77 /* SampleLayout.swift in Sources */,
 				9B173FC9287453B6000114A1 /* SampleNavigationBarContentView.swift in Sources */,
 				9B3F99A627637C1F00CC738C /* LinearEquation.swift in Sources */,
