@@ -1,0 +1,101 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "a1ef0312853ee32e288d613046a07ceb9b278bfd3b7eb80125a2c73f84f3f150"
+build_start_time: [1695365217, 748230000]
+build_end_time: [1695365218, 785416000]
+inputs:
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/App/PrototypeHouseApp.swift": !dirty [1688674512, 504469724]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Data/MockData.swift": !dirty [1653857183, 232032881]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Extensions/SwiftUI/DemoWrapperView.swift": !dirty [1656064326, 467713566]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Extensions/SwiftUI/View-Extensions.swift": !dirty [1677619168, 365784323]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Extensions/UIKit/NSDirectionalEdgeInsets.swift": !dirty [1639137404, 0]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Extensions/UIKit/UIEdgeInsets.swift": !dirty [1639137374, 0]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Extensions/UIKit/UIView-Layout.swift": !dirty [1639137412, 0]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Alert with TextField/AlertTextOnUIkit.swift": !dirty [1654154591, 962511621]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Alert with TextField/AlertTextStackOverflow.swift": !dirty [1654157996, 810492203]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Alert with TextField/AlertWithTextFieldSampleView.swift"
+  : !dirty [1654154806, 625666953]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/AppStoreViewController.swift"
+  : !dirty [1639138681, 0]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/Subviews/AppStoreViewController-Subviews.swift"
+  : !dirty [1639138313, 0]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/TV App/Content/TvAppBackButton.swift"
+  : !dirty [1656586966, 981724476]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/TV App/Content/TvAppContentView.swift"
+  : !dirty [1656586966, 982120893]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/TV App/Content/TvAppContentViewData.swift"
+  : !dirty [1656586966, 982437018]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/TV App/Content/TvAppScrollableContentView.swift"
+  : !dirty [1656586966, 982620810]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/TV App/TvAppContentSwiftUIView.swift"
+  : !dirty [1656586966, 982814893]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/TV App/TvAppContentViewController.swift"
+  : !dirty [1657024949, 204373539]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Basic Transition/BasicTransitionExampleView.swift": !dirty [1670959322, 324513968]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/BottomSheetAlternatives/BottomSheetExperimentView.swift"
+  : !dirty [1642423859, 0]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Combine Value Buffering/CombineValueBufferingView.swift"
+  : !dirty [1675676808, 445507664]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/CommentComposer/CommentComposerView.swift": !dirty [1684834981, 165274783]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/CommentComposer/CommentDemoView.swift": !dirty [1685455522, 405201916]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/CommentComposer/VStackAnimationTest.swift": !dirty [1685455226, 225088410]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Content Onboarding/BubbleView.swift": !dirty [1677624776, 315133596]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Content Onboarding/ContentOnboardingSampleView.swift"
+  : !dirty [1677659326, 499440562]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Content Onboarding/OnboardingOverlayView.swift": !dirty [1677659546, 865116225]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Content Onboarding/ShapeDifferenceExample.swift": !dirty [1677599170, 954584283]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Content Onboarding/TriangleShape.swift": !dirty [1677619264, 876479987]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Custom Search/CustomSearchView.swift": !dirty [1660218927, 661245089]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Custom SwiftUI Presentation/CustomPresentationView.swift"
+  : !dirty [1650148679, 956910077]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Douple Tap Gesture/DoubleTapGestureView.swift": !dirty [1650224570, 656726390]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Errors/ErrorSampleView.swift": !dirty [1695364045, 107169657]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/ImageGallery/ImageGalleryView.swift": !dirty [1666944158, 257849467]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/ImageGallery/ImageLayoutView.swift": !dirty [1666944302, 160972367]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Localization In Previews/LocalizationFromPackage.swift"
+  : !dirty [1688675869, 461749868]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Localization In Previews/LocalizationSampleView.swift"
+  : !dirty [1653940786, 696005425]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Matched Geometry/MatchedGeometrySample.swift": !dirty [1669723220, 561578630]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Name Editor/NameEditorView.swift": !dirty [1654155016, 832239223]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/NavigationBar SegmentedControl/NavigationBarSegmentedControl.swift"
+  : !dirty [1691140704, 413723630]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/NavigationBar and SwiftUI/SampleNavigationBarContentView.swift"
+  : !dirty [1657188402, 392471767]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/NavigationBar and SwiftUI/ScrollableContentStatesSample.swift"
+  : !dirty [1657180642, 184460844]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/NavigationBar titleEffect/NavigationBarTitleScrollEffectView.swift"
+  : !dirty [1684842711, 718357328]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/OutlineGroup Experiments/OutlineGroupExperimentsView.swift"
+  : !dirty [1653994746, 513994156]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Page Transition State/SampleTransitionPageView.swift"
+  : !dirty [1666342954, 55090688]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Redacted Animation/RedactedAnimationExperimentView.swift"
+  : !dirty [1641760820, 0]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Safari VIew Controller/SafariContainerSampleView.swift"
+  : !dirty [1656070670, 730227623]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/SampleLayout.swift": !dirty [1671141970, 710630772]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/SampleView.swift": !dirty [1651069238, 247388094]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Scroll And Touch Gestures/ScrollAndTouchGestures_DemoView.swift"
+  : !dirty [1684843335, 520995768]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Scroll Visible Content/CheckScrollVisibleContentView.swift"
+  : !dirty [1688546586, 65523202]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Searchable Modifier/SeachableViewModesSampleView.swift"
+  : !dirty [1653861189, 451165179]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Searchable Modifier/SearchableModifierSampleView.swift"
+  : !dirty [1653857237, 947805367]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/SwiftUI Navigation Bar Animation/ImageWithTitleContentView.swift"
+  : !dirty [1651270238, 9017752]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/SwiftUI Navigation Bar Animation/Utils/ScrollReaderView.swift"
+  : !dirty [1651268436, 81403288]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/SwiftUI Navigation Bar Animation/Utils/SizeReader.swift"
+  : !dirty [1651268990, 189222603]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/UITextView in Scroll SwiftUI/UITextViewInScrollView.swift"
+  : !dirty [1668800881, 437671441]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Understanding Focus/UnderstandingFocusView.swift": !dirty [1641377492, 0]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Upcoming Workout Cell/UpcomingWorkoutCell.swift": !dirty [1693304460, 763165508]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/iOS 15 Updates/IOS15UpdatesShowcaseView.swift": !dirty [1668800871, 917381352]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Utils/LinearEquation.swift": !dirty [1639138473, 0]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Utils/ScrollOffsetReader/ScrollViewOffsetReader.swift": !dirty [1675169558, 592177253]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Views/ContentView.swift": !dirty [1639137132, 0]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : !dirty [1695365217, 732411392]

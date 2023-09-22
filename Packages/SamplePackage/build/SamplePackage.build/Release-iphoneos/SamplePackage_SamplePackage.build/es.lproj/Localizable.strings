@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Authorization Error</key>
+	<string>Error de Autorización</string>
+	<key>Client Error</key>
+	<string>Error del Cliente</string>
+	<key>Coding Error</key>
+	<string>Error de Codificación</string>
+	<key>Loading Message</key>
+	<string>Cargando...</string>
+	<key>Network Errors</key>
+	<string>Errores de Conexión</string>
+	<key>Server Error</key>
+	<string>Error del Servidor</string>
+</dict>
+</plist>

@@ -1,0 +1,330 @@
+{
+  "" : {
+    "const-values" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/Prototype House-master.swiftconstvalues",
+    "dependencies" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/Prototype House-master.d",
+    "diagnostics" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/Prototype House-master.dia",
+    "emit-module-dependencies" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/Prototype House-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/Prototype House-master-emit-module.dia",
+    "swift-dependencies" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/Prototype House-master.swiftdeps"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/App/PrototypeHouseApp.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/PrototypeHouseApp.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/PrototypeHouseApp.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/PrototypeHouseApp.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Data/MockData.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/MockData.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/MockData.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/MockData.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Extensions/SwiftUI/DemoWrapperView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/DemoWrapperView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/DemoWrapperView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/DemoWrapperView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Extensions/SwiftUI/View-Extensions.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/View-Extensions.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/View-Extensions.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/View-Extensions.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Extensions/UIKit/NSDirectionalEdgeInsets.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/NSDirectionalEdgeInsets.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/NSDirectionalEdgeInsets.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/NSDirectionalEdgeInsets.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Extensions/UIKit/UIEdgeInsets.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/UIEdgeInsets.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/UIEdgeInsets.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/UIEdgeInsets.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Extensions/UIKit/UIView-Layout.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/UIView-Layout.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/UIView-Layout.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/UIView-Layout.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Alert with TextField/AlertTextOnUIkit.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/AlertTextOnUIkit.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/AlertTextOnUIkit.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/AlertTextOnUIkit.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Alert with TextField/AlertTextStackOverflow.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/AlertTextStackOverflow.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/AlertTextStackOverflow.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/AlertTextStackOverflow.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Alert with TextField/AlertWithTextFieldSampleView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/AlertWithTextFieldSampleView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/AlertWithTextFieldSampleView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/AlertWithTextFieldSampleView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/AppStoreViewController.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/AppStoreViewController.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/AppStoreViewController.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/AppStoreViewController.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/Subviews/AppStoreViewController-Subviews.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/AppStoreViewController-Subviews.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/AppStoreViewController-Subviews.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/AppStoreViewController-Subviews.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/TV App/Content/TvAppBackButton.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppBackButton.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppBackButton.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppBackButton.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/TV App/Content/TvAppContentView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppContentView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppContentView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppContentView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/TV App/Content/TvAppContentViewData.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppContentViewData.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppContentViewData.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppContentViewData.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/TV App/Content/TvAppScrollableContentView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppScrollableContentView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppScrollableContentView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppScrollableContentView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/TV App/TvAppContentSwiftUIView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppContentSwiftUIView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppContentSwiftUIView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppContentSwiftUIView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Appstore Like Navigation/TV App/TvAppContentViewController.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppContentViewController.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppContentViewController.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TvAppContentViewController.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Basic Transition/BasicTransitionExampleView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/BasicTransitionExampleView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/BasicTransitionExampleView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/BasicTransitionExampleView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/BottomSheetAlternatives/BottomSheetExperimentView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/BottomSheetExperimentView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/BottomSheetExperimentView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/BottomSheetExperimentView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Combine Value Buffering/CombineValueBufferingView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CombineValueBufferingView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CombineValueBufferingView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CombineValueBufferingView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/CommentComposer/CommentComposerView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CommentComposerView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CommentComposerView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CommentComposerView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/CommentComposer/CommentDemoView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CommentDemoView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CommentDemoView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CommentDemoView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/CommentComposer/VStackAnimationTest.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/VStackAnimationTest.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/VStackAnimationTest.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/VStackAnimationTest.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Content Onboarding/BubbleView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/BubbleView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/BubbleView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/BubbleView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Content Onboarding/ContentOnboardingSampleView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ContentOnboardingSampleView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ContentOnboardingSampleView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ContentOnboardingSampleView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Content Onboarding/OnboardingOverlayView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/OnboardingOverlayView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/OnboardingOverlayView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/OnboardingOverlayView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Content Onboarding/ShapeDifferenceExample.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ShapeDifferenceExample.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ShapeDifferenceExample.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ShapeDifferenceExample.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Content Onboarding/TriangleShape.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TriangleShape.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TriangleShape.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/TriangleShape.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Custom Search/CustomSearchView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CustomSearchView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CustomSearchView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CustomSearchView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Custom SwiftUI Presentation/CustomPresentationView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CustomPresentationView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CustomPresentationView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CustomPresentationView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Douple Tap Gesture/DoubleTapGestureView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/DoubleTapGestureView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/DoubleTapGestureView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/DoubleTapGestureView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Errors/ErrorSampleView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ErrorSampleView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ErrorSampleView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ErrorSampleView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/ImageGallery/ImageGalleryView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ImageGalleryView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ImageGalleryView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ImageGalleryView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/ImageGallery/ImageLayoutView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ImageLayoutView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ImageLayoutView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ImageLayoutView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/iOS 15 Updates/IOS15UpdatesShowcaseView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/IOS15UpdatesShowcaseView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/IOS15UpdatesShowcaseView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/IOS15UpdatesShowcaseView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Localization In Previews/LocalizationFromPackage.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/LocalizationFromPackage.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/LocalizationFromPackage.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/LocalizationFromPackage.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Localization In Previews/LocalizationSampleView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/LocalizationSampleView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/LocalizationSampleView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/LocalizationSampleView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Matched Geometry/MatchedGeometrySample.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/MatchedGeometrySample.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/MatchedGeometrySample.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/MatchedGeometrySample.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Name Editor/NameEditorView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/NameEditorView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/NameEditorView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/NameEditorView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/NavigationBar and SwiftUI/SampleNavigationBarContentView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SampleNavigationBarContentView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SampleNavigationBarContentView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SampleNavigationBarContentView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/NavigationBar and SwiftUI/ScrollableContentStatesSample.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ScrollableContentStatesSample.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ScrollableContentStatesSample.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ScrollableContentStatesSample.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/NavigationBar SegmentedControl/NavigationBarSegmentedControl.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/NavigationBarSegmentedControl.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/NavigationBarSegmentedControl.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/NavigationBarSegmentedControl.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/NavigationBar titleEffect/NavigationBarTitleScrollEffectView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/NavigationBarTitleScrollEffectView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/NavigationBarTitleScrollEffectView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/NavigationBarTitleScrollEffectView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/OutlineGroup Experiments/OutlineGroupExperimentsView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/OutlineGroupExperimentsView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/OutlineGroupExperimentsView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/OutlineGroupExperimentsView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Page Transition State/SampleTransitionPageView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SampleTransitionPageView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SampleTransitionPageView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SampleTransitionPageView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Redacted Animation/RedactedAnimationExperimentView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/RedactedAnimationExperimentView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/RedactedAnimationExperimentView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/RedactedAnimationExperimentView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Safari VIew Controller/SafariContainerSampleView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SafariContainerSampleView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SafariContainerSampleView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SafariContainerSampleView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/SampleLayout.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SampleLayout.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SampleLayout.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SampleLayout.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/SampleView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SampleView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SampleView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SampleView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Scroll And Touch Gestures/ScrollAndTouchGestures_DemoView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ScrollAndTouchGestures_DemoView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ScrollAndTouchGestures_DemoView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ScrollAndTouchGestures_DemoView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Scroll Visible Content/CheckScrollVisibleContentView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CheckScrollVisibleContentView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CheckScrollVisibleContentView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/CheckScrollVisibleContentView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Searchable Modifier/SeachableViewModesSampleView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SeachableViewModesSampleView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SeachableViewModesSampleView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SeachableViewModesSampleView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Searchable Modifier/SearchableModifierSampleView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SearchableModifierSampleView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SearchableModifierSampleView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SearchableModifierSampleView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/SwiftUI Navigation Bar Animation/ImageWithTitleContentView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ImageWithTitleContentView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ImageWithTitleContentView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ImageWithTitleContentView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/SwiftUI Navigation Bar Animation/Utils/ScrollReaderView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ScrollReaderView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ScrollReaderView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ScrollReaderView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/SwiftUI Navigation Bar Animation/Utils/SizeReader.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SizeReader.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SizeReader.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/SizeReader.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/UITextView in Scroll SwiftUI/UITextViewInScrollView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/UITextViewInScrollView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/UITextViewInScrollView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/UITextViewInScrollView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Understanding Focus/UnderstandingFocusView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/UnderstandingFocusView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/UnderstandingFocusView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/UnderstandingFocusView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/Upcoming Workout Cell/UpcomingWorkoutCell.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/UpcomingWorkoutCell.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/UpcomingWorkoutCell.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/UpcomingWorkoutCell.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Utils/LinearEquation.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/LinearEquation.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/LinearEquation.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/LinearEquation.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Utils/ScrollOffsetReader/ScrollViewOffsetReader.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ScrollViewOffsetReader.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ScrollViewOffsetReader.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ScrollViewOffsetReader.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Views/ContentView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-iphoneos/Prototype House.build/Objects-normal/arm64/ContentView.o"
+  }
+}

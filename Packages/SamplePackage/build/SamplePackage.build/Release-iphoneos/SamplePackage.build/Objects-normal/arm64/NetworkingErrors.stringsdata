@@ -1,0 +1,20 @@
+{
+  "source": "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/Sources/SamplePackage/NetworkingErrors.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Client Error"
+      },
+      {
+        "comment": "",
+        "key": "Server Error"
+      },
+      {
+        "comment": "",
+        "key": "Authorization Error"
+      }
+    ]
+  },
+  "version": 1
+}

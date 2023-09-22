@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "dfea0bf5c24c74a2b55901d838b546fac978b309204877d72999d7e2420d81b6"
+build_start_time: [1695365215, 264591000]
+build_end_time: [1695365218, 778797000]
+inputs:
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House Watch App/ContentView.swift": [1687339488, 330086855]
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House Watch App/PrototypeHouseWatchApp.swift": [1687339530, 63673645]
+  ? "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-watchos/Prototype House Watch App.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1695365215, 74637158]

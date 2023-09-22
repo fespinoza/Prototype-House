@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Resources/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameAccentColor</string>
+			<key>relativePath</key>
+			<string>./AccentColor.colorset</string>
+			<key>swiftSymbol</key>
+			<string>accent</string>
+		</dict>
+	</array>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/ImageGallery/images.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGymSample1</string>
+			<key>relativePath</key>
+			<string>./gymSample1.imageset</string>
+			<key>swiftSymbol</key>
+			<string>gymSample1</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/ImageGallery/images.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGymSample2</string>
+			<key>relativePath</key>
+			<string>./gymSample2.imageset</string>
+			<key>swiftSymbol</key>
+			<string>gymSample2</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Prototypes/ImageGallery/images.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameGymSample3</string>
+			<key>relativePath</key>
+			<string>./gymSample3.imageset</string>
+			<key>swiftSymbol</key>
+			<string>gymSample3</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Resources/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameIconBig</string>
+			<key>relativePath</key>
+			<string>./Appstore Like Navigation/iconBig.imageset</string>
+			<key>swiftSymbol</key>
+			<string>iconBig</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Resources/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameIconSmall</string>
+			<key>relativePath</key>
+			<string>./Appstore Like Navigation/iconSmall.imageset</string>
+			<key>swiftSymbol</key>
+			<string>iconSmall</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Resources/Preview Content/Preview Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLondon</string>
+			<key>relativePath</key>
+			<string>./london.imageset</string>
+			<key>swiftSymbol</key>
+			<string>london</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Resources/Preview Content/Preview Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameSampleAvatar</string>
+			<key>relativePath</key>
+			<string>./sampleAvatar.imageset</string>
+			<key>swiftSymbol</key>
+			<string>sampleAvatar</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Resources/Preview Content/Preview Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameTedLassoBanner</string>
+			<key>relativePath</key>
+			<string>./tedLassoBanner.imageset</string>
+			<key>swiftSymbol</key>
+			<string>tedLassoBanner</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/fespinoza/Code/experiments/Prototype House/Prototype House/Resources/Preview Content/Preview Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameTedLassoBanner2</string>
+			<key>relativePath</key>
+			<string>./tedLassoBanner2.imageset</string>
+			<key>swiftSymbol</key>
+			<string>tedLassoBanner2</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Appstore\ Like\ Navigation/TV\ App/TvAppContentViewController.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Views/ContentView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/SwiftUI\ Navigation\ Bar\ Animation/ImageWithTitleContentView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Data/MockData.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Content\ Onboarding/BubbleView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/OutlineGroup\ Experiments/OutlineGroupExperimentsView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Extensions/SwiftUI/DemoWrapperView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Appstore\ Like\ Navigation/TV\ App/Content/TvAppBackButton.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/NavigationBar\ titleEffect/NavigationBarTitleScrollEffectView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Combine\ Value\ Buffering/CombineValueBufferingView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Appstore\ Like\ Navigation/TV\ App/Content/TvAppContentViewData.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Name\ Editor/NameEditorView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Extensions/UIKit/UIView-Layout.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/NavigationBar\ SegmentedControl/NavigationBarSegmentedControl.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Basic\ Transition/BasicTransitionExampleView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Custom\ SwiftUI\ Presentation/CustomPresentationView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Appstore\ Like\ Navigation/AppStoreViewController.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Douple\ Tap\ Gesture/DoubleTapGestureView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Alert\ with\ TextField/AlertTextStackOverflow.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Understanding\ Focus/UnderstandingFocusView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Extensions/UIKit/NSDirectionalEdgeInsets.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/CommentComposer/CommentDemoView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/CommentComposer/VStackAnimationTest.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Redacted\ Animation/RedactedAnimationExperimentView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/NavigationBar\ and\ SwiftUI/ScrollableContentStatesSample.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Appstore\ Like\ Navigation/Subviews/AppStoreViewController-Subviews.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Localization\ In\ Previews/LocalizationSampleView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/BottomSheetAlternatives/BottomSheetExperimentView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Utils/ScrollOffsetReader/ScrollViewOffsetReader.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Extensions/SwiftUI/View-Extensions.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/CommentComposer/CommentComposerView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Content\ Onboarding/OnboardingOverlayView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Custom\ Search/CustomSearchView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Errors/ErrorSampleView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Matched\ Geometry/MatchedGeometrySample.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Extensions/UIKit/UIEdgeInsets.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Alert\ with\ TextField/AlertWithTextFieldSampleView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/SampleView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Content\ Onboarding/TriangleShape.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Localization\ In\ Previews/LocalizationFromPackage.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/App/PrototypeHouseApp.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Appstore\ Like\ Navigation/TV\ App/Content/TvAppScrollableContentView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Content\ Onboarding/ShapeDifferenceExample.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Searchable\ Modifier/SearchableModifierSampleView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Scroll\ And\ Touch\ Gestures/ScrollAndTouchGestures_DemoView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Alert\ with\ TextField/AlertTextOnUIkit.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Upcoming\ Workout\ Cell/UpcomingWorkoutCell.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/UITextView\ in\ Scroll\ SwiftUI/UITextViewInScrollView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Searchable\ Modifier/SeachableViewModesSampleView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Appstore\ Like\ Navigation/TV\ App/TvAppContentSwiftUIView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Appstore\ Like\ Navigation/TV\ App/Content/TvAppContentView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Safari\ VIew\ Controller/SafariContainerSampleView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/SwiftUI\ Navigation\ Bar\ Animation/Utils/ScrollReaderView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Page\ Transition\ State/SampleTransitionPageView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/iOS\ 15\ Updates/IOS15UpdatesShowcaseView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Content\ Onboarding/ContentOnboardingSampleView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/SampleLayout.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/NavigationBar\ and\ SwiftUI/SampleNavigationBarContentView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Utils/LinearEquation.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/ImageGallery/ImageGalleryView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/SwiftUI\ Navigation\ Bar\ Animation/Utils/SizeReader.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/ImageGallery/ImageLayoutView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/Prototype\ House/Prototypes/Scroll\ Visible\ Content/CheckScrollVisibleContentView.swift
+/Users/fespinoza/Code/experiments/Prototype\ House/build/Prototype\ House.build/Release-iphoneos/Prototype\ House.build/DerivedSources/GeneratedAssetSymbols.swift

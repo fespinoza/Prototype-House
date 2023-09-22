@@ -1,0 +1,485 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "\"%@\"" : {
+
+    },
+    "%lf" : {
+
+    },
+    "%lf - %lf  - %lf - %lf" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lf - %2$lf  - %3$lf - %4$lf"
+          }
+        }
+      }
+    },
+    "%lld/2" : {
+
+    },
+    "`isSearching` changed!" : {
+
+    },
+    "A way to implement this in swiftUI" : {
+
+    },
+    "Alert Experiment" : {
+
+    },
+    "All works!" : {
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt funker bra!"
+          }
+        }
+      }
+    },
+    "Animate" : {
+
+    },
+    "Another Error" : {
+      "comment" : "Error message",
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andre Error"
+          }
+        }
+      }
+    },
+    "Avengers" : {
+
+    },
+    "Background colors can be seen behind the NavigationView" : {
+
+    },
+    "Bites the dust" : {
+      "comment" : "Error message"
+    },
+    "Book" : {
+
+    },
+    "bottom" : {
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bunnen"
+          }
+        }
+      }
+    },
+    "Bottom" : {
+
+    },
+    "Bottom of the content" : {
+
+    },
+    "Buffered: " : {
+
+    },
+    "Cancel" : {
+
+    },
+    "Center" : {
+
+    },
+    "Clear" : {
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tom"
+          }
+        }
+      }
+    },
+    "Close" : {
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steng"
+          }
+        }
+      }
+    },
+    "content" : {
+
+    },
+    "Custom SwiftUI Presentation" : {
+
+    },
+    "Delete" : {
+
+    },
+    "Detail!" : {
+
+    },
+    "Double Tap Gesture" : {
+
+    },
+    "Duration: " : {
+
+    },
+    "Edit Name" : {
+
+    },
+    "Felipe Espinoza" : {
+
+    },
+    "Fine!" : {
+
+    },
+    "Finish" : {
+
+    },
+    "First" : {
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Først"
+          }
+        }
+      }
+    },
+    "Foo" : {
+
+    },
+    "Foo bar" : {
+      "comment" : "asdf",
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foo Bar"
+          }
+        }
+      }
+    },
+    "Get Apple TV+" : {
+
+    },
+    "Have the style touching the safe area edge." : {
+
+    },
+    "Hello" : {
+
+    },
+    "Hello World!" : {
+
+    },
+    "Hello, world!" : {
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hey Verden"
+          }
+        }
+      }
+    },
+    "Hello, World!" : {
+
+    },
+    "Hi" : {
+
+    },
+    "Hierarchies - List" : {
+
+    },
+    "Hierarchies - Spec" : {
+
+    },
+    "Hierarchies - StackOverflow" : {
+
+    },
+    "Invisible Letters: %@" : {
+
+    },
+    "List & NavView" : {
+
+    },
+    "Logo" : {
+
+    },
+    "London" : {
+
+    },
+    "Lorem ipsum dipsum dupsko, her er en tekst om hva du finner her." : {
+
+    },
+    "Middle" : {
+
+    },
+    "More content down 👇" : {
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mer innhold nederst 👇 "
+          }
+        }
+      }
+    },
+    "myCustomMessage" : {
+      "comment" : "Localizable.strings\n  Prototype House\n\n  Created by Felipe Espinoza on 30/05/2022.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hello World!"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¡Hola Mundo!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hei verden!"
+          }
+        }
+      }
+    },
+    "mySecretMessage" : {
+      "comment" : "Foo bar",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This is a sample of a longer description"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este es un ejemplo de una descripción más larga"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dette er en sample av en lengre beskrivelse"
+          }
+        }
+      }
+    },
+    "Name" : {
+
+    },
+    "Nav Bar Background" : {
+
+    },
+    "Network Errors" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Errores de Conexión"
+          }
+        }
+      }
+    },
+    "Next state" : {
+
+    },
+    "Next Step" : {
+
+    },
+    "Normal: " : {
+
+    },
+    "Not searching" : {
+
+    },
+    "offset" : {
+
+    },
+    "Offset: " : {
+
+    },
+    "Offset: %lf" : {
+
+    },
+    "OK" : {
+
+    },
+    "Other" : {
+
+    },
+    "Placeholder: Hello, World!" : {
+
+    },
+    "Present Detail" : {
+
+    },
+    "Press count: %lld" : {
+
+    },
+    "Press me" : {
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trikk meg"
+          }
+        }
+      }
+    },
+    "Profile" : {
+
+    },
+    "Push me" : {
+
+    },
+    "rect" : {
+
+    },
+    "Reset" : {
+
+    },
+    "Sample" : {
+
+    },
+    "Sample bottomLeading" : {
+
+    },
+    "Sample bottomTrailing" : {
+
+    },
+    "Sample topLeading" : {
+
+    },
+    "Sample topTrailing" : {
+
+    },
+    "Sample Transition" : {
+      "localizations" : {
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sample Oversettelse"
+          }
+        }
+      }
+    },
+    "Screen Background" : {
+
+    },
+    "ScreenWidth: %lf" : {
+
+    },
+    "Scroll And Touch" : {
+
+    },
+    "Scroll To Current Letter" : {
+
+    },
+    "Search" : {
+
+    },
+    "Search for avengers" : {
+
+    },
+    "Searching" : {
+
+    },
+    "Second" : {
+
+    },
+    "Selected: %lld" : {
+
+    },
+    "Shape" : {
+
+    },
+    "Show onboarding" : {
+
+    },
+    "Show website!" : {
+
+    },
+    "Shows" : {
+
+    },
+    "Simple Title" : {
+
+    },
+    "Statistics" : {
+
+    },
+    "Step #%lld" : {
+
+    },
+    "Sumbit" : {
+
+    },
+    "Tab 1" : {
+
+    },
+    "Tab 2" : {
+
+    },
+    "Tab 3" : {
+
+    },
+    "Ted lasso" : {
+
+    },
+    "Ted Lasso" : {
+
+    },
+    "Teddy" : {
+
+    },
+    "The idea is to make a custom presentation of a view controller in swiftUI" : {
+
+    },
+    "Third" : {
+
+    },
+    "top" : {
+
+    },
+    "Top" : {
+
+    },
+    "Top of the content" : {
+
+    },
+    "Understanding Focus" : {
+
+    },
+    "Upside Down?" : {
+
+    },
+    "Visible Letters (%lld): %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Visible Letters (%1$lld): %2$@"
+          }
+        }
+      }
+    },
+    "Visible Rect: %@" : {
+
+    },
+    "Visible: %@" : {
+
+    }
+  },
+  "version" : "1.0"
+}

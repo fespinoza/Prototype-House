@@ -1,0 +1,30 @@
+{
+  "" : {
+    "const-values" : "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/build/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/SamplePackage-master.swiftconstvalues",
+    "dependencies" : "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/build/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/SamplePackage-master.d",
+    "diagnostics" : "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/build/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/SamplePackage-master.dia",
+    "emit-module-dependencies" : "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/build/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/SamplePackage-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/build/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/SamplePackage-master-emit-module.dia",
+    "swift-dependencies" : "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/build/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/SamplePackage-master.swiftdeps"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/build/SamplePackage.build/Release-iphoneos/SamplePackage.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "index-unit-output-path" : "/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/build/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/resource_bundle_accessor.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/build/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/resource_bundle_accessor.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/Sources/SamplePackage/CustomLoadingView.swift" : {
+    "index-unit-output-path" : "/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/CustomLoadingView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/build/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/CustomLoadingView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/build/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/CustomLoadingView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/Sources/SamplePackage/NetworkingErrors.swift" : {
+    "index-unit-output-path" : "/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/NetworkingErrors.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/build/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/NetworkingErrors.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/build/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/NetworkingErrors.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/Sources/SamplePackage/SamplePackage.swift" : {
+    "index-unit-output-path" : "/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/SamplePackage.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/build/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/SamplePackage.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/build/SamplePackage.build/Release-iphoneos/SamplePackage.build/Objects-normal/arm64/SamplePackage.o"
+  }
+}

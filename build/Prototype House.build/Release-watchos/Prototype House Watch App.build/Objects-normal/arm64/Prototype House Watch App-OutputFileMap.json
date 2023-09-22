@@ -1,0 +1,25 @@
+{
+  "" : {
+    "const-values" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-watchos/Prototype House Watch App.build/Objects-normal/arm64/Prototype House Watch App-master.swiftconstvalues",
+    "dependencies" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-watchos/Prototype House Watch App.build/Objects-normal/arm64/Prototype House Watch App-master.d",
+    "diagnostics" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-watchos/Prototype House Watch App.build/Objects-normal/arm64/Prototype House Watch App-master.dia",
+    "emit-module-dependencies" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-watchos/Prototype House Watch App.build/Objects-normal/arm64/Prototype House Watch App-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-watchos/Prototype House Watch App.build/Objects-normal/arm64/Prototype House Watch App-master-emit-module.dia",
+    "swift-dependencies" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-watchos/Prototype House Watch App.build/Objects-normal/arm64/Prototype House Watch App-master.swiftdeps"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-watchos/Prototype House Watch App.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-watchos/Prototype House Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-watchos/Prototype House Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-watchos/Prototype House Watch App.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House Watch App/ContentView.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-watchos/Prototype House Watch App.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-watchos/Prototype House Watch App.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-watchos/Prototype House Watch App.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/fespinoza/Code/experiments/Prototype House/Prototype House Watch App/PrototypeHouseWatchApp.swift" : {
+    "index-unit-output-path" : "/Prototype House.build/Release-watchos/Prototype House Watch App.build/Objects-normal/arm64/PrototypeHouseWatchApp.o",
+    "llvm-bc" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-watchos/Prototype House Watch App.build/Objects-normal/arm64/PrototypeHouseWatchApp.bc",
+    "object" : "/Users/fespinoza/Code/experiments/Prototype House/build/Prototype House.build/Release-watchos/Prototype House Watch App.build/Objects-normal/arm64/PrototypeHouseWatchApp.o"
+  }
+}

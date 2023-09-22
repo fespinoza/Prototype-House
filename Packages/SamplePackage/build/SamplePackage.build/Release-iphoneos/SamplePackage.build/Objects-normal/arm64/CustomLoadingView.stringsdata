@@ -1,0 +1,12 @@
+{
+  "source": "/Users/fespinoza/Code/experiments/Prototype House/Packages/SamplePackage/Sources/SamplePackage/CustomLoadingView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "message for the translator",
+        "key": "Loading Message"
+      }
+    ]
+  },
+  "version": 1
+}

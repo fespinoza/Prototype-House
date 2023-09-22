@@ -1,0 +1,37 @@
+---
+triple:          'arm64_32-apple-darwin'
+binary-path:     '/Users/fespinoza/Code/experiments/Prototype House/build/Release-watchos/Prototype House Watch App.app/Prototype House Watch App'
+relocations:
+  - { offsetInCU: 0x3B, offset: 0x40DF6, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App11ContentViewVMa', symObjAddr: 0x0, symBinAddr: 0xAF4C, symSize: 0x10 }
+  - { offsetInCU: 0x4B, offset: 0x40E06, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App11ContentViewV7SwiftUI0F0AA4BodyAdEP_AGWT', symObjAddr: 0x10, symBinAddr: 0xAF5C, symSize: 0x10 }
+  - { offsetInCU: 0xAF, offset: 0x40E6A, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App11ContentViewV4bodyQrvg7SwiftUI05TupleF0VyAE0F0PAEE15foregroundColoryQrAE0L0VSgFQOyAiEE10imageScaleyQrAE5ImageV0N0OFQOyAP_Qo__Qo__AE4TextVtGyXEfU_', symObjAddr: 0x20, symBinAddr: 0xAF6C, symSize: 0x2FC }
+  - { offsetInCU: 0x180, offset: 0x40F3B, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App11ContentViewV7SwiftUI0F0AadEP4body4BodyQzvgTW', symObjAddr: 0x33C, symBinAddr: 0xB288, symSize: 0x10C }
+  - { offsetInCU: 0x251, offset: 0x4100C, size: 0x4, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x448, symBinAddr: 0xB394, symSize: 0x4C }
+  - { offsetInCU: 0x261, offset: 0x4101C, size: 0x4, addend: 0x0, symName: '_$s7SwiftUI17EnvironmentValuesV10imageScaleAA5ImageV0F0OvpACTKq', symObjAddr: 0x494, symBinAddr: 0xB3E0, symSize: 0x20 }
+  - { offsetInCU: 0x275, offset: 0x41030, size: 0x4, addend: 0x0, symName: '_$s7SwiftUI17EnvironmentValuesV10imageScaleAA5ImageV0F0OvpACTkq', symObjAddr: 0x4B4, symBinAddr: 0xB400, symSize: 0x6C }
+  - { offsetInCU: 0x289, offset: 0x41044, size: 0x4, addend: 0x0, symName: '_$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvpACTKq', symObjAddr: 0x520, symBinAddr: 0xB46C, symSize: 0x28 }
+  - { offsetInCU: 0x29D, offset: 0x41058, size: 0x4, addend: 0x0, symName: '_$s7SwiftUI17EnvironmentValuesV15foregroundColorAA0F0VSgvpACTkq', symObjAddr: 0x548, symBinAddr: 0xB494, symSize: 0x28 }
+  - { offsetInCU: 0x2B1, offset: 0x4106C, size: 0x4, addend: 0x0, symName: '_$s7SwiftUI4TextV7StorageOWOy', symObjAddr: 0x5F8, symBinAddr: 0xB544, symSize: 0x18 }
+  - { offsetInCU: 0x2C1, offset: 0x4107C, size: 0x4, addend: 0x0, symName: '_$ss13_StringObjectV7VariantOWOy', symObjAddr: 0x610, symBinAddr: 0xB55C, symSize: 0x1C }
+  - { offsetInCU: 0x2D1, offset: 0x4108C, size: 0x4, addend: 0x0, symName: '_$s7SwiftUI4TextV7StorageOWOe', symObjAddr: 0x668, symBinAddr: 0xB5B4, symSize: 0x18 }
+  - { offsetInCU: 0x2E1, offset: 0x4109C, size: 0x4, addend: 0x0, symName: '_$ss13_StringObjectV7VariantOWOe', symObjAddr: 0x680, symBinAddr: 0xB5CC, symSize: 0x1C }
+  - { offsetInCU: 0x2F1, offset: 0x410AC, size: 0x4, addend: 0x0, symName: '_$s7SwiftUI15ModifiedContentVyAA6VStackVyAA9TupleViewVyACyACyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAI5ScaleOGGAKyAA5ColorVSgGG_AA4TextVtGGAA14_PaddingLayoutVGACyxq_GAA0G0A2AA1_RzAA0gL0R_rlWl', symObjAddr: 0x6A0, symBinAddr: 0xB5EC, symSize: 0x6C }
+  - { offsetInCU: 0x301, offset: 0x410BC, size: 0x4, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledNameAbstract, symObjAddr: 0x70C, symBinAddr: 0xB658, symSize: 0x50 }
+  - { offsetInCU: 0x311, offset: 0x410CC, size: 0x4, addend: 0x0, symName: '_$s7SwiftUI6VStackVyAA9TupleViewVyAA15ModifiedContentVyAGyAA5ImageVAA30_EnvironmentKeyWritingModifierVyAI5ScaleOGGAKyAA5ColorVSgGG_AA4TextVtGGACyxGAA0E0AAWl', symObjAddr: 0x75C, symBinAddr: 0xB6A8, symSize: 0x4C }
+  - { offsetInCU: 0x3B5, offset: 0x41170, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App11ContentViewV7SwiftUI0F0AadEP05_makeF04view6inputsAD01_F7OutputsVAD11_GraphValueVyxG_AD01_F6InputsVtFZTW', symObjAddr: 0x31C, symBinAddr: 0xB268, symSize: 0x4 }
+  - { offsetInCU: 0x3CD, offset: 0x41188, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App11ContentViewV7SwiftUI0F0AadEP05_makeF4List4view6inputsAD01_fJ7OutputsVAD11_GraphValueVyxG_AD01_fJ6InputsVtFZTW', symObjAddr: 0x320, symBinAddr: 0xB26C, symSize: 0x4 }
+  - { offsetInCU: 0x3E5, offset: 0x411A0, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App11ContentViewV7SwiftUI0F0AadEP14_viewListCount6inputsSiSgAD01_fjK6InputsV_tFZTW', symObjAddr: 0x324, symBinAddr: 0xB270, symSize: 0x18 }
+  - { offsetInCU: 0x27, offset: 0x41310, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App0abcD0V4bodyQrvgAA11ContentViewVyXEfU_', symObjAddr: 0x0, symBinAddr: 0xB6F4, symSize: 0x4 }
+  - { offsetInCU: 0x42, offset: 0x4132B, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App0abcD0V4bodyQrvgAA11ContentViewVyXEfU_', symObjAddr: 0x0, symBinAddr: 0xB6F4, symSize: 0x4 }
+  - { offsetInCU: 0x69, offset: 0x41352, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App0abcD0V7SwiftUI0D0AadEP4body4BodyQzvgTW', symObjAddr: 0x4, symBinAddr: 0xB6F8, symSize: 0xA0 }
+  - { offsetInCU: 0x93, offset: 0x4137C, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App0abcD0V7SwiftUI0D0AadEPxycfCTW', symObjAddr: 0xA4, symBinAddr: 0xB798, symSize: 0x4 }
+  - { offsetInCU: 0xBA, offset: 0x413A3, size: 0x4, addend: 0x0, symName: _main, symObjAddr: 0xA8, symBinAddr: 0xB79C, symSize: 0x34 }
+  - { offsetInCU: 0xE6, offset: 0x413CF, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App0abcD0VAC7SwiftUI0D0AAWl', symObjAddr: 0xDC, symBinAddr: 0xB7D0, symSize: 0x44 }
+  - { offsetInCU: 0xF6, offset: 0x413DF, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App0abcD0VMa', symObjAddr: 0x120, symBinAddr: 0xB814, symSize: 0x10 }
+  - { offsetInCU: 0x106, offset: 0x413EF, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App0abcD0V7SwiftUI0D0AA4BodyAdEP_AD5ScenePWT', symObjAddr: 0x130, symBinAddr: 0xB824, symSize: 0x10 }
+  - { offsetInCU: 0x116, offset: 0x413FF, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App11ContentViewVAC7SwiftUI0F0AAWl', symObjAddr: 0x18C, symBinAddr: 0xB834, symSize: 0x44 }
+  - { offsetInCU: 0x126, offset: 0x4140F, size: 0x4, addend: 0x0, symName: '_$s7SwiftUI11WindowGroupVy25Prototype_House_Watch_App11ContentViewVGACyxGAA5SceneAAWl', symObjAddr: 0x1D0, symBinAddr: 0xB878, symSize: 0x4C }
+  - { offsetInCU: 0x2B, offset: 0x4150E, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App19ResourceBundleClass33_6065D5AD7753E1BDD35282BBA8576736LLCfD', symObjAddr: 0x0, symBinAddr: 0xB8C8, symSize: 0x10 }
+  - { offsetInCU: 0x51, offset: 0x41534, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App19ResourceBundleClass33_6065D5AD7753E1BDD35282BBA8576736LLCfD', symObjAddr: 0x0, symBinAddr: 0xB8C8, symSize: 0x10 }
+  - { offsetInCU: 0x7E, offset: 0x41561, size: 0x4, addend: 0x0, symName: '_$s25Prototype_House_Watch_App19ResourceBundleClass33_6065D5AD7753E1BDD35282BBA8576736LLCMa', symObjAddr: 0x10, symBinAddr: 0xB8D8, symSize: 0x20 }
+...

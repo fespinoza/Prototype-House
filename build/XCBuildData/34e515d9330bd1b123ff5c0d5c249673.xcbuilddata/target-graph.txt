@@ -1,0 +1,11 @@
+Target dependency graph (5 targets)
+Target 'Prototype House' in project 'Prototype House'
+➜ Explicit dependency on target 'Prototype House Watch App' in project 'Prototype House'
+➜ Explicit dependency on target 'SamplePackage' in project 'SamplePackage'
+Target 'SamplePackage' in project 'SamplePackage'
+➜ Explicit dependency on target 'SamplePackage' in project 'SamplePackage'
+➜ Explicit dependency on target 'SamplePackage_SamplePackage' in project 'SamplePackage'
+Target 'SamplePackage' in project 'SamplePackage'
+➜ Explicit dependency on target 'SamplePackage_SamplePackage' in project 'SamplePackage'
+Target 'SamplePackage_SamplePackage' in project 'SamplePackage' (no dependencies)
+Target 'Prototype House Watch App' in project 'Prototype House' (no dependencies)
