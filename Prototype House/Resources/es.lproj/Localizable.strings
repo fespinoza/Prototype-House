@@ -9,3 +9,5 @@
 "myCustomMessage" = "¡Hola Mundo!";
 
 "mySecretMessage" = "Este es un ejemplo de una descripción más larga";
+
+"Network Errors" = "Errores de Conexión";

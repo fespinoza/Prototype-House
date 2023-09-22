@@ -40,7 +40,7 @@ struct CheckScrollVisibleContentView: View {
 
     var visibleContent: [String] {
         let numberOfSpaces = numberOfElements - 1
-        let totalWidth = elementSpacing * CGFloat(numberOfSpaces) + elementSize * CGFloat(numberOfElements)
+        let _ = elementSpacing * CGFloat(numberOfSpaces) + elementSize * CGFloat(numberOfElements)
 
         let foo = content.enumerated().filter { index, element in
             let elementOrigin: CGFloat = CGFloat(index) * elementSize + CGFloat(index) * elementSpacing

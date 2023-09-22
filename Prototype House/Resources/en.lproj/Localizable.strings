@@ -9,3 +9,5 @@
 "myCustomMessage" = "Hello World!";
 
 "mySecretMessage" = "This is a sample of a longer description";
+
+"Network Errors" = "Network Errors";

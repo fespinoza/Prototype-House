@@ -11,9 +11,7 @@ import SwiftUI
 struct PrototypeHouseApp: App {
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                BasicTransitionExampleView()
-            }
+            LocalizationFromPackage()
 
 //            ViewControllerRepresentable {
 //                UINavigationController(rootViewController: AppStoreViewController())
