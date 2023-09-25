@@ -74,6 +74,8 @@
 		9BC17D612783735A000FC491 /* SplitViewExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D602783735A000FC491 /* SplitViewExperiment.swift */; };
 		9BC17D642783752C000FC491 /* NSView-Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC17D632783752C000FC491 /* NSView-Extensions.swift */; };
 		9BC26C612A9DE41E007E70B7 /* UpcomingWorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC26C602A9DE41E007E70B7 /* UpcomingWorkoutCell.swift */; };
+		9BC451F02AC1B180002F9D8E /* Prototype_House_iOS_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC451EF2AC1B180002F9D8E /* Prototype_House_iOS_Tests.swift */; };
+		9BC451F72AC1B1C8002F9D8E /* LinearEquationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC451F62AC1B1C8002F9D8E /* LinearEquationTests.swift */; };
 		9BC488C3284560BE00E36E12 /* OutlineGroupExperimentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC488C2284560BE00E36E12 /* OutlineGroupExperimentsView.swift */; };
 		9BC881A72876C9450069B48E /* ScrollableContentStatesSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC881A62876C9450069B48E /* ScrollableContentStatesSample.swift */; };
 		9BC939AD281EB909003B5B9B /* NameEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC939AC281EB909003B5B9B /* NameEditorView.swift */; };
@@ -111,6 +113,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9B81E7EA2A42F960003324FE;
 			remoteInfo = "Prototype House Watch Watch App";
+		};
+		9BC451F12AC1B180002F9D8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF616AC276376D400D26E7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF616B3276376D400D26E7B;
+			remoteInfo = "Prototype House";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -201,6 +210,9 @@
 		9BC26C602A9DE41E007E70B7 /* UpcomingWorkoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingWorkoutCell.swift; sourceTree = "<group>"; };
 		9BC26C632A9DFE2D007E70B7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9BC26C642A9DFE3D007E70B7 /* ErrorSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorSampleView.swift; sourceTree = "<group>"; };
+		9BC451ED2AC1B180002F9D8E /* Prototype House iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prototype House iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC451EF2AC1B180002F9D8E /* Prototype_House_iOS_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype_House_iOS_Tests.swift; sourceTree = "<group>"; };
+		9BC451F62AC1B1C8002F9D8E /* LinearEquationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearEquationTests.swift; sourceTree = "<group>"; };
 		9BC488C2284560BE00E36E12 /* OutlineGroupExperimentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupExperimentsView.swift; sourceTree = "<group>"; };
 		9BC881A62876C9450069B48E /* ScrollableContentStatesSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableContentStatesSample.swift; sourceTree = "<group>"; };
 		9BC939AC281EB909003B5B9B /* NameEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameEditorView.swift; sourceTree = "<group>"; };
@@ -244,6 +256,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9BC17D3F278335F8000FC491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC451EA2AC1B180002F9D8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -638,6 +657,15 @@
 			path = Errors;
 			sourceTree = "<group>";
 		};
+		9BC451EE2AC1B180002F9D8E /* Prototype House iOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9BC451EF2AC1B180002F9D8E /* Prototype_House_iOS_Tests.swift */,
+				9BC451F62AC1B1C8002F9D8E /* LinearEquationTests.swift */,
+			);
+			path = "Prototype House iOS Tests";
+			sourceTree = "<group>";
+		};
 		9BC488C1284560A700E36E12 /* OutlineGroup Experiments */ = {
 			isa = PBXGroup;
 			children = (
@@ -728,6 +756,7 @@
 				9BC17D43278335F8000FC491 /* Prototype House Mac */,
 				9BD866B129AD20CE0080DED7 /* Prototype House UIKit */,
 				9B81E7EC2A42F960003324FE /* Prototype House Watch App */,
+				9BC451EE2AC1B180002F9D8E /* Prototype House iOS Tests */,
 				9BF616B5276376D400D26E7B /* Products */,
 				9B851CF62A57571F00C37160 /* Frameworks */,
 			);
@@ -740,6 +769,7 @@
 				9BC17D42278335F8000FC491 /* Prototype House Mac.app */,
 				9BD866B029AD20CE0080DED7 /* Prototype House UIKit.app */,
 				9B81E7EB2A42F960003324FE /* Prototype House Watch App.app */,
+				9BC451ED2AC1B180002F9D8E /* Prototype House iOS Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -943,6 +973,24 @@
 			productReference = 9BC17D42278335F8000FC491 /* Prototype House Mac.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9BC451EC2AC1B180002F9D8E /* Prototype House iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BC451F52AC1B181002F9D8E /* Build configuration list for PBXNativeTarget "Prototype House iOS Tests" */;
+			buildPhases = (
+				9BC451E92AC1B180002F9D8E /* Sources */,
+				9BC451EA2AC1B180002F9D8E /* Frameworks */,
+				9BC451EB2AC1B180002F9D8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BC451F22AC1B180002F9D8E /* PBXTargetDependency */,
+			);
+			name = "Prototype House iOS Tests";
+			productName = "Prototype House iOS Tests";
+			productReference = 9BC451ED2AC1B180002F9D8E /* Prototype House iOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9BD866AF29AD20CE0080DED7 /* Prototype House UIKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BD866C329AD20CF0080DED7 /* Build configuration list for PBXNativeTarget "Prototype House UIKit" */;
@@ -998,6 +1046,10 @@
 					9BC17D41278335F8000FC491 = {
 						CreatedOnToolsVersion = 13.2;
 					};
+					9BC451EC2AC1B180002F9D8E = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9BF616B3276376D400D26E7B;
+					};
 					9BD866AF29AD20CE0080DED7 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -1025,6 +1077,7 @@
 				9BC17D41278335F8000FC491 /* Prototype House Mac */,
 				9BD866AF29AD20CE0080DED7 /* Prototype House UIKit */,
 				9B81E7EA2A42F960003324FE /* Prototype House Watch App */,
+				9BC451EC2AC1B180002F9D8E /* Prototype House iOS Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -1045,6 +1098,13 @@
 			files = (
 				9BC17D4C278335FA000FC491 /* Preview Assets.xcassets in Resources */,
 				9BC17D49278335FA000FC491 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC451EB2AC1B180002F9D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1095,6 +1155,15 @@
 				9BC17D5A27833C68000FC491 /* SFSymbolsReplica.swift in Sources */,
 				9BC17D612783735A000FC491 /* SplitViewExperiment.swift in Sources */,
 				9BC17D5F278341FC000FC491 /* ContentData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC451E92AC1B180002F9D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BC451F72AC1B1C8002F9D8E /* LinearEquationTests.swift in Sources */,
+				9BC451F02AC1B180002F9D8E /* Prototype_House_iOS_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1189,6 +1258,11 @@
 			isa = PBXTargetDependency;
 			target = 9B81E7EA2A42F960003324FE /* Prototype House Watch App */;
 			targetProxy = 9B81E7F62A42F960003324FE /* PBXContainerItemProxy */;
+		};
+		9BC451F22AC1B180002F9D8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF616B3276376D400D26E7B /* Prototype House */;
+			targetProxy = 9BC451F12AC1B180002F9D8E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1329,6 +1403,55 @@
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9BC451F32AC1B181002F9D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4E6CZX3H5W;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fespinozacast.projects.sample.Prototype-House-iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prototype House iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Prototype House iOS";
+			};
+			name = Debug;
+		};
+		9BC451F42AC1B181002F9D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4E6CZX3H5W;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fespinozacast.projects.sample.Prototype-House-iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prototype House iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Prototype House iOS";
 			};
 			name = Release;
 		};
@@ -1595,6 +1718,15 @@
 			buildConfigurations = (
 				9BC17D4E278335FA000FC491 /* Debug */,
 				9BC17D4F278335FA000FC491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BC451F52AC1B181002F9D8E /* Build configuration list for PBXNativeTarget "Prototype House iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC451F32AC1B181002F9D8E /* Debug */,
+				9BC451F42AC1B181002F9D8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
