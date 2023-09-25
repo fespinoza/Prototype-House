@@ -12,17 +12,21 @@ import XCTest
 @testable import Prototype_House_iOS
 
 class SampleSnapshotTests: XCTestCase {
-    func testOutlineView() {
+    func testOutlineView() throws {
         let rootView = NavigationView {
             OutlineGroupExperimentsView()
         }
 
-        assertSnapshots(
-            of: rootView,
-            as: [
-                "lightImage": .image(traits: UITraitCollection(userInterfaceStyle: .light)),
-                "darkImage": .image(traits: UITraitCollection(userInterfaceStyle: .dark))
-            ]
-        )
+//        assertSnapshots(
+//            of: rootView,
+//            as: [
+//                "lightImage": .image(traits: UITraitCollection(userInterfaceStyle: .light)),
+//                "darkImage": .image(traits: UITraitCollection(userInterfaceStyle: .dark))
+//            ]
+//        )
+
+
+        let bundleURL = try XCTUnwrap(Bundle(for: type(of: self)).resourceURL)
+        assertSnapshot(view: rootView, testBundleResourceURL: bundleURL)
     }
 }
