@@ -79,6 +79,9 @@
 		9BC451FA2AC1BBBC002F9D8E /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 9BC451F92AC1BBBC002F9D8E /* SnapshotTesting */; };
 		9BC451FC2AC1BC03002F9D8E /* SampleSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC451FB2AC1BC03002F9D8E /* SampleSnapshotTests.swift */; };
 		9BC451FE2AC1BF4A002F9D8E /* SnapshotTesting-XcodeCloudFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC451FD2AC1BF4A002F9D8E /* SnapshotTesting-XcodeCloudFix.swift */; };
+		9BC452032AC1C415002F9D8E /* TvSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC452022AC1C415002F9D8E /* TvSnapshotTests.swift */; };
+		9BC452052AC1C4D4002F9D8E /* SampleSnapshotTests in Resources */ = {isa = PBXBuildFile; fileRef = 9BC452042AC1C4D4002F9D8E /* SampleSnapshotTests */; };
+		9BC452072AC1C4E0002F9D8E /* TvSnapshotTests in Resources */ = {isa = PBXBuildFile; fileRef = 9BC452062AC1C4E0002F9D8E /* TvSnapshotTests */; };
 		9BC488C3284560BE00E36E12 /* OutlineGroupExperimentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC488C2284560BE00E36E12 /* OutlineGroupExperimentsView.swift */; };
 		9BC881A72876C9450069B48E /* ScrollableContentStatesSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC881A62876C9450069B48E /* ScrollableContentStatesSample.swift */; };
 		9BC939AD281EB909003B5B9B /* NameEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC939AC281EB909003B5B9B /* NameEditorView.swift */; };
@@ -218,6 +221,9 @@
 		9BC451F62AC1B1C8002F9D8E /* LinearEquationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearEquationTests.swift; sourceTree = "<group>"; };
 		9BC451FB2AC1BC03002F9D8E /* SampleSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSnapshotTests.swift; sourceTree = "<group>"; };
 		9BC451FD2AC1BF4A002F9D8E /* SnapshotTesting-XcodeCloudFix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SnapshotTesting-XcodeCloudFix.swift"; sourceTree = "<group>"; };
+		9BC452022AC1C415002F9D8E /* TvSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvSnapshotTests.swift; sourceTree = "<group>"; };
+		9BC452042AC1C4D4002F9D8E /* SampleSnapshotTests */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SampleSnapshotTests; path = __Snapshots__/SampleSnapshotTests; sourceTree = "<group>"; };
+		9BC452062AC1C4E0002F9D8E /* TvSnapshotTests */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TvSnapshotTests; path = __Snapshots__/TvSnapshotTests; sourceTree = "<group>"; };
 		9BC488C2284560BE00E36E12 /* OutlineGroupExperimentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupExperimentsView.swift; sourceTree = "<group>"; };
 		9BC881A62876C9450069B48E /* ScrollableContentStatesSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableContentStatesSample.swift; sourceTree = "<group>"; };
 		9BC939AC281EB909003B5B9B /* NameEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameEditorView.swift; sourceTree = "<group>"; };
@@ -666,12 +672,23 @@
 		9BC451EE2AC1B180002F9D8E /* Prototype House iOS Tests */ = {
 			isa = PBXGroup;
 			children = (
-				9BC451EF2AC1B180002F9D8E /* Prototype_House_iOS_Tests.swift */,
+				9BC452042AC1C4D4002F9D8E /* SampleSnapshotTests */,
 				9BC451F62AC1B1C8002F9D8E /* LinearEquationTests.swift */,
+				9BC451EF2AC1B180002F9D8E /* Prototype_House_iOS_Tests.swift */,
 				9BC451FB2AC1BC03002F9D8E /* SampleSnapshotTests.swift */,
 				9BC451FD2AC1BF4A002F9D8E /* SnapshotTesting-XcodeCloudFix.swift */,
+				9BC452012AC1C409002F9D8E /* NestedSnapshotTest */,
 			);
 			path = "Prototype House iOS Tests";
+			sourceTree = "<group>";
+		};
+		9BC452012AC1C409002F9D8E /* NestedSnapshotTest */ = {
+			isa = PBXGroup;
+			children = (
+				9BC452062AC1C4E0002F9D8E /* TvSnapshotTests */,
+				9BC452022AC1C415002F9D8E /* TvSnapshotTests.swift */,
+			);
+			path = NestedSnapshotTest;
 			sourceTree = "<group>";
 		};
 		9BC488C1284560A700E36E12 /* OutlineGroup Experiments */ = {
@@ -1119,6 +1136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BC452072AC1C4E0002F9D8E /* TvSnapshotTests in Resources */,
+				9BC452052AC1C4D4002F9D8E /* SampleSnapshotTests in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1178,6 +1197,7 @@
 			files = (
 				9BC451FC2AC1BC03002F9D8E /* SampleSnapshotTests.swift in Sources */,
 				9BC451F72AC1B1C8002F9D8E /* LinearEquationTests.swift in Sources */,
+				9BC452032AC1C415002F9D8E /* TvSnapshotTests.swift in Sources */,
 				9BC451FE2AC1BF4A002F9D8E /* SnapshotTesting-XcodeCloudFix.swift in Sources */,
 				9BC451F02AC1B180002F9D8E /* Prototype_House_iOS_Tests.swift in Sources */,
 			);
