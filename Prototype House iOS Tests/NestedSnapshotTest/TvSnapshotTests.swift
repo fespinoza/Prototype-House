@@ -18,8 +18,7 @@ class TvSnapshotTests: XCTestCase {
                 TvAppContentSwiftUIView(viewData: .tedLasso)
             }
         }
-
-        let bundleURL = try XCTUnwrap(Bundle(for: type(of: self)).resourceURL)
-        assertSnapshot(view: rootView, on: .iPhone, with: .darkMode, testBundleResourceURL: bundleURL)
+        
+        assertSnapshot(view: rootView, on: .iPhone, with: .darkMode)
     }
 }

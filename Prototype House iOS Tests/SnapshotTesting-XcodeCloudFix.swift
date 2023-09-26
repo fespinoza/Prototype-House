@@ -6,6 +6,17 @@ import SnapshotTesting
 import SwiftUI
 import XCTest
 
+class SampleClassInTestBundle {}
+
+extension Bundle {
+    static var testBundleURL: URL {
+        guard let url = Bundle(for: SampleClassInTestBundle.self).resourceURL else {
+            fatalError("❌ we couldn't access to the test bundle URL")
+        }
+        return url
+    }
+}
+
 public enum TestDevice {
     case iPhone
     case iPad(orientation: ViewImageConfig.Orientation)
@@ -58,7 +69,6 @@ public extension XCTestCase {
         view: some View,
         on testDevice: TestDevice,
         with appearance: TestAppearance,
-        testBundleResourceURL: URL,
         file: StaticString = #file,
         testName: String = #function,
         line: UInt = #line
@@ -68,11 +78,7 @@ public extension XCTestCase {
             as: .image(on: testDevice.viewConfig, precision: 0.98, traits: traits(for: testDevice, with: appearance)),
             named: variantName(for: testDevice, with: appearance),
             record: isRecording,
-            snapshotDirectory: checkSnapshotDirectory(
-                testBundleResourceURL: testBundleResourceURL,
-                file: file,
-                testName: testName
-            ),
+            snapshotDirectory: checkSnapshotDirectory(file: file, testName: testName),
             file: file,
             testName: testName,
             line: line
@@ -93,23 +99,28 @@ public extension XCTestCase {
         "\(testDevice.name)_\(appearance.rawValue)"
     }
 
-    func checkSnapshotDirectory(testBundleResourceURL: URL, file: StaticString, testName: String) -> String? {
+    func checkSnapshotDirectory(file: StaticString, testName: String) -> String? {
         let testClassFileURL = URL(fileURLWithPath: "\(file)", isDirectory: false)
         let testClassName = testClassFileURL.deletingPathExtension().lastPathComponent
-        let testBundleFolder = testBundleResourceURL.appending(path: testClassName)
 
-        let referenceSnapshotURLInTestBundle = testBundleFolder.appending(
-            path: "\(sanitizePathComponent(testName)).png"
-        )
+        let folderCandidates = [
+            // For SPM modules.
+            Bundle.testBundleURL.appending(path: "__Snapshots__").appending(path: testClassName),
+            // For top-level xcodeproj app target.
+            Bundle.testBundleURL.appending(path: testClassName)
+        ]
 
-        guard 
-            FileManager.default.fileExists(atPath: referenceSnapshotURLInTestBundle.path(percentEncoded: false))
-        else { return nil }
+        for folder in folderCandidates {
+            let referenceSnapshotURLInTestBundle = folder.appending(path: "\(sanitizePathComponent(testName)).png")
+            if FileManager.default.fileExists(atPath: referenceSnapshotURLInTestBundle.path(percentEncoded: false)) {
+                // The snapshot file is present in the test bundle, so we will instruct snapshot-testing to use the folder
+                // pointing to the snapshots in the test bundle, instead of the default.
+                // This is the code path that Xcode Cloud will follow, if everything is set up correctly.
+                return folder.path(percentEncoded: false)
+            }
+        }
 
-        // The snapshot file is present in the test bundle, so we will instruct snapshot-testing to use the folder
-        // pointing to the snapshots in the test bundle, instead of the default.
-        // This is the code path that Xcode Cloud will follow, if everything is set up correctly.
-        return testBundleFolder.path(percentEncoded: false)
+        return nil
     }
 
     // Copied from swift-snapshot-testing
