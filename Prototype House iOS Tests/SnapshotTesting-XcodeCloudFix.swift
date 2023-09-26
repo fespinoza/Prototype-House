@@ -73,12 +73,39 @@ public extension XCTestCase {
         testName: String = #function,
         line: UInt = #line
     ) {
+        let testBundleResourceURL = Bundle.testBundleURL
+        let testClassFileURL = URL(fileURLWithPath: "\(file)", isDirectory: false)
+        let testClassName = testClassFileURL.deletingPathExtension().lastPathComponent
+
+        let folderCandidates = [
+            // For SPM modules.
+            testBundleResourceURL.appending(path: "__Snapshots__").appending(path: testClassName),
+            // For top-level xcodeproj app target.
+            testBundleResourceURL.appending(path: testClassName)
+        ]
+
+        // Default case: snapshots are not present in test bundle. This will fall back to standard SnapshotTesting behavior,
+        // where the snapshots live in `__Snapshots__` folder that is adjacent to the test class.
+        var snapshotDirectory: String? = nil
+
+        for folder in folderCandidates {
+            let referenceSnapshotURLInTestBundle = folder.appending(path: "\(sanitizePathComponent(testName)).png")
+            if FileManager.default.fileExists(atPath: referenceSnapshotURLInTestBundle.path(percentEncoded: false)) {
+                // The snapshot file is present in the test bundle, so we will instruct snapshot-testing to use the folder
+                // pointing to the snapshots in the test bundle, instead of the default.
+                // This is the code path that Xcode Cloud will follow, if everything is set up correctly.
+                snapshotDirectory = folder.path(percentEncoded: false)
+            }
+        }
+
+        print("--- snapshot directory XXX: \(snapshotDirectory ?? "none")")
+
         let failureMessage = SnapshotTesting.verifySnapshot(
             of: UIHostingController(rootView: view),
             as: .image(on: testDevice.viewConfig, precision: 0.98, traits: traits(for: testDevice, with: appearance)),
             named: variantName(for: testDevice, with: appearance),
             record: isRecording,
-            snapshotDirectory: checkSnapshotDirectory(file: file, testName: testName),
+            snapshotDirectory: snapshotDirectory,
             file: file,
             testName: testName,
             line: line
@@ -100,14 +127,23 @@ public extension XCTestCase {
     }
 
     func checkSnapshotDirectory(file: StaticString, testName: String) -> String? {
+        let testBundleResourceURL = Bundle.testBundleURL
         let testClassFileURL = URL(fileURLWithPath: "\(file)", isDirectory: false)
         let testClassName = testClassFileURL.deletingPathExtension().lastPathComponent
 
+//        failed - No reference was found on disk. Automatically recorded snapshot: …
+//
+//        open "file:///Volumes/workspace/repository/Prototype%20House%20iOS%20Tests/NestedSnapshotTest/__Snapshots__/TvSnapshotTests/testTvContentView.iPhone_Dark.png"
+//
+//        Re-run "testTvContentView" to assert against the newly-recorded snapshot.
+//
+//        Failure message too large. View Attachment for complete message.
+
         let folderCandidates = [
             // For SPM modules.
-            Bundle.testBundleURL.appending(path: "__Snapshots__").appending(path: testClassName),
+            testBundleResourceURL.appending(path: "__Snapshots__").appending(path: testClassName),
             // For top-level xcodeproj app target.
-            Bundle.testBundleURL.appending(path: testClassName)
+            testBundleResourceURL.appending(path: testClassName)
         ]
 
         for folder in folderCandidates {

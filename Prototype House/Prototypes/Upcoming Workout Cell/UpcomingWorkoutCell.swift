@@ -123,25 +123,10 @@ struct UpcomingWorkoutCell: View {
     }
 }
 
+@available(iOS 17.0, *)
 #Preview("Upcoming Workout Cell") {
     Group {
-        if #available(iOS 17.0, *) {
-            UpcomingWorkoutCell(viewData: .previewValue())
-
-//            VStack {
-//                Text(Date().formatted(date: .abbreviated, time: .shortened))
-////                    .environment(\.locale, .init(identifier: "en_US"))
-//
-//                Text(Date().formatted(date: .abbreviated, time: .shortened))
-//            }
-//            .background(Color(UIColor.systemBackground))
-//            .padding()
-//            .environment(\.colorScheme, .dark)
-//            .environment(\.locale, .init(identifier: "nb_NO"))
-//            .environment(\.calendar, .init(identifier: .buddhist))
-        } else {
-            EmptyView()
-        }
+        UpcomingWorkoutCell(viewData: .previewValue())
     }
 }
 
