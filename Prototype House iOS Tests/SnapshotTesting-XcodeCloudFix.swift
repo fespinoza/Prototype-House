@@ -59,14 +59,13 @@ public extension XCTestCase {
             }
 
             let failure = SnapshotTesting.verifySnapshot(
-                matching: view
-                    .frame(width: 393, height: 852)
-                    .environment(\.locale, locale),
+                matching: UIHostingController(rootView: view),
                 // When precision is the default 100%, some snapshot tests on Xcode Cloud fail,
                 // even though there is no visible difference between reference and test result images,
                 // and the difference image is completely black (does not indicate any different pixels).
                 // 🤷 Just lowering the tolerance a bit seems to make it more resilient.
                 as: .image(
+                    on: .iPhone15Pro,
                     precision: 0.98,
                     traits: UITraitCollection(mutations: { mutableTraits in
                         mutableTraits.userInterfaceStyle = .dark
@@ -95,3 +94,35 @@ public extension XCTestCase {
     }
 }
 #endif
+
+extension ViewImageConfig {
+    public static let iPhone15Pro = ViewImageConfig.iPhone15Pro(.portrait)
+
+    /// Custom definition of the parameters of iPhone 15 Pro
+    ///
+    /// Values taken from: https://useyourloaf.com/blog/iphone-14-screen-sizes/
+    ///
+    /// - Parameter orientation: device orientation
+    /// - Returns: config for snapshot test for the iPhone 15 Pro
+    public static func iPhone15Pro(_ orientation: Orientation) -> ViewImageConfig {
+        let safeArea: UIEdgeInsets
+        let size: CGSize
+
+        switch orientation {
+        case .landscape:
+            safeArea = .init(top: 0, left: 59, bottom: 21, right: 59)
+            size = .init(width: 852, height: 393)
+        case .portrait:
+            safeArea = .init(top: 59, left: 0, bottom: 34, right: 0)
+            size = .init(width: 393, height: 852)
+        }
+
+        return .init(safeArea: safeArea, size: size, traits: .iPhone15Pro(orientation))
+    }
+}
+
+extension UITraitCollection {
+    public static func iPhone15Pro(_ orientation: ViewImageConfig.Orientation) -> UITraitCollection {
+        .iPhone13(orientation)
+    }
+}
