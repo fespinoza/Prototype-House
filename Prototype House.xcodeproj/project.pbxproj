@@ -258,6 +258,7 @@
 		9BF616D9276379F300D26E7B /* AppStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoreViewController.swift; sourceTree = "<group>"; };
 		9BF70E9029B9DB8E0027AB9E /* CustomNavTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavTitleViewController.swift; sourceTree = "<group>"; };
 		9BF70E9529B9DC640027AB9E /* ScrollableContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableContentView.swift; sourceTree = "<group>"; };
+		9BFF1C772AC2CC1F00F57EA0 /* Prototype House.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Prototype House.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -812,6 +813,7 @@
 		9BF616B6276376D400D26E7B /* Prototype House */ = {
 			isa = PBXGroup;
 			children = (
+				9BFF1C772AC2CC1F00F57EA0 /* Prototype House.entitlements */,
 				9B851CF52A57570E00C37160 /* Prototype-House-Info.plist */,
 				9BF616D42763795200D26E7B /* README.md */,
 				9BF616D1276378E100D26E7B /* App */,
@@ -1688,6 +1690,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Prototype House/Prototype House.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Prototype House/Resources/Preview Content\"";
@@ -1722,6 +1725,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "Prototype House/Prototype House.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Prototype House/Resources/Preview Content\"";

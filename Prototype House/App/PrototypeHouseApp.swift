@@ -11,12 +11,11 @@ import SwiftUI
 struct PrototypeHouseApp: App {
     var body: some Scene {
         WindowGroup {
-            LocalizationFromPackage()
-
-//            ViewControllerRepresentable {
-//                UINavigationController(rootViewController: AppStoreViewController())
-//            }
-//            .ignoresSafeArea()
+            if #available(iOS 17.0, *) {
+                LoginFormView()
+            } else {
+                LocalizationFromPackage()
+            }
         }
     }
 }
