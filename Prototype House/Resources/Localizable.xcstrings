@@ -207,6 +207,9 @@
     "List & NavView" : {
 
     },
+    "Login" : {
+
+    },
     "Logo" : {
 
     },
@@ -318,6 +321,9 @@
     "Other" : {
 
     },
+    "Password" : {
+
+    },
     "Placeholder: Hello, World!" : {
 
     },
@@ -422,6 +428,9 @@
     "Step #%lld" : {
 
     },
+    "Submit" : {
+
+    },
     "Sumbit" : {
 
     },
@@ -464,6 +473,9 @@
     "Upside Down?" : {
 
     },
+    "Username" : {
+
+    },
     "Visible Letters (%lld): %@" : {
       "localizations" : {
         "en" : {
@@ -478,6 +490,9 @@
 
     },
     "Visible: %@" : {
+
+    },
+    "Welcome to **My App**" : {
 
     }
   },

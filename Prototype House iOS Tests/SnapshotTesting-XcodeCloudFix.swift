@@ -66,7 +66,13 @@ public extension XCTestCase {
                 // even though there is no visible difference between reference and test result images,
                 // and the difference image is completely black (does not indicate any different pixels).
                 // 🤷 Just lowering the tolerance a bit seems to make it more resilient.
-                as: .image(precision: 0.98),
+                as: .image(
+                    precision: 0.98,
+                    traits: UITraitCollection(mutations: { mutableTraits in
+                        mutableTraits.userInterfaceStyle = .dark
+                        mutableTraits.preferredContentSizeCategory = .medium
+                    })
+                ),
                 named: locale.identifier,
                 record: false,
                 snapshotDirectory: snapshotDirectory,

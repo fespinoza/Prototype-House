@@ -82,6 +82,7 @@
 		9BC452032AC1C415002F9D8E /* TvSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC452022AC1C415002F9D8E /* TvSnapshotTests.swift */; };
 		9BC452052AC1C4D4002F9D8E /* SampleSnapshotTests in Resources */ = {isa = PBXBuildFile; fileRef = 9BC452042AC1C4D4002F9D8E /* SampleSnapshotTests */; };
 		9BC452072AC1C4E0002F9D8E /* TvSnapshotTests in Resources */ = {isa = PBXBuildFile; fileRef = 9BC452062AC1C4E0002F9D8E /* TvSnapshotTests */; };
+		9BC4520A2AC218EF002F9D8E /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC452092AC218EF002F9D8E /* LoginFormView.swift */; };
 		9BC488C3284560BE00E36E12 /* OutlineGroupExperimentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC488C2284560BE00E36E12 /* OutlineGroupExperimentsView.swift */; };
 		9BC881A72876C9450069B48E /* ScrollableContentStatesSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC881A62876C9450069B48E /* ScrollableContentStatesSample.swift */; };
 		9BC939AD281EB909003B5B9B /* NameEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC939AC281EB909003B5B9B /* NameEditorView.swift */; };
@@ -224,6 +225,7 @@
 		9BC452022AC1C415002F9D8E /* TvSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvSnapshotTests.swift; sourceTree = "<group>"; };
 		9BC452042AC1C4D4002F9D8E /* SampleSnapshotTests */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SampleSnapshotTests; path = __Snapshots__/SampleSnapshotTests; sourceTree = "<group>"; };
 		9BC452062AC1C4E0002F9D8E /* TvSnapshotTests */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TvSnapshotTests; path = __Snapshots__/TvSnapshotTests; sourceTree = "<group>"; };
+		9BC452092AC218EF002F9D8E /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
 		9BC488C2284560BE00E36E12 /* OutlineGroupExperimentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineGroupExperimentsView.swift; sourceTree = "<group>"; };
 		9BC881A62876C9450069B48E /* ScrollableContentStatesSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableContentStatesSample.swift; sourceTree = "<group>"; };
 		9BC939AC281EB909003B5B9B /* NameEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameEditorView.swift; sourceTree = "<group>"; };
@@ -691,6 +693,14 @@
 			path = NestedSnapshotTest;
 			sourceTree = "<group>";
 		};
+		9BC452082AC218E2002F9D8E /* Login Form */ = {
+			isa = PBXGroup;
+			children = (
+				9BC452092AC218EF002F9D8E /* LoginFormView.swift */,
+			);
+			path = "Login Form";
+			sourceTree = "<group>";
+		};
 		9BC488C1284560A700E36E12 /* OutlineGroup Experiments */ = {
 			isa = PBXGroup;
 			children = (
@@ -897,6 +907,7 @@
 				9B9E4CA3290BC0640017BFAF /* ImageGallery */,
 				9B4CB3DA29278C020030FAC9 /* iOS 15 Updates */,
 				9B05BDA62845536500855F2A /* Localization In Previews */,
+				9BC452082AC218E2002F9D8E /* Login Form */,
 				9BE2E8AA293621C400DAEA41 /* Matched Geometry */,
 				9BC939AB281EB8F7003B5B9B /* Name Editor */,
 				9B173FC72874539F000114A1 /* NavigationBar and SwiftUI */,
@@ -1243,6 +1254,7 @@
 				9BDE6670278598190092CF32 /* UnderstandingFocusView.swift in Sources */,
 				9BF616CD276377F600D26E7B /* NSDirectionalEdgeInsets.swift in Sources */,
 				9B261D832A1CBE330027F24E /* CommentDemoView.swift in Sources */,
+				9BC4520A2AC218EF002F9D8E /* LoginFormView.swift in Sources */,
 				9B1BCB722A2637F80088B4BC /* VStackAnimationTest.swift in Sources */,
 				9B74010B278B70E0005454D5 /* RedactedAnimationExperimentView.swift in Sources */,
 				9BC881A72876C9450069B48E /* ScrollableContentStatesSample.swift in Sources */,
