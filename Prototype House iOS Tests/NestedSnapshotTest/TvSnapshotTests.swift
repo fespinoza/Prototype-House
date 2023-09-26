@@ -12,7 +12,7 @@ import XCTest
 @testable import Prototype_House_iOS
 
 class TvSnapshotTests: XCTestCase {
-    func testOutlineView() throws {
+    func testTvContentView() throws {
         let rootView = NavigationStack {
             ScrollView {
                 TvAppContentSwiftUIView(viewData: .tedLasso)
@@ -20,6 +20,6 @@ class TvSnapshotTests: XCTestCase {
         }
 
         let bundleURL = try XCTUnwrap(Bundle(for: type(of: self)).resourceURL)
-        assertSnapshot(view: rootView, testBundleResourceURL: bundleURL)
+        assertSnapshot(view: rootView, on: .iPhone, with: .darkMode, testBundleResourceURL: bundleURL)
     }
 }

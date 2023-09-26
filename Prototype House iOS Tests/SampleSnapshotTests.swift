@@ -13,20 +13,17 @@ import XCTest
 
 class SampleSnapshotTests: XCTestCase {
     func testOutlineView() throws {
-        let rootView = NavigationView {
+        let rootView = NavigationStack {
             OutlineGroupExperimentsView()
         }
 
-//        assertSnapshots(
-//            of: rootView,
-//            as: [
-//                "lightImage": .image(traits: UITraitCollection(userInterfaceStyle: .light)),
-//                "darkImage": .image(traits: UITraitCollection(userInterfaceStyle: .dark))
-//            ]
-//        )
-
-
         let bundleURL = try XCTUnwrap(Bundle(for: type(of: self)).resourceURL)
-        assertSnapshot(view: rootView, testBundleResourceURL: bundleURL)
+        assertSnapshot(view: rootView, on: .iPhone, with: .lightMode, testBundleResourceURL: bundleURL)
+        assertSnapshot(
+            view: rootView,
+            on: .iPad(orientation: .landscape),
+            with: .darkMode,
+            testBundleResourceURL: bundleURL
+        )
     }
 }
