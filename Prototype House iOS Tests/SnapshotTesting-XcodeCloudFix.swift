@@ -66,14 +66,15 @@ public enum TestAppearance: String {
 
 public extension XCTestCase {
     func assertSnapshot(
-        view: some View,
+        of view: some View,
         on testDevice: TestDevice,
-        with appearance: TestAppearance,
-        testBundleResourceURL: URL,
+        in appearance: TestAppearance,
         file: StaticString = #file,
         testName: String = #function,
         line: UInt = #line
     ) {
+        let testBundleResourceURL = Bundle.testBundleURL
+        let snapshotName = variantName(for: testDevice, with: appearance)
         let testClassFileURL = URL(fileURLWithPath: "\(file)", isDirectory: false)
         let testClassName = testClassFileURL.deletingPathExtension().lastPathComponent
 
@@ -89,22 +90,23 @@ public extension XCTestCase {
         var snapshotDirectory: String? = nil
 
         for folder in folderCandidates {
-            let referenceSnapshotURLInTestBundle = folder.appending(path: "\(sanitizePathComponent(testName)).png")
+            let referenceSnapshotURLInTestBundle = folder
+                .appending(path: "\(sanitizePathComponent(testName)).\(snapshotName).png")
             if FileManager.default.fileExists(atPath: referenceSnapshotURLInTestBundle.path(percentEncoded: false)) {
                 // The snapshot file is present in the test bundle, so we will instruct snapshot-testing to use the folder
                 // pointing to the snapshots in the test bundle, instead of the default.
                 // This is the code path that Xcode Cloud will follow, if everything is set up correctly.
                 snapshotDirectory = folder.path(percentEncoded: false)
             }
+            print("--- file \(referenceSnapshotURLInTestBundle)")
         }
-
         print("--- snapshot directory XXX: \(snapshotDirectory ?? "none")")
         print("--- bundle url: \(testBundleResourceURL) -- alt \(Bundle.testBundleURL)")
 
         let failureMessage = SnapshotTesting.verifySnapshot(
             of: UIHostingController(rootView: view),
             as: .image(on: testDevice.viewConfig, precision: 0.98, traits: traits(for: testDevice, with: appearance)),
-            named: variantName(for: testDevice, with: appearance),
+            named: snapshotName,
             record: isRecording,
             snapshotDirectory: snapshotDirectory,
             file: file,

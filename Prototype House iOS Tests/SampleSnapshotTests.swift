@@ -17,14 +17,7 @@ class SampleSnapshotTests: XCTestCase {
             OutlineGroupExperimentsView()
         }
 
-        let bundleUrl = try XCTUnwrap(Bundle(for: type(of: self)).resourceURL)
-
-        assertSnapshot(view: rootView, on: .iPhone, with: .lightMode, testBundleResourceURL: bundleUrl)
-        assertSnapshot(
-            view: rootView,
-            on: .iPad(orientation: .landscape),
-            with: .darkMode,
-            testBundleResourceURL: bundleUrl
-        )
+        assertSnapshot(of: rootView, on: .iPhone, in: .lightMode)
+        assertSnapshot(of: rootView, on: .iPad(orientation: .landscape), in: .darkMode)
     }
 }
