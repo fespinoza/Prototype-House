@@ -19,6 +19,7 @@ class TvSnapshotTests: XCTestCase {
             }
         }
         
-        assertSnapshot(view: rootView, on: .iPhone, with: .darkMode)
+        let bundleUrl = try XCTUnwrap(Bundle(for: type(of: self)).resourceURL)
+        assertSnapshot(view: rootView, on: .iPhone, with: .darkMode, testBundleResourceURL: bundleUrl)
     }
 }

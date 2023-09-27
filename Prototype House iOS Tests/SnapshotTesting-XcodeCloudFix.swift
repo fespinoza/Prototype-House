@@ -69,11 +69,11 @@ public extension XCTestCase {
         view: some View,
         on testDevice: TestDevice,
         with appearance: TestAppearance,
+        testBundleResourceURL: URL,
         file: StaticString = #file,
         testName: String = #function,
         line: UInt = #line
     ) {
-        let testBundleResourceURL = Bundle.testBundleURL
         let testClassFileURL = URL(fileURLWithPath: "\(file)", isDirectory: false)
         let testClassName = testClassFileURL.deletingPathExtension().lastPathComponent
 
@@ -99,6 +99,7 @@ public extension XCTestCase {
         }
 
         print("--- snapshot directory XXX: \(snapshotDirectory ?? "none")")
+        print("--- bundle url: \(testBundleResourceURL) -- alt \(Bundle.testBundleURL)")
 
         let failureMessage = SnapshotTesting.verifySnapshot(
             of: UIHostingController(rootView: view),
