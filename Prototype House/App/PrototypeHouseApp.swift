@@ -1,5 +1,5 @@
 //
-//  Prototype_HouseApp.swift
+//  PrototypeHouseApp.swift
 //  Prototype House
 //
 //  Created by Felipe Espinoza on 10/12/2021.
@@ -24,9 +24,9 @@ struct ViewControllerRepresentable<Controller: UIViewController>: UIViewControll
     let controller: Controller
 
     init(_ factory: () -> Controller) {
-        self.controller = factory()
+        controller = factory()
     }
 
-    func makeUIViewController(context: Context) -> Controller { controller }
-    func updateUIViewController(_ uiViewController: Controller, context: Context) {}
+    func makeUIViewController(context _: Context) -> Controller { controller }
+    func updateUIViewController(_: Controller, context _: Context) {}
 }

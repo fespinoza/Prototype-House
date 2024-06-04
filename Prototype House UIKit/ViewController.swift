@@ -1,5 +1,5 @@
-import UIKit
 import SwiftUI
+import UIKit
 
 class ViewController: UIViewController {
     override func viewDidLoad() {
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
 
         navigationItem.rightBarButtonItems = [
             profile,
-            share
+            share,
         ]
     }
 

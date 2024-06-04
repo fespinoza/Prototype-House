@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "SamplePackage",
     defaultLocalization: "en",
-    platforms: [.iOS(.v15), .watchOS(.v9), .macOS(.v13)],
+    platforms: [.iOS(.v16), .watchOS(.v9), .macOS(.v13)],
     products: [
         .library(
             name: "SamplePackage",

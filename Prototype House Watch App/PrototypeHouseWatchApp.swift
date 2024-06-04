@@ -1,5 +1,5 @@
 //
-//  Prototype_House_WatchApp.swift
+//  PrototypeHouseWatchApp.swift
 //  Prototype House Watch Watch App
 //
 //  Created by Felipe Espinoza on 21/06/2023.

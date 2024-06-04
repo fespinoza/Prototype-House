@@ -8,9 +8,6 @@
 import UIKit
 
 class ScrollableContentView: UIView {
-
-
-
     init() {
         super.init(frame: .zero)
         setup()
@@ -22,13 +19,12 @@ class ScrollableContentView: UIView {
     }
 
     /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
-
+     // Only override draw() if you perform custom drawing.
+     // An empty implementation adversely affects performance during animation.
+     override func draw(_ rect: CGRect) {
+         // Drawing code
+     }
+     */
 
     func setup() {
         let topLabel = label(text: "Top label")

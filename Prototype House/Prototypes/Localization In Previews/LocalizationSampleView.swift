@@ -49,18 +49,16 @@ struct LocalizationSampleView: View {
     }
 }
 
-struct LocalizationSampleView_Previews: PreviewProvider {
-    static var previews: some View {
-        return Group {
-            LocalizationSampleView()
+#Preview("EN") {
+    LocalizationSampleView()
+}
 
-            LocalizationSampleView()
-                .environment(\.locale, .init(identifier: "es"))
+#Preview("ES") {
+    LocalizationSampleView()
+        .environment(\.locale, .init(identifier: "es"))
+}
 
-            LocalizationSampleView()
-                .environment(\.locale, .init(identifier: "nb"))
-        }
-        .padding()
-        .previewLayout(.sizeThatFits)
-    }
+#Preview("NB") {
+    LocalizationSampleView()
+        .environment(\.locale, .init(identifier: "nb"))
 }

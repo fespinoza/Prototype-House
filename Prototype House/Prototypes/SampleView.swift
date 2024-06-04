@@ -25,7 +25,6 @@ struct SampleView: View {
                 .font(.system(.largeTitle).weight(.black))
                 .italic()
 
-
             if viewData.isLoading {
                 ProgressView()
             }
@@ -45,7 +44,7 @@ class SampleViewModel: ObservableObject {
     @Published var counter: Int = 1
 
     init() {
-        self.viewData = .init(
+        viewData = .init(
             title: "Hello #1",
             message: nil,
             isLoading: false

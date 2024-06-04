@@ -14,6 +14,12 @@
             "state" : "translated",
             "value" : "Error de Autorización"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingangsfeil I"
+          }
         }
       }
     },
@@ -29,6 +35,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Error del Cliente"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kode feil II"
           }
         }
       }
@@ -47,6 +59,12 @@
             "state" : "translated",
             "value" : "Error de Codificación"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kode feil I"
+          }
         }
       }
     },
@@ -64,22 +82,33 @@
             "state" : "translated",
             "value" : "Cargando..."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laste ned..."
+          }
         }
       }
     },
-    "Network Errors" : {
-      "extractionState" : "stale",
+    "Random Text" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Network & Errors"
+            "value" : "Random Text"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Errores de Conexión"
+            "value" : "Texto Random"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Random Tekst"
           }
         }
       }
@@ -96,6 +125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Error del Servidor"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datafeil II"
           }
         }
       }

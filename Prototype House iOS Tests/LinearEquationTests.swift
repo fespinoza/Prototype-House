@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import XCTest
 @testable import Prototype_House_iOS
+import XCTest
 
 class LinearEquationTests: XCTestCase {
     func testSampleEquation() {

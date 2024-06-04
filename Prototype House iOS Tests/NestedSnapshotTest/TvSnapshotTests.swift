@@ -6,10 +6,10 @@
 //
 
 import Foundation
+@testable import Prototype_House_iOS
 import SnapshotTesting
 import SwiftUI
 import XCTest
-@testable import Prototype_House_iOS
 
 class TvSnapshotTests: XCTestCase {
     func testTvContentView() throws {

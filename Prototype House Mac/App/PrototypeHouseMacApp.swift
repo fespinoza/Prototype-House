@@ -1,5 +1,5 @@
 //
-//  Prototype_House_MacApp.swift
+//  PrototypeHouseMacApp.swift
 //  Prototype House Mac
 //
 //  Created by Felipe Espinoza on 03/01/2022.

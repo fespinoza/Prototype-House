@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            List(1...10, id: \.self) { index in
+            List(1 ... 10, id: \.self) { index in
                 NavigationLink(
                     "Item \(index)",
                     destination: { DetailView(index: index) }
