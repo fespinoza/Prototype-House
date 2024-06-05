@@ -105,6 +105,10 @@
 		9BE7F0022ACEC78E009C8EB8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7F0012ACEC78E009C8EB8 /* LoginView.swift */; };
 		9BE7F0052ACEEB55009C8EB8 /* PeekAndPopTodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7F0042ACEEB55009C8EB8 /* PeekAndPopTodayView.swift */; };
 		9BE975B629AF3ACB008F58A9 /* OnboardingOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE975B529AF3ACB008F58A9 /* OnboardingOverlayView.swift */; };
+		9BED8D252C0F94D00030DACD /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED8D242C0F94D00030DACD /* TextFieldExample.swift */; };
+		9BED8D272C0F9A7D0030DACD /* TextFieldAutoFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED8D262C0F9A7D0030DACD /* TextFieldAutoFill.swift */; };
+		9BED8D2A2C0F9C4B0030DACD /* ListFocusExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED8D292C0F9C4B0030DACD /* ListFocusExample.swift */; };
+		9BED8D2C2C0FABAB0030DACD /* ListSelectionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED8D2B2C0FABAB0030DACD /* ListSelectionExample.swift */; };
 		9BF5868C283CBADF0042BE53 /* CheckScrollVisibleContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF5868B283CBADF0042BE53 /* CheckScrollVisibleContentView.swift */; };
 		9BF616B8276376D400D26E7B /* PrototypeHouseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616B7276376D400D26E7B /* PrototypeHouseApp.swift */; };
 		9BF616BA276376D400D26E7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF616B9276376D400D26E7B /* ContentView.swift */; };
@@ -257,6 +261,10 @@
 		9BE7F0012ACEC78E009C8EB8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9BE7F0042ACEEB55009C8EB8 /* PeekAndPopTodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeekAndPopTodayView.swift; sourceTree = "<group>"; };
 		9BE975B529AF3ACB008F58A9 /* OnboardingOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingOverlayView.swift; sourceTree = "<group>"; };
+		9BED8D242C0F94D00030DACD /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
+		9BED8D262C0F9A7D0030DACD /* TextFieldAutoFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAutoFill.swift; sourceTree = "<group>"; };
+		9BED8D292C0F9C4B0030DACD /* ListFocusExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFocusExample.swift; sourceTree = "<group>"; };
+		9BED8D2B2C0FABAB0030DACD /* ListSelectionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSelectionExample.swift; sourceTree = "<group>"; };
 		9BF5868B283CBADF0042BE53 /* CheckScrollVisibleContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckScrollVisibleContentView.swift; sourceTree = "<group>"; };
 		9BF616B4276376D400D26E7B /* Prototype House iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototype House iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF616B7276376D400D26E7B /* PrototypeHouseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeHouseApp.swift; sourceTree = "<group>"; };
@@ -651,6 +659,8 @@
 		9BC17D5227833663000FC491 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9BED8D282C0F9C270030DACD /* ListFocust_and_Arrows */,
+				9BED8D232C0F94BE0030DACD /* TextField-AutoFill */,
 				9BC17D5827833C44000FC491 /* SFSymbols Replica */,
 				9BC17D5427833A8C000FC491 /* Detail */,
 				9BC17D46278335F8000FC491 /* ContentView.swift */,
@@ -831,6 +841,24 @@
 				9BE7F0042ACEEB55009C8EB8 /* PeekAndPopTodayView.swift */,
 			);
 			path = "Peek And Pop";
+			sourceTree = "<group>";
+		};
+		9BED8D232C0F94BE0030DACD /* TextField-AutoFill */ = {
+			isa = PBXGroup;
+			children = (
+				9BED8D242C0F94D00030DACD /* TextFieldExample.swift */,
+				9BED8D262C0F9A7D0030DACD /* TextFieldAutoFill.swift */,
+			);
+			path = "TextField-AutoFill";
+			sourceTree = "<group>";
+		};
+		9BED8D282C0F9C270030DACD /* ListFocust_and_Arrows */ = {
+			isa = PBXGroup;
+			children = (
+				9BED8D292C0F9C4B0030DACD /* ListFocusExample.swift */,
+				9BED8D2B2C0FABAB0030DACD /* ListSelectionExample.swift */,
+			);
+			path = ListFocust_and_Arrows;
 			sourceTree = "<group>";
 		};
 		9BF5868A283CBABA0042BE53 /* Scroll Visible Content */ = {
@@ -1257,12 +1285,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BED8D252C0F94D00030DACD /* TextFieldExample.swift in Sources */,
+				9BED8D272C0F9A7D0030DACD /* TextFieldAutoFill.swift in Sources */,
 				9BC17D47278335F8000FC491 /* ContentView.swift in Sources */,
 				9BC17D45278335F8000FC491 /* PrototypeHouseMacApp.swift in Sources */,
 				9BC17D5D278341DF000FC491 /* SFGroupView.swift in Sources */,
 				9BC17D642783752C000FC491 /* NSView-Extensions.swift in Sources */,
 				9BC17D5727833AC1000FC491 /* DetailContentView.swift in Sources */,
+				9BED8D2C2C0FABAB0030DACD /* ListSelectionExample.swift in Sources */,
 				9BC17D5A27833C68000FC491 /* SFSymbolsReplica.swift in Sources */,
+				9BED8D2A2C0F9C4B0030DACD /* ListFocusExample.swift in Sources */,
 				9BC17D612783735A000FC491 /* SplitViewExperiment.swift in Sources */,
 				9BC17D5F278341FC000FC491 /* ContentData.swift in Sources */,
 			);
@@ -1485,7 +1517,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fespinozacast.code.prototypes.Prototype-House-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1514,7 +1546,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fespinozacast.code.prototypes.Prototype-House-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
