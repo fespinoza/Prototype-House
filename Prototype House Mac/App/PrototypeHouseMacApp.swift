@@ -11,7 +11,8 @@ import SwiftUI
 struct PrototypeHouseMacApp: App {
     var body: some Scene {
         WindowGroup {
-            SFSymbolsReplica()
+//            SFSymbolsReplica()
+            AutocompleteExperimentView()
         }
         .windowToolbarStyle(.unified)
 //        .windowStyle(.titleBar)
