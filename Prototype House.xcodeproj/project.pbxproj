@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B0456652C179AED00C2DFD0 /* ListSelectionContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0456642C179AED00C2DFD0 /* ListSelectionContent.swift */; };
 		9B05BDA82845537600855F2A /* LocalizationSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B05BDA72845537600855F2A /* LocalizationSampleView.swift */; };
 		9B1667C92C08A36A0011805B /* ViewThatFitsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1667C82C08A36A0011805B /* ViewThatFitsExample.swift */; };
 		9B173FC9287453B6000114A1 /* SampleNavigationBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B173FC8287453B6000114A1 /* SampleNavigationBarContentView.swift */; };
@@ -159,6 +160,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B0456642C179AED00C2DFD0 /* ListSelectionContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSelectionContent.swift; sourceTree = "<group>"; };
 		9B05BDA72845537600855F2A /* LocalizationSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationSampleView.swift; sourceTree = "<group>"; };
 		9B1667C82C08A36A0011805B /* ViewThatFitsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsExample.swift; sourceTree = "<group>"; };
 		9B173FC8287453B6000114A1 /* SampleNavigationBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleNavigationBarContentView.swift; sourceTree = "<group>"; };
@@ -412,6 +414,7 @@
 				9B383B292C10F9B6008D67BA /* AutocompleteExperimentView.swift */,
 				9B383B2B2C10FB11008D67BA /* SuggestionsWindowController.swift */,
 				9B383B2F2C11090D008D67BA /* SuggestionsWindowControllerAlt.swift */,
+				9B0456642C179AED00C2DFD0 /* ListSelectionContent.swift */,
 			);
 			path = Autocomplete;
 			sourceTree = "<group>";
@@ -1305,6 +1308,7 @@
 				9B383B302C11090D008D67BA /* SuggestionsWindowControllerAlt.swift in Sources */,
 				9BED8D252C0F94D00030DACD /* TextFieldExample.swift in Sources */,
 				9BED8D272C0F9A7D0030DACD /* TextFieldAutoFill.swift in Sources */,
+				9B0456652C179AED00C2DFD0 /* ListSelectionContent.swift in Sources */,
 				9BC17D47278335F8000FC491 /* ContentView.swift in Sources */,
 				9BC17D45278335F8000FC491 /* PrototypeHouseMacApp.swift in Sources */,
 				9BC17D5D278341DF000FC491 /* SFGroupView.swift in Sources */,

@@ -33,7 +33,8 @@ struct TextFieldWrapper: NSViewRepresentable {
         let text: Binding<String>
         var observations: Set<AnyCancellable> = []
 
-        let suggestions: SuggestionsWindowController = .init()
+//        let suggestions: SuggestionsWindowController = .init()
+        let suggestions: SuggestionsWindowControllerAlt = .init()
 
         init(textField: NSTextField, text: Binding<String>) {
             self.textField = textField
@@ -47,27 +48,27 @@ struct TextFieldWrapper: NSViewRepresentable {
 
         func control(_ control: NSControl, textView: NSTextView, doCommandBy commandSelector: Selector) -> Bool {
 
-            print(#function, commandSelector)
-            if commandSelector == #selector(NSTextView.moveUp(_:)) {
-                suggestions.moveUp()
-                return true
-            }
-            if commandSelector == #selector(NSTextView.moveDown(_:)) {
-                suggestions.moveDown()
-                return true
-            }
-            if commandSelector == #selector(NSTextView.insertNewline(_:)) {
-                guard let suggestion = suggestions.currentSuggestion else { return false }
-                textField.stringValue = suggestion
-                text.wrappedValue = suggestion
-                suggestions.orderOut()
-                return true
-            }
-            if commandSelector == #selector(NSTextView.cancelOperation(_:)) {
-                suggestions.orderOut()
-                return true
-            }
-
+//            print(#function, commandSelector)
+//            if commandSelector == #selector(NSTextView.moveUp(_:)) {
+////                suggestions.moveUp()
+//                return true
+//            }
+//            if commandSelector == #selector(NSTextView.moveDown(_:)) {
+////                suggestions.moveDown()
+//                return true
+//            }
+//            if commandSelector == #selector(NSTextView.insertNewline(_:)) {
+//                guard let suggestion = suggestions.currentSuggestion else { return false }
+//                textField.stringValue = suggestion
+//                text.wrappedValue = suggestion
+//                suggestions.orderOut()
+//                return true
+//            }
+//            if commandSelector == #selector(NSTextView.cancelOperation(_:)) {
+//                suggestions.orderOut()
+//                return true
+//            }
+//
             return false
         }
 

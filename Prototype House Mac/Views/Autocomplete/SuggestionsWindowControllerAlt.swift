@@ -13,15 +13,27 @@ import Cocoa
 import SwiftUI
 
 class SuggestionsWindowControllerAlt: NSWindowController {
-
     private var suggestions: [String] = []
+
+//    private var selection: Binding<Int?>
+
+    struct ListContent: View {
+        @State var selection: String = "two"
+
+        var body: some View {
+            ListSelectionExample(onReturn: { index in
+                print("---- selected \(index)")
+            })
+            .fixedSize(horizontal: true, vertical: false)
+        }
+    }
 
     var selectedIndex: Int?
 
-    private lazy var tableView: NSView = {
-        NSHostingView(rootView: ListSelectionExample(onReturn: { value in
-            self.selectedIndex = value
-        }))
+    private lazy var swiftUIContent: NSView = {
+        let view = NSHostingView(rootView: ListContent())
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
     }()
 
     convenience init() {
@@ -32,12 +44,12 @@ class SuggestionsWindowControllerAlt: NSWindowController {
         self.init(window: window)
 
         guard let contentView = window.contentView else { return }
-        contentView.addSubview(tableView)
+        contentView.addSubview(swiftUIContent)
         NSLayoutConstraint.activate([
-            tableView.topAnchor.constraint(equalTo: contentView.topAnchor),
-            tableView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
-            tableView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
-            tableView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor)
+            swiftUIContent.topAnchor.constraint(equalTo: contentView.topAnchor),
+            swiftUIContent.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            swiftUIContent.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
+            swiftUIContent.bottomAnchor.constraint(equalTo: contentView.bottomAnchor)
         ])
     }
 
@@ -51,6 +63,7 @@ class SuggestionsWindowControllerAlt: NSWindowController {
         } else {
             self.suggestions = suggestions
             guard let textFieldWindow = textField.window, let window = self.window else { return }
+
             var textFieldRect = textField.convert(textField.bounds, to: nil)
             textFieldRect = textFieldWindow.convertToScreen(textFieldRect)
             textFieldRect.origin.y -= 5
