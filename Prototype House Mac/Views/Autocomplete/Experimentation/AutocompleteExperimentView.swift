@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Combine
+import SuggestionTextField
 
 struct TextFieldWrapper: NSViewRepresentable {
     @Binding var text: String
@@ -24,6 +25,7 @@ struct TextFieldWrapper: NSViewRepresentable {
     func updateNSView(_ nsView: NSTextField, context: Context) {
         print(#function, text, nsView.stringValue)
 //        text = nsView.stringValue
+        nsView.stringValue = text
     }
     
     typealias NSViewType = NSTextField
@@ -48,26 +50,27 @@ struct TextFieldWrapper: NSViewRepresentable {
 
         func control(_ control: NSControl, textView: NSTextView, doCommandBy commandSelector: Selector) -> Bool {
 
-//            print(#function, commandSelector)
-//            if commandSelector == #selector(NSTextView.moveUp(_:)) {
-////                suggestions.moveUp()
-//                return true
-//            }
-//            if commandSelector == #selector(NSTextView.moveDown(_:)) {
-////                suggestions.moveDown()
-//                return true
-//            }
-//            if commandSelector == #selector(NSTextView.insertNewline(_:)) {
+            print(#function, commandSelector)
+            if commandSelector == #selector(NSTextView.moveUp(_:)) {
+                suggestions.moveUp()
+                return true
+            }
+            if commandSelector == #selector(NSTextView.moveDown(_:)) {
+                suggestions.moveDown()
+                return true
+            }
+            if commandSelector == #selector(NSTextView.insertNewline(_:)) {
 //                guard let suggestion = suggestions.currentSuggestion else { return false }
-//                textField.stringValue = suggestion
-//                text.wrappedValue = suggestion
-//                suggestions.orderOut()
-//                return true
-//            }
-//            if commandSelector == #selector(NSTextView.cancelOperation(_:)) {
-//                suggestions.orderOut()
-//                return true
-//            }
+                guard let suggestion = suggestions.selectedElement else { return false }
+                textField.stringValue = suggestion.title
+                text.wrappedValue = suggestion.title
+                suggestions.orderOut()
+                return true
+            }
+            if commandSelector == #selector(NSTextView.cancelOperation(_:)) {
+                suggestions.orderOut()
+                return true
+            }
 //
             return false
         }
@@ -92,7 +95,22 @@ struct AutocompleteExperimentView: View {
 
             Divider()
 
-            Text(text)
+            Text("text is \(text)")
+
+            SuggestionTextField(
+                "Sample",
+                text: $text,
+                suggestionData: [
+                    "One",
+                    "Two",
+                    "Three",
+                    "Four",
+                    "Five"
+                ],
+                onSelection: { selection in
+                    print("selected! \(selection)")
+                }
+            )
 
             Divider()
 

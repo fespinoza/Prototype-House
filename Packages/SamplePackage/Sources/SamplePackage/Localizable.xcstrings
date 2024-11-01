@@ -92,6 +92,7 @@
       }
     },
     "Random Text" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {

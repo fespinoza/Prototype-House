@@ -3,7 +3,7 @@
 import Cocoa
 import SwiftUI
 
-class SuggestionsWindowController: NSWindowController {
+class SuggestionsWindowControllerExp: NSWindowController {
 
     private var suggestions: [String] = []
 
@@ -92,13 +92,13 @@ class SuggestionsWindowController: NSWindowController {
     }
 }
 
-extension SuggestionsWindowController: NSTableViewDataSource {
+extension SuggestionsWindowControllerExp: NSTableViewDataSource {
     func numberOfRows(in tableView: NSTableView) -> Int {
         return suggestions.count
     }
 }
 //
-extension SuggestionsWindowController: NSTableViewDelegate {
+extension SuggestionsWindowControllerExp: NSTableViewDelegate {
 //    func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -> NSView? {
 //        guard let view = tableView.makeView(withIdentifier: TableCellView.identifier, owner: self) as? TableCellView else { return nil }
 //        view.textField?.stringValue = suggestions[row]

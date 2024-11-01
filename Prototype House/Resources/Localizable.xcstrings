@@ -93,6 +93,12 @@
     "Center" : {
 
     },
+    "Checked in!" : {
+
+    },
+    "Child" : {
+
+    },
     "Clear" : {
       "localizations" : {
         "nb" : {
@@ -144,6 +150,9 @@
 
     },
     "EnvironmentObject" : {
+
+    },
+    "Experiment" : {
 
     },
     "Favorite" : {
@@ -222,10 +231,31 @@
     "Invisible Letters: %@" : {
 
     },
+    "It works" : {
+
+    },
     "it works!" : {
 
     },
+    "Link #1" : {
+
+    },
+    "Link #2" : {
+
+    },
+    "Link #3" : {
+
+    },
+    "Link #4" : {
+
+    },
+    "Link #5" : {
+
+    },
     "List & NavView" : {
+
+    },
+    "Live Activity" : {
 
     },
     "Login" : {
@@ -351,9 +381,6 @@
     "OK" : {
 
     },
-    "Other" : {
-
-    },
     "Password" : {
 
     },
@@ -394,18 +421,6 @@
     "Sample" : {
 
     },
-    "Sample bottomLeading" : {
-
-    },
-    "Sample bottomTrailing" : {
-
-    },
-    "Sample topLeading" : {
-
-    },
-    "Sample topTrailing" : {
-
-    },
     "Sample Transition" : {
       "localizations" : {
         "nb" : {
@@ -443,6 +458,9 @@
     "Selected: %lld" : {
 
     },
+    "Shadow" : {
+
+    },
     "Shape" : {
 
     },
@@ -452,10 +470,13 @@
     "Show website!" : {
 
     },
-    "Shows" : {
+    "Simple Title" : {
 
     },
-    "Simple Title" : {
+    "Size" : {
+
+    },
+    "Start" : {
 
     },
     "Statistics" : {
@@ -506,6 +527,9 @@
     "Understanding Focus" : {
 
     },
+    "Update" : {
+
+    },
     "Upside Down?" : {
 
     },
@@ -529,6 +553,9 @@
 
     },
     "Welcome to **My App**" : {
+
+    },
+    "You spot is secured, now you can check your ticket in the app" : {
 
     }
   },

@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "suggestion-text-field",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/fespinoza/suggestion-text-field.git",
+      "state" : {
+        "revision" : "286a5d845144e349cb2d8e2bf4a3c2983b188486",
+        "version" : "0.0.1"
+      }
+    },
+    {
       "identity" : "swift-snapshot-testing",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pointfreeco/swift-snapshot-testing",

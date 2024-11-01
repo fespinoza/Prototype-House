@@ -13,8 +13,10 @@ struct PrototypeHouseMacApp: App {
         WindowGroup {
 //            SFSymbolsReplica()
             AutocompleteExperimentView()
+//            XcodeCloneView()
+//            NewListContent()
         }
-        .windowToolbarStyle(.unified)
+//        .windowToolbarStyle(.unified)
 //        .windowStyle(.titleBar)
         .commands {
             SidebarCommands()

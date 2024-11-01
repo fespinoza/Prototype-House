@@ -13,25 +13,16 @@ import Cocoa
 import SwiftUI
 
 class SuggestionsWindowControllerAlt: NSWindowController {
-    private var suggestions: [String] = []
 
-//    private var selection: Binding<Int?>
+//    @State var selection: NewListContent.Element?
+    let viewModel: NewListContent.ViewModel = .init()
 
-    struct ListContent: View {
-        @State var selection: String = "two"
-
-        var body: some View {
-            ListSelectionExample(onReturn: { index in
-                print("---- selected \(index)")
-            })
-            .fixedSize(horizontal: true, vertical: false)
-        }
+    var selectedElement: NewListContent.Element? {
+        viewModel.selectedCell
     }
 
-    var selectedIndex: Int?
-
     private lazy var swiftUIContent: NSView = {
-        let view = NSHostingView(rootView: ListContent())
+        let view = NSHostingView(rootView: NewListContent(viewModel: viewModel).frame(height: 200))
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -53,6 +44,12 @@ class SuggestionsWindowControllerAlt: NSWindowController {
         ])
     }
 
+    override func windowDidLoad() {
+        super.windowDidLoad()
+
+        window?.contentView?.layer?.cornerRadius = 16
+    }
+
     func orderOut() {
         window?.orderOut(nil)
     }
@@ -61,7 +58,7 @@ class SuggestionsWindowControllerAlt: NSWindowController {
         if suggestions.isEmpty {
             orderOut()
         } else {
-            self.suggestions = suggestions
+//            self.suggestions = suggestions
             guard let textFieldWindow = textField.window, let window = self.window else { return }
 
             var textFieldRect = textField.convert(textField.bounds, to: nil)
@@ -74,5 +71,13 @@ class SuggestionsWindowControllerAlt: NSWindowController {
             window.setFrame(frame, display: false)
             textFieldWindow.addChildWindow(window, ordered: .above)
         }
+    }
+
+    func moveUp() {
+        viewModel.selectPrevious()
+    }
+
+    func moveDown() {
+        viewModel.selectNext()
     }
 }
