@@ -28,5 +28,5 @@ public struct CustomLoadingView: View {
         Text("Random Text", bundle: .module)
     }
     .padding()
-    .environment(\.locale, .init(identifier: "en"))
+    .environment(\.locale, .init(identifier: "nb"))
 }

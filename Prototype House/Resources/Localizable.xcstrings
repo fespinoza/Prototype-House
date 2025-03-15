@@ -1,8 +1,21 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "- %@" : {
+
+    },
     "\"%@\"" : {
 
+    },
+    "%@ %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@"
+          }
+        }
+      }
     },
     "%lf" : {
 
@@ -55,6 +68,12 @@
           }
         }
       }
+    },
+    "Async Actions: %lld" : {
+
+    },
+    "Async operation" : {
+
     },
     "Avengers" : {
 
@@ -119,6 +138,15 @@
         }
       }
     },
+    "Confirm, then async" : {
+
+    },
+    "Contact Operations" : {
+
+    },
+    "Contacts" : {
+
+    },
     "Container" : {
 
     },
@@ -159,6 +187,9 @@
 
     },
     "Felipe Espinoza" : {
+
+    },
+    "Fetch Contacts" : {
 
     },
     "Fine!" : {
@@ -381,6 +412,9 @@
     "OK" : {
 
     },
+    "Options" : {
+
+    },
     "Password" : {
 
     },
@@ -410,6 +444,9 @@
 
     },
     "rect" : {
+
+    },
+    "Request Permission" : {
 
     },
     "Reset" : {

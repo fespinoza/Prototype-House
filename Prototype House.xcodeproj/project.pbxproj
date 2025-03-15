@@ -68,6 +68,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B2B19292CFDBAF7007E2DAA /* Compatibility Prototype House.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compatibility Prototype House.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B3A29892CC1A3890007698F /* PrototypeActivities */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PrototypeActivities; path = Packages/PrototypeActivities; sourceTree = "<group>"; };
 		9B53DD152CAED23E00C5893C /* Prototype House WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Prototype House WidgetsExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B53DD162CAED23E00C5893C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
@@ -125,6 +126,7 @@
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		9B2B192A2CFDBAF7007E2DAA /* Compatibility Prototype House */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Compatibility Prototype House"; sourceTree = "<group>"; };
 		9B517F052CD4E7C90067B011 /* Prototype House AppKit */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (9B517F4D2CD4E7C90067B011 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 9B517F4E2CD4E7C90067B011 /* PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Prototype House AppKit"; sourceTree = "<group>"; };
 		9B517F182CD4E7C90067B011 /* Prototype House Watch App */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Prototype House Watch App"; sourceTree = "<group>"; };
 		9B517F322CD4E7C90067B011 /* Prototype House UIKit */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (9B517F4C2CD4E7C90067B011 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "Prototype House UIKit"; sourceTree = "<group>"; };
@@ -135,6 +137,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9B2B19262CFDBAF7007E2DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B53DD122CAED23E00C5893C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,6 +224,7 @@
 				9B5180B72CD4E85C0067B011 /* Prototype House iOS Tests */,
 				9B517F052CD4E7C90067B011 /* Prototype House AppKit */,
 				9B517F442CD4E7C90067B011 /* Prototype House Widgets */,
+				9B2B192A2CFDBAF7007E2DAA /* Compatibility Prototype House */,
 				9BF616B5276376D400D26E7B /* Products */,
 				9B851CF62A57571F00C37160 /* Frameworks */,
 			);
@@ -230,6 +240,7 @@
 				9BC451ED2AC1B180002F9D8E /* Prototype House iOS Tests.xctest */,
 				9B7CDF192C1F883600C520C0 /* Prototype House AppKit.app */,
 				9B53DD152CAED23E00C5893C /* Prototype House WidgetsExtension.appex */,
+				9B2B19292CFDBAF7007E2DAA /* Compatibility Prototype House.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -237,6 +248,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9B2B19282CFDBAF7007E2DAA /* Compatibility Prototype House */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B2B19362CFDBAF8007E2DAA /* Build configuration list for PBXNativeTarget "Compatibility Prototype House" */;
+			buildPhases = (
+				9B2B19252CFDBAF7007E2DAA /* Sources */,
+				9B2B19262CFDBAF7007E2DAA /* Frameworks */,
+				9B2B19272CFDBAF7007E2DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9B2B192A2CFDBAF7007E2DAA /* Compatibility Prototype House */,
+			);
+			name = "Compatibility Prototype House";
+			packageProductDependencies = (
+			);
+			productName = "Compatibility Prototype House";
+			productReference = 9B2B19292CFDBAF7007E2DAA /* Compatibility Prototype House.app */;
+			productType = "com.apple.product-type.application";
+		};
 		9B53DD142CAED23E00C5893C /* Prototype House WidgetsExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B53DD2B2CAED24000C5893C /* Build configuration list for PBXNativeTarget "Prototype House WidgetsExtension" */;
@@ -402,9 +435,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
+				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					9B2B19282CFDBAF7007E2DAA = {
+						CreatedOnToolsVersion = 16.1;
+					};
 					9B53DD142CAED23E00C5893C = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -455,11 +491,19 @@
 				9BC451EC2AC1B180002F9D8E /* Prototype House iOS Tests */,
 				9B7CDF182C1F883600C520C0 /* Prototype House AppKit */,
 				9B53DD142CAED23E00C5893C /* Prototype House WidgetsExtension */,
+				9B2B19282CFDBAF7007E2DAA /* Compatibility Prototype House */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9B2B19272CFDBAF7007E2DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B53DD132CAED23E00C5893C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -512,6 +556,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9B2B19252CFDBAF7007E2DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9B53DD112CAED23E00C5893C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -582,6 +633,77 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		9B2B19342CFDBAF8007E2DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Compatibility Prototype House/Preview Content\"";
+				DEVELOPMENT_TEAM = 4E6CZX3H5W;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fespinozacast.Compatibility-Prototype-House";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B2B19352CFDBAF8007E2DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Compatibility Prototype House/Preview Content\"";
+				DEVELOPMENT_TEAM = 4E6CZX3H5W;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fespinozacast.Compatibility-Prototype-House";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		9B53DD282CAED24000C5893C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1138,6 +1260,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9B2B19362CFDBAF8007E2DAA /* Build configuration list for PBXNativeTarget "Compatibility Prototype House" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2B19342CFDBAF8007E2DAA /* Debug */,
+				9B2B19352CFDBAF8007E2DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9B53DD2B2CAED24000C5893C /* Build configuration list for PBXNativeTarget "Prototype House WidgetsExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

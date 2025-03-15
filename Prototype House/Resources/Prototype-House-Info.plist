@@ -4,7 +4,9 @@
 <dict>
 	<key>CFBundleAllowMixedLocalizations</key>
 	<true/>
-    <key>NSSupportsLiveActivities</key>
-    <true/>
+	<key>NSSupportsLiveActivities</key>
+	<true/>
+	<key>NSContactsUsageDescription</key>
+	<string>This is a test on how to use contacts in an iOS app</string>
 </dict>
 </plist>

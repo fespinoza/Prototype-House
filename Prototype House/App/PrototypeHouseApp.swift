@@ -44,12 +44,16 @@ struct PrototypeHouseApp: App {
 
     var body: some Scene {
         WindowGroup {
-            if #available(iOS 17.0, *) {
-                LiveActivityStarterView()
-                    .task { await setupPushNotifications() }
-            } else {
-                LocalizationFromPackage()
-            }
+            FetchContactsDemoView()
+        }
+    }
+
+    @ViewBuilder var liveActivities: some View {
+        if #available(iOS 17.0, *) {
+            LiveActivityStarterView()
+                .task { await setupPushNotifications() }
+        } else {
+            LocalizationFromPackage()
         }
     }
 
