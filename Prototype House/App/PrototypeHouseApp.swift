@@ -44,7 +44,9 @@ struct PrototypeHouseApp: App {
 
     var body: some Scene {
         WindowGroup {
-            FetchContactsDemoView()
+            NavigationStack {
+                ScrollableDemoList()
+            }
         }
     }
 

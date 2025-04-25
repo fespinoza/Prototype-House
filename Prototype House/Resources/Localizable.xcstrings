@@ -36,6 +36,9 @@
     "`isSearching` changed!" : {
 
     },
+    "A very long title that can be truncated" : {
+
+    },
     "A way to implement this in swiftUI" : {
 
     },
@@ -100,6 +103,9 @@
     "Bottom" : {
 
     },
+    "Bottom of Screen" : {
+
+    },
     "Bottom of the content" : {
 
     },
@@ -116,6 +122,12 @@
 
     },
     "Child" : {
+
+    },
+    "Child Screen" : {
+
+    },
+    "Choose your demo" : {
 
     },
     "Clear" : {
@@ -151,6 +163,9 @@
 
     },
     "content" : {
+
+    },
+    "Cool" : {
 
     },
     "Custom SwiftUI Presentation" : {
@@ -250,6 +265,9 @@
     "Hi" : {
 
     },
+    "Hide middle" : {
+
+    },
     "Hierarchies - List" : {
 
     },
@@ -313,6 +331,9 @@
           }
         }
       }
+    },
+    "My element: %lld" : {
+
     },
     "myCustomMessage" : {
       "comment" : "Localizable.strings\n  Prototype House\n\n  Created by Felipe Espinoza on 30/05/2022.",
@@ -388,6 +409,9 @@
         }
       }
     },
+    "Next" : {
+
+    },
     "Next state" : {
 
     },
@@ -458,6 +482,9 @@
     "Sample" : {
 
     },
+    "Sample title" : {
+
+    },
     "Sample Transition" : {
       "localizations" : {
         "nb" : {
@@ -499,6 +526,15 @@
 
     },
     "Shape" : {
+
+    },
+    "Sheet" : {
+
+    },
+    "Sheet content" : {
+
+    },
+    "Show Element" : {
 
     },
     "Show onboarding" : {
@@ -550,6 +586,18 @@
 
     },
     "Third" : {
+
+    },
+    "This is how tips work" : {
+
+    },
+    "This is to style tips #1" : {
+
+    },
+    "This is to style tips #2" : {
+
+    },
+    "Toggle Image" : {
 
     },
     "top" : {
