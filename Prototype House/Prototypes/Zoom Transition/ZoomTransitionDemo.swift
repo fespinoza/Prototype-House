@@ -7,13 +7,13 @@ struct ZoomTransitionDemo: View {
                 Cell(title: "Ted Lasso") {
                     Image(.tedLassoBanner)
                         .resizable()
-                        .scaledToFit()
+                        .scaledToFill()
                 }
 
                 Cell(title: "London") {
                     Image(.london)
                         .resizable()
-                        .scaledToFit()
+                        .scaledToFill()
                 }
 
                 Cell(title: "RED") {
@@ -40,21 +40,25 @@ struct ZoomTransitionDemo: View {
         let title: String
         @ViewBuilder var content: Content
 
+        @Namespace var cellNamespace
+
         var body: some View {
             NavigationLink {
-                DetailView(title: title, content: { content })
+                DetailView(title: title, namespace: cellNamespace, content: { content })
             } label: {
                 content
                     .frame(height: 100)
                     .clipShape(.rect(cornerRadius: 8))
                     .tint(Color.primary)
             }
+            .matchedTransitionSource(id: title, in: cellNamespace)
         }
     }
 }
 
 private struct DetailView<Content: View>: View {
     let title: String
+    let namespace: Namespace.ID
     @ViewBuilder var content: Content
 
     var body: some View {
@@ -62,7 +66,9 @@ private struct DetailView<Content: View>: View {
             VStack(alignment: .leading) {
                 content
                     .frame(height: 300)
+                    .clipped()
                     .background(Color.black.opacity(0.3))
+                    .navigationTransition(.zoom(sourceID: title, in: namespace))
 
                 Text("Description goes in here...")
                     .padding()
@@ -84,8 +90,10 @@ private struct DetailView<Content: View>: View {
 }
 
 #Preview("Detail") {
+    @Previewable @Namespace var namespace
+
     NavigationStack {
-        DetailView(title: "Ted Lasso") {
+        DetailView(title: "Ted Lasso", namespace: namespace) {
             Image(.tedLassoBanner)
                 .resizable()
                 .scaledToFit()

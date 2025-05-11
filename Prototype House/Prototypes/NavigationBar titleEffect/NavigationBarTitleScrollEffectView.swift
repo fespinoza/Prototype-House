@@ -35,8 +35,10 @@ struct NavigationBarTitleScrollEffectView: View {
                     Text("Bottom")
                         .background(Color.red.opacity(0.3))
                 }
+                .frame(maxWidth: .infinity)
+                .border(Color.red)
                 .frame(maxWidth: .infinity, minHeight: 1200)
-//                .background(Color.orange.opacity(0.2))
+                .background(Color.green.opacity(0.2))
             }
             .overlay(content: {
                 Text("\(offset)")

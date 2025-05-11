@@ -45,7 +45,8 @@ struct PrototypeHouseApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                ScrollableDemoList()
+
+                MatchedGeometrySample()
             }
         }
     }

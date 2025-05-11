@@ -87,6 +87,9 @@
     "Bites the dust" : {
       "comment" : "Error message"
     },
+    "BLUE" : {
+
+    },
     "Book" : {
 
     },
@@ -174,6 +177,9 @@
     "Delete" : {
 
     },
+    "Description goes in here..." : {
+
+    },
     "Detail!" : {
 
     },
@@ -240,6 +246,9 @@
     "Get Apple TV+" : {
 
     },
+    "GREEN" : {
+
+    },
     "Have the style touching the safe area edge." : {
 
     },
@@ -280,10 +289,16 @@
     "Invisible Letters: %@" : {
 
     },
+    "Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." : {
+
+    },
     "It works" : {
 
     },
     "it works!" : {
+
+    },
+    "Item %lld" : {
 
     },
     "Link #1" : {
@@ -317,6 +332,12 @@
 
     },
     "Lorem ipsum dipsum dupsko, her er en tekst om hva du finner her." : {
+
+    },
+    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." : {
+
+    },
+    "Menu" : {
 
     },
     "Middle" : {
@@ -470,6 +491,9 @@
     "rect" : {
 
     },
+    "RED" : {
+
+    },
     "Request Permission" : {
 
     },
@@ -585,6 +609,9 @@
     "The idea is to make a custom presentation of a view controller in swiftUI" : {
 
     },
+    "The team" : {
+
+    },
     "Third" : {
 
     },
@@ -607,6 +634,9 @@
 
     },
     "Top of the content" : {
+
+    },
+    "Tracked content not on screen!" : {
 
     },
     "Understanding Focus" : {
