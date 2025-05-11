@@ -1,5 +1,26 @@
 import SwiftUI
 
+enum ViewEdgeToTrack {
+    case top
+    case bottom
+}
+
+extension View {
+    func monitorViewScrollOffset(
+        in coordinateSpace: NamedCoordinateSpace,
+        edge: ViewEdgeToTrack = .top,
+        onChange: @escaping (CGFloat) -> Void
+    ) -> some View {
+        modifier(
+            MonitoringViewScrollOffset(
+                coordinateSpace: coordinateSpace,
+                edge: edge,
+                onChange: onChange
+            )
+        )
+    }
+}
+
 private struct ViewOffsetKey: PreferenceKey {
     static let defaultValue: CGFloat = 0
 
@@ -8,8 +29,33 @@ private struct ViewOffsetKey: PreferenceKey {
     }
 }
 
-struct ScrollViewElementPositionDemo: View {
+private struct MonitoringViewScrollOffset: ViewModifier {
+    let coordinateSpace: NamedCoordinateSpace
+    let edge: ViewEdgeToTrack
+    let onChange: (CGFloat) -> Void
+
+    func body(content: Content) -> some View {
+        content
+            .background(
+                GeometryReader { proxy in
+                    Color.clear
+                        .preference(key: ViewOffsetKey.self, value: offset(in: proxy))
+                }
+            )
+            .onPreferenceChange(ViewOffsetKey.self, perform: onChange)
+    }
+
+    func offset(in geometryProxy: GeometryProxy) -> CGFloat {
+        let frame = geometryProxy.frame(in: coordinateSpace)
+        return edge == .top ? frame.minY : frame.maxY
+    }
+}
+
+// MARK: - View Implementation
+
+struct RefinedScrollViewElementTrackingPosition: View {
     @State private var targetPosition: CGFloat = 0
+    private var scrollCoordinateSpace = NamedCoordinateSpace.named("scrollContent")
 
     var body: some View {
         ScrollView {
@@ -18,14 +64,10 @@ struct ScrollViewElementPositionDemo: View {
                     if i == 5 {
                         Color.red
                             .frame(height: 100)
-                            .background(
-                                GeometryReader { proxy in
-                                    Color.clear
-                                        .preference(
-                                            key: ViewOffsetKey.self,
-                                            value: proxy.frame(in: .named("scrollContent")).maxY
-                                        )
-                                }
+                            .monitorViewScrollOffset(
+                                in: scrollCoordinateSpace,
+                                edge: .bottom,
+                                onChange: { targetPosition = $0 }
                             )
                     } else {
                         Color.blue.opacity(0.3).frame(height: 50)
@@ -33,10 +75,7 @@ struct ScrollViewElementPositionDemo: View {
                 }
             }
         }
-        .coordinateSpace(.named("scrollContent"))
-        .onPreferenceChange(ViewOffsetKey.self) { newValue in
-            targetPosition = newValue
-        }
+        .coordinateSpace(scrollCoordinateSpace)
         .overlay(alignment: .topLeading) {
             Text(String(format: "Target Position: %.2f", targetPosition)).monospacedDigit()
                 .padding()
@@ -73,7 +112,7 @@ struct ScrollViewElementPositionDemo: View {
 
 #Preview {
     NavigationStack {
-        ScrollViewElementPositionDemo()
+        RefinedScrollViewElementTrackingPosition()
             .navigationTitle("Scrollable Content")
     }
 }
