@@ -33,7 +33,7 @@ struct StickyHeaderImageDemoView: View {
             }
         }
         .overlay(alignment: .bottom) {
-            Text("\(size)")
+            Text(size.debugDescription)
                 .monospacedDigit()
                 .padding()
                 .background(Color.white)

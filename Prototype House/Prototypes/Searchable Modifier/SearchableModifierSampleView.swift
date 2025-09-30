@@ -46,7 +46,7 @@ struct SearchableModifierSampleView: View {
                     Text("`isSearching` changed!")
                 }
             }
-            .onChange(of: isSearching) { [isSearching] newValue in
+            .onChange(of: isSearching) { [isSearching] _, newValue in
                 extraMessage = isSearching != newValue
             }
         }

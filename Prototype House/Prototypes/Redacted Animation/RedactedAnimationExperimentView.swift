@@ -64,9 +64,9 @@ struct RedactedAnimationExperimentView: View {
 
     var form: some View {
         VStack {
-            Text("Offset: ") + Text(offsetX, format: .number)
+            Text("Offset: \(offsetX, format: .number)")
 
-            Text("Duration: ") + Text(duration, format: .number)
+            Text("Duration: \(duration, format: .number)")
 
             Slider(value: $offsetX)
                 .padding()

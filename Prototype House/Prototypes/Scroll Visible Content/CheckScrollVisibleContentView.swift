@@ -87,16 +87,16 @@ struct CheckScrollVisibleContentView: View {
                             }
                         }
                         .frame(height: elementSize)
-                        .onChange(of: selectedLetter, perform: { newValue in
+                        .onChange(of: selectedLetter) { _, newValue in
                             proxy.scrollTo("text-\(newValue)")
-                        })
-                        .onChange(of: scrollToLetter, perform: { newValue in
+                        }
+                        .onChange(of: scrollToLetter) { _, newValue in
                             if let newValue {
                                 withAnimation {
                                     proxy.scrollTo("text-\(newValue)")
                                 }
                             }
-                        })
+                        }
                     }
                 }
                 .onAppear(perform: { screenWidth = geometryProxy.size.width })

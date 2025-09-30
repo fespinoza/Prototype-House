@@ -22,7 +22,6 @@ extension CombineValueBufferingView {
             self
                 .$value
                 .debounce(for: .milliseconds(30), scheduler: DispatchQueue.main)
-//                .delay(for: .milliseconds(300), scheduler: DispatchQueue.main)
                 .sink(receiveValue: { newValue in
                     self.bufferedValue = newValue
                 })
@@ -38,11 +37,9 @@ struct CombineValueBufferingView: View {
         VStack {
             Slider(value: $viewModel.value)
 
-            Text("Normal: ").bold() +
-            Text(String(format: "%.2f", viewModel.value * 100))
+            Text("Normal: \(viewModel.value * 100, format: .number.precision(.significantDigits(2)))").bold()
 
-            Text("Buffered: ").bold() +
-                Text(String(format: "%.2f", viewModel.bufferedValue * 100))
+            Text("Buffered: \(viewModel.bufferedValue * 100, format: .number.precision(.significantDigits(2)))").bold()
         }
         .padding()
     }
