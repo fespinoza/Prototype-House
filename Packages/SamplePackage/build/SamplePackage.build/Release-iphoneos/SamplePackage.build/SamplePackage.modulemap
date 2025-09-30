@@ -1,4 +1,0 @@
-module SamplePackage {
-header "SamplePackage-Swift.h"
-export *
-}
