@@ -7,9 +7,6 @@
     "\"%@\"" : {
 
     },
-    "%@" : {
-
-    },
     "%@ %@" : {
       "localizations" : {
         "en" : {
@@ -115,7 +112,7 @@
     "Bottom of the content" : {
 
     },
-    "Buffered: " : {
+    "Buffered: %@" : {
 
     },
     "Cancel" : {
@@ -195,7 +192,7 @@
     "Double Tap Gesture" : {
 
     },
-    "Duration: " : {
+    "Duration: %@" : {
 
     },
     "Edit Name" : {
@@ -442,7 +439,7 @@
     "Next Step" : {
 
     },
-    "Normal: " : {
+    "Normal: %@" : {
 
     },
     "Not searching" : {
@@ -451,7 +448,7 @@
     "offset" : {
 
     },
-    "Offset: " : {
+    "Offset: %@" : {
 
     },
     "Offset: %lf" : {
