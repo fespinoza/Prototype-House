@@ -33,12 +33,12 @@
         }
       }
     },
-    "%lf\n%lf\n%lf\n%lf" : {
+    "%lf\n%lf\n%lf" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "new",
-            "value" : "%1$lf\n%2$lf\n%3$lf\n%4$lf"
+            "value" : "%1$lf\n%2$lf\n%3$lf"
           }
         }
       }

@@ -1,18 +1,15 @@
 import SwiftUI
 
+// No title variant
 
 @available(iOS 26.0, *)
-struct ScrollViewForIOS26: View {
+struct ScrollViewForIOS26_V3: View {
     @State var offsetY: CGFloat = 0
     @State var initialOffsetY: CGFloat = 0
     let customBarBackgroundHeight: CGFloat = 400
 
     var barOffset: CGFloat {
         -(initialOffsetY + offsetY) - customBarBackgroundHeight / 2
-    }
-
-    var titleOpacity: Double {
-        min(1.0, max(0.0, 1.0 - (offsetY + initialOffsetY) / 9.0))
     }
 
     var body: some View {
@@ -76,16 +73,6 @@ struct ScrollViewForIOS26: View {
                         }
                 }
 
-                ToolbarItem() {
-                    Text("Hello")
-                        .foregroundStyle(.black)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .opacity(titleOpacity)
-                }
-                .sharedBackgroundVisibility(.hidden)
-
-                ToolbarSpacer(.fixed)
-
                 ToolbarItemGroup(placement: .topBarTrailing) {
                     Button(action: {}) {
                         Label("Filter", systemImage: "line.horizontal.3.decrease")
@@ -103,5 +90,5 @@ struct ScrollViewForIOS26: View {
 
 @available(iOS 26.0, *)
 #Preview {
-    ScrollViewForIOS26()
+    ScrollViewForIOS26_V3()
 }

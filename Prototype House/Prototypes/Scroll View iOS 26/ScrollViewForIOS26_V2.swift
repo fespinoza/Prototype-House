@@ -1,8 +1,7 @@
 import SwiftUI
 
-
 @available(iOS 26.0, *)
-struct ScrollViewForIOS26: View {
+struct ScrollViewForIOS26_V2: View {
     @State var offsetY: CGFloat = 0
     @State var initialOffsetY: CGFloat = 0
     let customBarBackgroundHeight: CGFloat = 400
@@ -19,7 +18,7 @@ struct ScrollViewForIOS26: View {
         NavigationStack {
             ZStack {
                 VStack(spacing: 0) {
-                    Color.blue
+                    Color.red
                         .frame(height: customBarBackgroundHeight)
                         .offset(y: barOffset)
                         .ignoresSafeArea(.container, edges: .top)
@@ -30,17 +29,19 @@ struct ScrollViewForIOS26: View {
                 ScrollViewReader { proxy in
                     ScrollView(.vertical) {
                         VStack(spacing: 0) {
-                            Color(uiColor: .lightGray)
+                            Color.indigo
                                 .frame(height: 400)
 
-                            Color.white
+                            Color.teal
                                 .frame(height: 2000)
                         }
                     }
                     .onScrollGeometryChange(
                         for: CGFloat.self,
-                        of: { $0.contentOffset.y },
-                        action: { _, newValue in
+                        of: { geometry in
+                            geometry.contentOffset.y
+                        },
+                        action: { oldValue, newValue in
                             offsetY = newValue
                             if initialOffsetY == 0 {
                                 initialOffsetY = -newValue
@@ -56,33 +57,41 @@ struct ScrollViewForIOS26: View {
                     .background(Color.red)
                     .offset()
             }
-            .onGeometryChange(
-                for: CGFloat.self,
-                of: { $0.size.width },
-                action: { oldValue, newValue in
-                    if oldValue != newValue {
-                        initialOffsetY = 0
-                    }
+            .onGeometryChange(for: CGFloat.self, of: { proxy in
+                proxy.size.width
+            }, action: { oldValue, newValue in
+                if oldValue != newValue {
+                    initialOffsetY = 0
                 }
-            )
+            })
             .toolbarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Circle()
-                        .foregroundStyle(Color(uiColor: .black))
+                        .foregroundStyle(Color.yellow)
                         .overlay {
                             Text("S")
-                                .foregroundStyle(.white)
                         }
                 }
 
                 ToolbarItem() {
+//                    Menu {
+//                        Button("Hello", action: {})
+//                        Button("Hello", action: {})
+//                        Button("Hello", action: {})
+//                    } label: {
+//                        Text("Hello")
+//                    }
+
                     Text("Hello")
-                        .foregroundStyle(.black)
+                        .contextMenu {
+                            Button("Hello", action: {})
+                            Button("Hello", action: {})
+                            Button("Hello", action: {})
+                        }
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .opacity(titleOpacity)
                 }
-                .sharedBackgroundVisibility(.hidden)
 
                 ToolbarSpacer(.fixed)
 
@@ -99,9 +108,35 @@ struct ScrollViewForIOS26: View {
             .toolbarBackground(Color.clear, for: .navigationBar)
         }
     }
+
+    struct CustomTitleView: View {
+        let title: String
+
+        var body: some View {
+            HStack(alignment: .top) {
+                Image(systemName: "number")
+                    .bold()
+                    .font(.caption)
+
+                VStack(alignment: .leading) {
+                    Text(title)
+                        .bold()
+
+                    Text("1400 members")
+                        .foregroundStyle(.secondary)
+                }
+                .font(.caption)
+
+                Spacer()
+            }
+            .padding(.horizontal)
+            .padding(.vertical, 4)
+//            .glassEffect()
+        }
+    }
 }
 
 @available(iOS 26.0, *)
 #Preview {
-    ScrollViewForIOS26()
+    ScrollViewForIOS26_V2()
 }
