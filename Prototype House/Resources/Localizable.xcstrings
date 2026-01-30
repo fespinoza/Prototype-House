@@ -7,6 +7,9 @@
     "\"%@\"" : {
 
     },
+    "/%lld" : {
+
+    },
     "%@ %@" : {
       "localizations" : {
         "en" : {
@@ -20,6 +23,26 @@
     "%lf" : {
 
     },
+    "%lf\n%@\n%lf" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lf\n%2$@\n%3$lf"
+          }
+        }
+      }
+    },
+    "%lf\n%lf\n%lf\n%lf" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lf\n%2$lf\n%3$lf\n%4$lf"
+          }
+        }
+      }
+    },
     "%lf - %lf  - %lf - %lf" : {
       "localizations" : {
         "en" : {
@@ -30,10 +53,19 @@
         }
       }
     },
+    "%lld" : {
+
+    },
     "%lld/2" : {
 
     },
     "`isSearching` changed!" : {
+
+    },
+    "1,400 members **•** 4 tabs" : {
+
+    },
+    "1400 members" : {
 
     },
     "A very long title that can be truncated" : {
@@ -78,6 +110,9 @@
     "Async operation" : {
 
     },
+    "Audio" : {
+
+    },
     "Avengers" : {
 
     },
@@ -113,6 +148,12 @@
 
     },
     "Buffered: %@" : {
+
+    },
+    "Button" : {
+
+    },
+    "C" : {
 
     },
     "Cancel" : {
@@ -171,6 +212,9 @@
     "Cool" : {
 
     },
+    "Crafting Swift" : {
+
+    },
     "Custom SwiftUI Presentation" : {
 
     },
@@ -187,6 +231,9 @@
 
     },
     "Details %lld" : {
+
+    },
+    "dev-talk" : {
 
     },
     "Double Tap Gesture" : {
@@ -211,6 +258,9 @@
 
     },
     "Fetch Contacts" : {
+
+    },
+    "Filter" : {
 
     },
     "Fine!" : {
@@ -249,6 +299,9 @@
     "GREEN" : {
 
     },
+    "Habits" : {
+
+    },
     "Have the style touching the safe area edge." : {
 
     },
@@ -284,6 +337,9 @@
 
     },
     "Hierarchies - StackOverflow" : {
+
+    },
+    "Hola Mundo" : {
 
     },
     "Invisible Letters: %@" : {
@@ -332,6 +388,9 @@
 
     },
     "Lorem ipsum dipsum dupsko, her er en tekst om hva du finner her." : {
+
+    },
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." : {
 
     },
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." : {
@@ -433,6 +492,9 @@
     "Next" : {
 
     },
+    "Next page" : {
+
+    },
     "Next state" : {
 
     },
@@ -443,6 +505,9 @@
 
     },
     "Not searching" : {
+
+    },
+    "Notifications" : {
 
     },
     "offset" : {
@@ -501,6 +566,9 @@
 
     },
     "Row %lld" : {
+
+    },
+    "S" : {
 
     },
     "Sample" : {
@@ -573,6 +641,9 @@
     "Size" : {
 
     },
+    "Slack Toolbar" : {
+
+    },
     "Start" : {
 
     },
@@ -624,6 +695,9 @@
     "This is to style tips #2" : {
 
     },
+    "Today's Pending %@" : {
+
+    },
     "Toggle Image" : {
 
     },
@@ -665,6 +739,9 @@
 
     },
     "Visible: %@" : {
+
+    },
+    "Week %lld" : {
 
     },
     "Welcome to **My App**" : {
