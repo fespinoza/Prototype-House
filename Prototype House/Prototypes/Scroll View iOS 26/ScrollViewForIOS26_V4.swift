@@ -57,7 +57,7 @@ struct SlackNavBarViewModifier: ViewModifier {
             }
         )
         .toolbarTitleDisplayMode(.inline)
-        .toolbarBackground(Color.clear, for: .navigationBar)
+        .toolbarBackground(.clear, for: .navigationBar)
     }
 }
 

@@ -2,18 +2,16 @@ import SwiftUI
 
 
 @available(iOS 26.0, *)
-struct ScrollViewForIOS26: View {
+struct ScrollViewForIOS26_V1: View {
     @State var offsetY: CGFloat = 0 // 2
-    @State var initialOffsetY: CGFloat = 0 // 2
     let customBarBackgroundHeight: CGFloat = 300
 
     var barOffset: CGFloat {
-//        -(initialOffsetY + offsetY) - customBarBackgroundHeight / 2 // 2
-        -(0 + offsetY) - 2 * customBarBackgroundHeight / 3 // 2
+        -offsetY - 2 * customBarBackgroundHeight / 3 // 2
     }
 
     var titleOpacity: Double {
-        min(1.0, max(0.0, 1.0 - (offsetY + initialOffsetY) / 9.0))
+        min(1.0, max(0.0, 1.0 - offsetY / 9.0)) // fix this!
     }
 
     var body: some View {
@@ -43,28 +41,16 @@ struct ScrollViewForIOS26: View {
                     of: { $0.contentOffset.y },
                     action: { _, newValue in
                         offsetY = newValue // 2
-                        if initialOffsetY == 0 {
-                            initialOffsetY = -newValue
-                        }
                     }
                 )
             }
             .overlay { // 2
-                Text("\(offsetY)\n\(barOffset)\n\(initialOffsetY)")
+                Text("\(offsetY)\n\(barOffset)")
                     .monospacedDigit()
                     .padding()
                     .background(Color.red)
                     .offset()
             }
-            .onGeometryChange(
-                for: CGFloat.self,
-                of: { $0.size.width },
-                action: { oldValue, newValue in
-                    if oldValue != newValue {
-                        initialOffsetY = 0
-                    }
-                }
-            )
             .toolbarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
@@ -102,5 +88,5 @@ struct ScrollViewForIOS26: View {
 
 @available(iOS 26.0, *)
 #Preview {
-    ScrollViewForIOS26()
+    ScrollViewForIOS26_V1()
 }
