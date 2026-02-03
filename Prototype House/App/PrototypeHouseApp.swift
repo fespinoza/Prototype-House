@@ -44,10 +44,13 @@ struct PrototypeHouseApp: App {
 
     var body: some Scene {
         WindowGroup {
-            NavigationStack {
-
-                MatchedGeometrySample()
-            }
+//            NavigationStack {
+                if #available(iOS 26.0, *) {
+                    ScrollViewForIOS26()
+                } else {
+                    MatchedGeometrySample()
+                }
+//            }
         }
     }
 

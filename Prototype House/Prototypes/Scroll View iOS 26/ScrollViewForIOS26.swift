@@ -9,7 +9,9 @@ struct ScrollViewForIOS26: View {
 
     var barOffset: CGFloat {
 //        -(initialOffsetY + offsetY) - customBarBackgroundHeight / 2 // 2
+//        -(initialOffsetY + offsetY) - customBarBackgroundHeight / 2 // 2
         -(0 + offsetY) - 2 * customBarBackgroundHeight / 3 // 2
+//        -(0 + offsetY) - customBarBackgroundHeight // 2
     }
 
     var titleOpacity: Double {
@@ -66,6 +68,8 @@ struct ScrollViewForIOS26: View {
                 }
             )
             .toolbarTitleDisplayMode(.inline)
+//            .toolbarBackgroundVisibility(.hidden, for: .navigationBar)
+            .toolbarBackground(Color.clear, for: .navigationBar)
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Circle()
